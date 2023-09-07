@@ -63188,13 +63188,13 @@
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "StringLiteral",
       "offset": 301,
-      "length": 7,
-      "value": "\"0.9.4\""
+      "length": 8,
+      "value": "\"0.10.3\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "BooleanLiteral",
-      "offset": 2011,
+      "offset": 2012,
       "length": 4,
       "value": "true"
     },

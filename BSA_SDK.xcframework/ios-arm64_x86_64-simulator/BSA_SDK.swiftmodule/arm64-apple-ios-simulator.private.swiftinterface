@@ -441,8 +441,8 @@ extension BSA_SDK.BSA {
   }
 }
 extension BSA_SDK.BSA.TOTP {
-  public static func generateTOTP(with secretKey: Swift.String, timeInterval: Swift.Int = 60, onSuccess: @escaping (Swift.String) -> Swift.Void, onError: @escaping (BSA_SDK.BSA.Error) -> Swift.Void)
-  public static func generateTOTP(with secretKey: Swift.String, timeInterval: Swift.Int = 60) -> (number: Swift.String?, error: BSA_SDK.BSA.Error?)
+  public static func generateTOTP(timeInterval: Swift.Int = 60, onSuccess: @escaping (Swift.String) -> Swift.Void, onError: @escaping (BSA_SDK.BSA.Error) -> Swift.Void)
+  public static func generateTOTP(timeInterval: Swift.Int = 60) -> (number: Swift.String?, error: BSA_SDK.BSA.Error?)
 }
 extension BSA_SDK.BSA {
   public enum APIName {
@@ -813,10 +813,10 @@ extension BSA_SDK.BSA.APICaller {
   public static func checkRequestedAuthExists(userKey: Swift.String, onExist: @escaping (BSA_SDK.BSA.JSONData.CheckRequestedAuthExistsData) -> (), onNotExist: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> (any RxSwift.Disposable)?
   public static func getAgreements(languageCode: BSA_SDK.BSA.Enums.AgreementsLanguageCode, clientKey: Swift.String, onSuccess: @escaping ([BSA_SDK.BSA.JSONData.AgreementData]) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
   public static func getAgreementDetail(seq: Swift.Int, clientKey: Swift.String, onSuccess: @escaping (BSA_SDK.BSA.JSONData.AgreementDetailData) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
-  public static func requestOTPNumberSend(ByEmail emailAdress: Swift.String, clientKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
+  public static func requestOTPNumberSend(ByEmail emailAddress: Swift.String, clientKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
   public static func requestOTPNumberSend(BySMS phoneNumber: Swift.String, clientKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
   public static func requestSignUp(userData: BSA_SDK.BSA.SignUpData.UserData, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
-  public static func requestSendOTpNumberForRegisterDevice(clientKey: Swift.String, userKey: Swift.String, name: Swift.String, verifyType: BSA_SDK.BSA.Enums.VerifyType, verifyData: Swift.String, onSuccess: @escaping (BSA_SDK.BSA.Enums.LocalAuthType) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
+  public static func requestSendOTPNumberForRegisterDevice(clientKey: Swift.String, userKey: Swift.String, name: Swift.String, verifyType: BSA_SDK.BSA.Enums.VerifyType, verifyData: Swift.String, onSuccess: @escaping (BSA_SDK.BSA.Enums.LocalAuthType) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
   public static func requestRegisterDevice(existingUserData: BSA_SDK.BSA.SignUpData.ExistingUserData, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
   public static func requestUnregisterDevice(userKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
   public static func requestUnregisterAccount(onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog, disposeBag: RxSwift.DisposeBag)
@@ -905,6 +905,7 @@ extension BSA_SDK.BSA {
     case TOTP_GenerateFailed
     case TOTP_SetupFailed
     case TOTP_DecodeDataFailed
+    case TOTP_SecKeyIsEmpty
     case KEYCHAIN_saveFailed(_: Swift.String)
     case WEBSOCKET_URL_InvalidString(_: Swift.String)
     case WEBSOCKET_BSA_APICallFailed(_: Swift.String, _: Swift.String)

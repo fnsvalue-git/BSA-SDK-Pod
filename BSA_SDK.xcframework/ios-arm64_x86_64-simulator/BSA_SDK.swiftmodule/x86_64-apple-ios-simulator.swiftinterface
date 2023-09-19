@@ -391,6 +391,8 @@ extension BSA_SDK.BSA.FCM {
     }
   }
   @_hasMissingDesignatedInitializers public class PushData {
+    public var title: Swift.String
+    public var body: Swift.String
     public var target: BSA_SDK.BSA.FCM.PushType
     public var clientName: Swift.String
     public var client_key: Swift.String

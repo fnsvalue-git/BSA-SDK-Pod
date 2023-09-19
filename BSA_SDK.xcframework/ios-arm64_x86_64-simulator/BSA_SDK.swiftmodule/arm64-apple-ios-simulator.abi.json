@@ -14475,6 +14475,188 @@
                 "children": [
                   {
                     "kind": "Var",
+                    "name": "title",
+                    "printedName": "title",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC5titleSSvp",
+                    "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC5titleSSvp",
+                    "moduleName": "BSA_SDK",
+                    "isOpen": true,
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC5titleSSvg",
+                        "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC5titleSSvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC5titleSSvs",
+                        "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC5titleSSvs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC5titleSSvM",
+                        "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC5titleSSvM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "body",
+                    "printedName": "body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC4bodySSvp",
+                    "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC4bodySSvp",
+                    "moduleName": "BSA_SDK",
+                    "isOpen": true,
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC4bodySSvg",
+                        "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC4bodySSvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC4bodySSvs",
+                        "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC4bodySSvs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C3FCMO8PushDataC4bodySSvM",
+                        "mangledName": "$s7BSA_SDK0A0C3FCMO8PushDataC4bodySSvM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
                     "name": "target",
                     "printedName": "target",
                     "children": [
@@ -62163,77 +62345,91 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 984,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1199,
+      "offset": 1047,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1284,
+      "offset": 1223,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1318,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1454,
+      "offset": 1403,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1487,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1573,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1671,
+      "offset": 1659,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
+      "offset": 1720,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
+      "kind": "StringLiteral",
+      "offset": 1790,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1810,
+      "offset": 1929,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM.swift",
       "kind": "StringLiteral",
-      "offset": 1925,
+      "offset": 2044,
       "length": 2,
       "value": "\"\""
     },
@@ -63684,7 +63880,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 8,
-      "value": "\"0.10.7\""
+      "value": "\"0.10.9\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

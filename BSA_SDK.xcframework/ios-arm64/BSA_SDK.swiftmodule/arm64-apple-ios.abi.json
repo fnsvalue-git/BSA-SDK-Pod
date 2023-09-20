@@ -8489,6 +8489,932 @@
                     "mangledName": "$sSY"
                   }
                 ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "ProcessDescription",
+                "printedName": "ProcessDescription",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "BlockChainVerificationBegins",
+                    "printedName": "BlockChainVerificationBegins",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO28BlockChainVerificationBeginsyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO28BlockChainVerificationBeginsyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "RequestingLocalAuthentication",
+                    "printedName": "RequestingLocalAuthentication",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO29RequestingLocalAuthenticationyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO29RequestingLocalAuthenticationyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "ConfirmCompleteAuth",
+                    "printedName": "ConfirmCompleteAuth",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO19ConfirmCompleteAuthyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO19ConfirmCompleteAuthyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "AuthSuccess",
+                    "printedName": "AuthSuccess",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthSuccessyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthSuccessyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "RequestingIssuanceToken",
+                    "printedName": "RequestingIssuanceToken",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO23RequestingIssuanceTokenyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO23RequestingIssuanceTokenyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "FinishByRestart",
+                    "printedName": "FinishByRestart",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO15FinishByRestartyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO15FinishByRestartyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "WaitForConnect",
+                    "printedName": "WaitForConnect",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO14WaitForConnectyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO14WaitForConnectyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "StartAuth",
+                    "printedName": "StartAuth",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO9StartAuthyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO9StartAuthyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "StartVerificationOfNodes",
+                    "printedName": "StartVerificationOfNodes",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO24StartVerificationOfNodesyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO24StartVerificationOfNodesyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "CompleteVerificationOfNodes",
+                    "printedName": "CompleteVerificationOfNodes",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO27CompleteVerificationOfNodesyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO27CompleteVerificationOfNodesyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "AuthCanceled",
+                    "printedName": "AuthCanceled",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO12AuthCanceledyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO12AuthCanceledyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "AuthFailed",
+                    "printedName": "AuthFailed",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO10AuthFailedyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO10AuthFailedyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "AuthTimeout",
+                    "printedName": "AuthTimeout",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthTimeoutyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthTimeoutyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "InvalidStatus",
+                    "printedName": "InvalidStatus",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO13InvalidStatusyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO13InvalidStatusyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "ConnectSuccess",
+                    "printedName": "ConnectSuccess",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO14ConnectSuccessyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO14ConnectSuccessyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "TimeOutByLocalTimer",
+                    "printedName": "TimeOutByLocalTimer",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO19TimeOutByLocalTimeryA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO19TimeOutByLocalTimeryA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "Disconnect",
+                    "printedName": "Disconnect",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO10DisconnectyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO10DisconnectyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "APIError",
+                    "printedName": "APIError",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8APIErroryA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8APIErroryA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "BCNodeVerificationFailed",
+                    "printedName": "BCNodeVerificationFailed",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO24BCNodeVerificationFailedyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO24BCNodeVerificationFailedyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "BCNodeVerificationError",
+                    "printedName": "BCNodeVerificationError",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO23BCNodeVerificationErroryA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO23BCNodeVerificationErroryA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(rawValue:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "BSA_SDK.BSA.Enums.ProcessDescription?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8rawValueAGSgSS_tcfc",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8rawValueAGSgSS_tcfc",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "rawValue",
+                    "printedName": "rawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8rawValueSSvp",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8rawValueSSvp",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8rawValueSSvg",
+                        "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO8rawValueSSvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO",
+                "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "enumRawTypeName": "String",
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "RawRepresentable",
+                    "printedName": "RawRepresentable",
+                    "children": [
+                      {
+                        "kind": "TypeWitness",
+                        "name": "RawValue",
+                        "printedName": "RawValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SY",
+                    "mangledName": "$sSY"
+                  }
+                ]
               }
             ],
             "declKind": "Enum",
@@ -9847,12 +10773,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((BSA_SDK.BSA.Enums.ProcessDescription) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -9861,9 +10787,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
                           }
                         ]
                       }
@@ -9948,8 +10874,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C26BlockChainNodesVerificaterC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0oP6Finish0oP6Cancel0oP5ErrorySSSg_SSAE09WebsocketN0VySScSgyycSgARyAC0T0OcSgtF",
-                "mangledName": "$s7BSA_SDK0A0C26BlockChainNodesVerificaterC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0oP6Finish0oP6Cancel0oP5ErrorySSSg_SSAE09WebsocketN0VySScSgyycSgARyAC0T0OcSgtF",
+                "usr": "s:7BSA_SDK0A0C26BlockChainNodesVerificaterC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0oP6Finish0oP6Cancel0oP5ErrorySSSg_SSAE09WebsocketN0VyAC5EnumsO18ProcessDescriptionOcSgyycSgAVyAC0T0OcSgtF",
+                "mangledName": "$s7BSA_SDK0A0C26BlockChainNodesVerificaterC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0oP6Finish0oP6Cancel0oP5ErrorySSSg_SSAE09WebsocketN0VyAC5EnumsO18ProcessDescriptionOcSgyycSgAVyAC0T0OcSgtF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -17697,12 +18623,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((BSA_SDK.BSA.Enums.ProcessDescription) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -17711,9 +18637,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
                           }
                         ]
                       }
@@ -17722,8 +18648,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvp",
-                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvp",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvp",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvp",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -17741,12 +18667,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "((Swift.String) -> ())?",
+                        "printedName": "((BSA_SDK.BSA.Enums.ProcessDescription) -> ())?",
                         "children": [
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "(Swift.String) -> ()",
+                            "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription) -> ()",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -17755,9 +18681,9 @@
                               },
                               {
                                 "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
                               }
                             ]
                           }
@@ -17766,8 +18692,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvg",
-                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvg",
+                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvg",
+                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvg",
                     "moduleName": "BSA_SDK",
                     "implicit": true,
                     "isOpen": true,
@@ -17786,12 +18712,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "((Swift.String) -> ())?",
+                        "printedName": "((BSA_SDK.BSA.Enums.ProcessDescription) -> ())?",
                         "children": [
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "(Swift.String) -> ()",
+                            "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription) -> ()",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -17800,9 +18726,9 @@
                               },
                               {
                                 "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
                               }
                             ]
                           }
@@ -17811,8 +18737,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvs",
-                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvs",
+                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvs",
+                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvs",
                     "moduleName": "BSA_SDK",
                     "implicit": true,
                     "isOpen": true,
@@ -17830,8 +18756,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvM",
-                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingySScSgvM",
+                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvM",
+                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC13_onProcessingyAC5EnumsO18ProcessDescriptionOcSgvM",
                     "moduleName": "BSA_SDK",
                     "implicit": true,
                     "isOpen": true,
@@ -18636,7 +19562,7 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
+                    "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -18645,9 +19571,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "ProcessDescription",
+                        "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                        "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
                       }
                     ]
                   },
@@ -18754,8 +19680,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC8setEvent12onProcessing0G7Success0G6Cancel0G6Failed0G5Error0G8TotalLogAEySSc_yycyycyAC6RtCodeO_SStcys0L0_pcySSctF",
-                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC8setEvent12onProcessing0G7Success0G6Cancel0G6Failed0G5Error0G8TotalLogAEySSc_yycyycyAC6RtCodeO_SStcys0L0_pcySSctF",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC8setEvent12onProcessing0G7Success0G6Cancel0G6Failed0G5Error0G8TotalLogAEyAC5EnumsO18ProcessDescriptionOc_yycyycyAC6RtCodeO_SStcys0L0_pcySSctF",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC8setEvent12onProcessing0G7Success0G6Cancel0G6Failed0G5Error0G8TotalLogAEyAC5EnumsO18ProcessDescriptionOc_yycyycyAC6RtCodeO_SStcys0L0_pcySSctF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -39908,6 +40834,63 @@
                     "init_kind": "Designated"
                   },
                   {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(seq:clientKey:clientName:siteUrl:interlock:verifyType:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SiteListData",
+                        "printedName": "BSA_SDK.BSA.JSONData.SiteListData",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO12SiteListDataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO12SiteListDataV3seq9clientKey0H4Name7siteUrl9interlock10verifyTypeAGSi_S3SSbSStcfc",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO12SiteListDataV3seq9clientKey0H4Name7siteUrl9interlock10verifyTypeAGSi_S3SSbSStcfc",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "init_kind": "Designated"
+                  },
+                  {
                     "kind": "Function",
                     "name": "initialize",
                     "printedName": "initialize(_:)",
@@ -53205,12 +54188,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((BSA_SDK.BSA.Enums.ProcessDescription) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -53219,9 +54202,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
                           }
                         ]
                       }
@@ -53230,8 +54213,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC19webSocketProcessing33_0A2F7F02FFDA68BB3D6A6C0E4FE9F9CCLLySScSgvp",
-                "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC19webSocketProcessing33_0A2F7F02FFDA68BB3D6A6C0E4FE9F9CCLLySScSgvp",
+                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC19webSocketProcessing33_0A2F7F02FFDA68BB3D6A6C0E4FE9F9CCLLyAC5EnumsO18ProcessDescriptionOcSgvp",
+                "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC19webSocketProcessing33_0A2F7F02FFDA68BB3D6A6C0E4FE9F9CCLLyAC5EnumsO18ProcessDescriptionOcSgvp",
                 "moduleName": "BSA_SDK",
                 "isInternal": true,
                 "declAttributes": [
@@ -53525,12 +54508,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((BSA_SDK.BSA.Enums.ProcessDescription) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -53539,9 +54522,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
                           }
                         ]
                       }
@@ -53626,8 +54609,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0pQ6Finish0pQ6Cancel0pQ5ErrorySSSg_SSAC0cdeF0C09WebsocketO0VySScSgyycSgATyAC0U0OcSgtF",
-                "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0pQ6Finish0pQ6Cancel0pQ5ErrorySSSg_SSAC0cdeF0C09WebsocketO0VySScSgyycSgATyAC0U0OcSgtF",
+                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0pQ6Finish0pQ6Cancel0pQ5ErrorySSSg_SSAC0cdeF0C09WebsocketO0VyAC5EnumsO18ProcessDescriptionOcSgyycSgAXyAC0U0OcSgtF",
+                "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC17startVerification4qrId8blockKey13websocketData19webSocketProcessing0pQ6Finish0pQ6Cancel0pQ5ErrorySSSg_SSAC0cdeF0C09WebsocketO0VyAC5EnumsO18ProcessDescriptionOcSgyycSgAXyAC0U0OcSgtF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -54598,634 +55581,6 @@
                 "declKind": "Enum",
                 "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC6StatusO",
                 "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC6StatusO",
-                "moduleName": "BSA_SDK",
-                "declAttributes": [
-                  "RawDocComment"
-                ],
-                "isFromExtension": true,
-                "enumRawTypeName": "String",
-                "isEnumExhaustive": true,
-                "conformances": [
-                  {
-                    "kind": "Conformance",
-                    "name": "Equatable",
-                    "printedName": "Equatable",
-                    "usr": "s:SQ",
-                    "mangledName": "$sSQ"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Hashable",
-                    "printedName": "Hashable",
-                    "usr": "s:SH",
-                    "mangledName": "$sSH"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "RawRepresentable",
-                    "printedName": "RawRepresentable",
-                    "children": [
-                      {
-                        "kind": "TypeWitness",
-                        "name": "RawValue",
-                        "printedName": "RawValue",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:SY",
-                    "mangledName": "$sSY"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Sendable",
-                    "printedName": "Sendable",
-                    "usr": "s:s8SendableP",
-                    "mangledName": "$ss8SendableP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeDecl",
-                "name": "ProcessDescription",
-                "printedName": "ProcessDescription",
-                "children": [
-                  {
-                    "kind": "Var",
-                    "name": "FinishByRestart",
-                    "printedName": "FinishByRestart",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO15FinishByRestartyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO15FinishByRestartyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 0
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "WaitForConnect",
-                    "printedName": "WaitForConnect",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO14WaitForConnectyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO14WaitForConnectyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 1
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "StartAuth",
-                    "printedName": "StartAuth",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO9StartAuthyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO9StartAuthyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 2
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "StartVerificationOfNodes",
-                    "printedName": "StartVerificationOfNodes",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO019StartVerificationOfE0yA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO019StartVerificationOfE0yA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 3
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "CompleteVerificationOfNodes",
-                    "printedName": "CompleteVerificationOfNodes",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO022CompleteVerificationOfE0yA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO022CompleteVerificationOfE0yA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 4
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "AuthCanceled",
-                    "printedName": "AuthCanceled",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO12AuthCanceledyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO12AuthCanceledyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 5
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "AuthFailed",
-                    "printedName": "AuthFailed",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO10AuthFailedyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO10AuthFailedyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 6
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "AuthTimeout",
-                    "printedName": "AuthTimeout",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO11AuthTimeoutyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO11AuthTimeoutyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 7
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "InvalidStatus",
-                    "printedName": "InvalidStatus",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO13InvalidStatusyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO13InvalidStatusyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 8
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "ConnectSuccess",
-                    "printedName": "ConnectSuccess",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO14ConnectSuccessyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO14ConnectSuccessyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 9
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "TimeOutByLocalTimer",
-                    "printedName": "TimeOutByLocalTimer",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO19TimeOutByLocalTimeryA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO19TimeOutByLocalTimeryA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 10
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "Disconnect",
-                    "printedName": "Disconnect",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO10DisconnectyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO10DisconnectyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 11
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "APIError",
-                    "printedName": "APIError",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type) -> BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8APIErroryA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8APIErroryA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "fixedbinaryorder": 12
-                  },
-                  {
-                    "kind": "Constructor",
-                    "name": "init",
-                    "printedName": "init(rawValue:)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.BlockChainNodesVerificaterInternal.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Constructor",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8rawValueAGSgSS_tcfc",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8rawValueAGSgSS_tcfc",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "init_kind": "Designated"
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "rawValue",
-                    "printedName": "rawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8rawValueSSvp",
-                    "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8rawValueSSvp",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8rawValueSSvg",
-                        "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO8rawValueSSvg",
-                        "moduleName": "BSA_SDK",
-                        "implicit": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Enum",
-                "usr": "s:7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO",
-                "mangledName": "$s7BSA_SDK0A0C34BlockChainNodesVerificaterInternalC18ProcessDescriptionO",
                 "moduleName": "BSA_SDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -62219,14 +62574,294 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3490,
+      "offset": 3510,
+      "length": 30,
+      "value": "\"BlockChainVerificationBegins\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 31,
+      "value": "\"RequestingLocalAuthentication\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3739,
+      "length": 21,
+      "value": "\"ConfirmCompleteAuth\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3822,
+      "length": 13,
+      "value": "\"AuthSuccess\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3920,
+      "length": 25,
+      "value": "\"RequestingIssuanceToken\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4116,
+      "length": 17,
+      "value": "\"FinishByRestart\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4210,
+      "length": 16,
+      "value": "\"WaitForConnect\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4288,
+      "length": 11,
+      "value": "\"StartAuth\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4396,
+      "length": 26,
+      "value": "\"StartVerificationOfNodes\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4510,
+      "length": 29,
+      "value": "\"CompleteVerificationOfNodes\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4604,
+      "length": 14,
+      "value": "\"AuthCanceled\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4681,
+      "length": 12,
+      "value": "\"AuthFailed\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4764,
+      "length": 13,
+      "value": "\"AuthTimeout\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4850,
+      "length": 15,
+      "value": "\"InvalidStatus\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4940,
+      "length": 16,
+      "value": "\"ConnectSuccess\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5033,
+      "length": 21,
+      "value": "\"TimeOutByLocalTimer\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5125,
+      "length": 12,
+      "value": "\"Disconnect\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5193,
+      "length": 10,
+      "value": "\"APIError\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5271,
+      "length": 26,
+      "value": "\"BCNodeVerificationFailed\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5363,
+      "length": 25,
+      "value": "\"BCNodeVerificationError\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3510,
+      "length": 30,
+      "value": "\"BlockChainVerificationBegins\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 31,
+      "value": "\"RequestingLocalAuthentication\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3739,
+      "length": 21,
+      "value": "\"ConfirmCompleteAuth\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3822,
+      "length": 13,
+      "value": "\"AuthSuccess\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3920,
+      "length": 25,
+      "value": "\"RequestingIssuanceToken\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4116,
+      "length": 17,
+      "value": "\"FinishByRestart\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4210,
+      "length": 16,
+      "value": "\"WaitForConnect\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4288,
+      "length": 11,
+      "value": "\"StartAuth\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4396,
+      "length": 26,
+      "value": "\"StartVerificationOfNodes\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4510,
+      "length": 29,
+      "value": "\"CompleteVerificationOfNodes\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4604,
+      "length": 14,
+      "value": "\"AuthCanceled\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4681,
+      "length": 12,
+      "value": "\"AuthFailed\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4764,
+      "length": 13,
+      "value": "\"AuthTimeout\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4850,
+      "length": 15,
+      "value": "\"InvalidStatus\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4940,
+      "length": 16,
+      "value": "\"ConnectSuccess\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5033,
+      "length": 21,
+      "value": "\"TimeOutByLocalTimer\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5125,
+      "length": 12,
+      "value": "\"Disconnect\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5193,
+      "length": 10,
+      "value": "\"APIError\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5271,
+      "length": 26,
+      "value": "\"BCNodeVerificationFailed\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5363,
+      "length": 25,
+      "value": "\"BCNodeVerificationError\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 5716,
       "length": 433,
       "value": "\"        <head>\n         <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,user-scalable=0\">\n         <style>\n             p { font-size: 11px; color: #BBBBBB; word-break:break-all; font-weight: 400; font-family: 'SF Pro'; line-height : 18px;}\n         <\/style>\n        <\/head>\n        <body style=\"background-color:#141920;\">\n            %HTML_CONTENTS%\n        <\/body>\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4007,
+      "offset": 6233,
       "length": 9,
       "value": "\"BSA_SDK\""
     },
@@ -62436,42 +63071,42 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 886,
+      "offset": 895,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 967,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1028,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1232,
+      "offset": 1241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1326,
+      "offset": 1335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1532,
+      "offset": 1541,
       "length": 5,
       "value": "false"
     },
@@ -63304,28 +63939,28 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 23168,
+      "offset": 23534,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 23235,
+      "offset": 23601,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 23618,
+      "offset": 23984,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "BooleanLiteral",
-      "offset": 23672,
+      "offset": 24038,
       "length": 5,
       "value": "false"
     },
@@ -63528,364 +64163,182 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15262,
+      "offset": 15365,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15346,
+      "offset": 15449,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15448,
+      "offset": 15551,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15550,
+      "offset": 15653,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15617,
+      "offset": 15720,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15698,
+      "offset": 15801,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15791,
+      "offset": 15894,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16014,
+      "offset": 16117,
       "length": 13,
       "value": "\"RequestAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16083,
+      "offset": 16186,
       "length": 15,
       "value": "\"AuthCompleted\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16163,
+      "offset": 16266,
       "length": 15,
       "value": "\"CreateChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16239,
+      "offset": 16342,
       "length": 13,
       "value": "\"SelectNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16308,
+      "offset": 16411,
       "length": 15,
       "value": "\"RequestCancel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15262,
+      "offset": 15365,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15346,
+      "offset": 15449,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15448,
+      "offset": 15551,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15550,
+      "offset": 15653,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15617,
+      "offset": 15720,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15698,
+      "offset": 15801,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 15791,
+      "offset": 15894,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16014,
+      "offset": 16117,
       "length": 13,
       "value": "\"RequestAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16083,
+      "offset": 16186,
       "length": 15,
       "value": "\"AuthCompleted\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16163,
+      "offset": 16266,
       "length": 15,
       "value": "\"CreateChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16239,
+      "offset": 16342,
       "length": 13,
       "value": "\"SelectNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 16308,
+      "offset": 16411,
       "length": 15,
       "value": "\"RequestCancel\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16442,
-      "length": 38,
-      "value": "\"웹소켓 재시작을 위해 종료\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16511,
-      "length": 25,
-      "value": "\"웹소켓 연결 대기\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16562,
-      "length": 15,
-      "value": "\"인증 시작\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16618,
-      "length": 35,
-      "value": "\"블록체인 노드 검증 시작\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16697,
-      "length": 22,
-      "value": "\"노드 검증 완료\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16748,
-      "length": 15,
-      "value": "\"검증 취소\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16790,
-      "length": 15,
-      "value": "\"검증 실패\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16833,
-      "length": 22,
-      "value": "\"검증 시간 만료\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16885,
-      "length": 22,
-      "value": "\"알수 없는 상태\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16938,
-      "length": 25,
-      "value": "\"웹소켓 연결 성공\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16999,
-      "length": 22,
-      "value": "\"검증 시간 초과\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 17048,
-      "length": 25,
-      "value": "\"웹소켓 연결 끊김\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 17098,
-      "length": 12,
-      "value": "\"API 에러\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16442,
-      "length": 38,
-      "value": "\"웹소켓 재시작을 위해 종료\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16511,
-      "length": 25,
-      "value": "\"웹소켓 연결 대기\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16562,
-      "length": 15,
-      "value": "\"인증 시작\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16618,
-      "length": 35,
-      "value": "\"블록체인 노드 검증 시작\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16697,
-      "length": 22,
-      "value": "\"노드 검증 완료\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16748,
-      "length": 15,
-      "value": "\"검증 취소\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16790,
-      "length": 15,
-      "value": "\"검증 실패\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16833,
-      "length": 22,
-      "value": "\"검증 시간 만료\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16885,
-      "length": 22,
-      "value": "\"알수 없는 상태\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16938,
-      "length": 25,
-      "value": "\"웹소켓 연결 성공\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 16999,
-      "length": 22,
-      "value": "\"검증 시간 초과\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 17048,
-      "length": 25,
-      "value": "\"웹소켓 연결 끊김\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_BCNodesVerificater_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 17098,
-      "length": 12,
-      "value": "\"API 에러\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "StringLiteral",
       "offset": 551,
-      "length": 8,
-      "value": "\"0.10.9\""
+      "length": 9,
+      "value": "\"0.10.10\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "BooleanLiteral",
-      "offset": 2454,
+      "offset": 2455,
       "length": 4,
       "value": "true"
     },

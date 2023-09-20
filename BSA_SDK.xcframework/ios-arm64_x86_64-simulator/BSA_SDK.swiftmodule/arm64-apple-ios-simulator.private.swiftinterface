@@ -238,6 +238,33 @@ extension BSA_SDK.BSA {
         get
       }
     }
+    public enum ProcessDescription : Swift.String {
+      case BlockChainVerificationBegins
+      case RequestingLocalAuthentication
+      case ConfirmCompleteAuth
+      case AuthSuccess
+      case RequestingIssuanceToken
+      case FinishByRestart
+      case WaitForConnect
+      case StartAuth
+      case StartVerificationOfNodes
+      case CompleteVerificationOfNodes
+      case AuthCanceled
+      case AuthFailed
+      case AuthTimeout
+      case InvalidStatus
+      case ConnectSuccess
+      case TimeOutByLocalTimer
+      case Disconnect
+      case APIError
+      case BCNodeVerificationFailed
+      case BCNodeVerificationError
+      public init?(rawValue: Swift.String)
+      public typealias RawValue = Swift.String
+      public var rawValue: Swift.String {
+        get
+      }
+    }
   }
   public enum Constant {
     public static let BASE_HTML: Swift.String
@@ -269,7 +296,7 @@ extension BSA_SDK.BSA {
 }
 extension BSA_SDK.BSA {
   public class BlockChainNodesVerificater {
-    public typealias WebSocketProcessing = (Swift.String) -> ()
+    public typealias WebSocketProcessing = (BSA_SDK.BSA.Enums.ProcessDescription) -> ()
     public typealias WebSocketFinish = () -> ()
     public typealias WebSocketCancel = () -> ()
     public typealias WebSocketError = (BSA_SDK.BSA.Error) -> ()
@@ -432,7 +459,7 @@ extension BSA_SDK.BSA {
   public class AutoAuthenticator {
     public init()
     public func setData(qrId: Swift.String?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String, authPlatform: BSA_SDK.BSA.Enums.AuthPlatform, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, usePasscodeWhenFailed: Swift.Bool) -> BSA_SDK.BSA.AutoAuthenticator
-    public func setEvent(onProcessing: @escaping (Swift.String) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
+    public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.Enums.ProcessDescription) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
     public func start()
     public func stop()
     @objc deinit
@@ -732,6 +759,7 @@ extension BSA_SDK.BSA.JSONData {
     public var interlock: Swift.Bool
     public var verifyType: Swift.String
     public init(json: SwiftyJSON.JSON)
+    public init(seq: Swift.Int, clientKey: Swift.String, clientName: Swift.String, siteUrl: Swift.String, interlock: Swift.Bool, verifyType: Swift.String)
   }
   public struct VerifySiteAccountJSON {
     public var rtCode: Swift.Int
@@ -953,6 +981,9 @@ extension BSA_SDK.BSA.Enums.OTPType : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.Enums.AuthPlatform : Swift.Equatable {}
 extension BSA_SDK.BSA.Enums.AuthPlatform : Swift.Hashable {}
 extension BSA_SDK.BSA.Enums.AuthPlatform : Swift.RawRepresentable {}
+extension BSA_SDK.BSA.Enums.ProcessDescription : Swift.Equatable {}
+extension BSA_SDK.BSA.Enums.ProcessDescription : Swift.Hashable {}
+extension BSA_SDK.BSA.Enums.ProcessDescription : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.LocalAuthHelper.ErrorCode : Swift.Equatable {}
 extension BSA_SDK.BSA.LocalAuthHelper.ErrorCode : Swift.Hashable {}
 extension BSA_SDK.BSA.FCM.PushType : Swift.Equatable {}

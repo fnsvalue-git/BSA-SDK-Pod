@@ -56151,7 +56151,7 @@
               {
                 "kind": "Function",
                 "name": "startSimpleAuth",
-                "printedName": "startSimpleAuth(localAuthType:checkDomainStateChanged:usePasscodeWhenFailed:onResult:)",
+                "printedName": "startSimpleAuth(localAuthType:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56179,7 +56179,7 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "printedName": "() -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -56188,37 +56188,41 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.String?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:Sq"
+                            "name": "ErrorCode",
+                            "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode",
+                            "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC9ErrorCodeO"
                           }
-                        ]
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type23checkDomainStateChanged21usePasscodeWhenFailed8onResultyAC5EnumsO0cdH0O_S2bySb_SSSgtctFZ",
-                "mangledName": "$s7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type23checkDomainStateChanged21usePasscodeWhenFailed8onResultyAC5EnumsO0cdH0O_S2bySb_SSSgtctFZ",
+                "usr": "s:7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO0cdH0O_S2byycyAC0cD6HelperC0S4CodeOSgctFZ",
+                "mangledName": "$s7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO0cdH0O_S2byycyAC0cD6HelperC0S4CodeOSgctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -59135,7 +59139,7 @@
           {
             "kind": "Function",
             "name": "startSimpleAuthInternal",
-            "printedName": "startSimpleAuthInternal(localAuthType:checkDomainStateChanged:usePasscodeWhenFailed:onResult:)",
+            "printedName": "startSimpleAuthInternal(localAuthType:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -59163,7 +59167,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                "printedName": "() -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -59172,37 +59176,41 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Bool, Swift.String?)",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "ErrorCode",
+                        "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode",
+                        "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC9ErrorCodeO"
                       }
-                    ]
+                    ],
+                    "usr": "s:Sq"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type23checkDomainStateChanged21usePasscodeWhenFailed8onResultyAC5EnumsO05LocaleH0O_S2bySb_SSSgtctFZ",
-            "mangledName": "$s7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type23checkDomainStateChanged21usePasscodeWhenFailed8onResultyAC5EnumsO05LocaleH0O_S2bySb_SSSgtctFZ",
+            "usr": "s:7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO05LocaleH0O_S2byycyAC0uE6HelperC0S4CodeOSgctFZ",
+            "mangledName": "$s7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO05LocaleH0O_S2byycyAC0uE6HelperC0S4CodeOSgctFZ",
             "moduleName": "BSA_SDK",
             "static": true,
             "declAttributes": [
@@ -64367,7 +64375,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 9,
-      "value": "\"0.10.10\""
+      "value": "\"0.10.12\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

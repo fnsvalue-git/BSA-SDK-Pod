@@ -907,7 +907,7 @@ extension BSA_SDK.BSA {
 }
 extension BSA_SDK.BSA {
   public enum LocalAuth {
-    public static func startSimpleAuth(localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, checkDomainStateChanged: Swift.Bool, usePasscodeWhenFailed: Swift.Bool, onResult: @escaping (Swift.Bool, Swift.String?) -> ())
+    public static func startSimpleAuth(localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, checkDomainStateChanged: Swift.Bool, usePasscodeWhenFailed: Swift.Bool, onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
     public static func isBiometricAuthChanged() -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
   }
 }

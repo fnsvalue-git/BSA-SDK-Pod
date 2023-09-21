@@ -14337,7 +14337,7 @@
               {
                 "kind": "Function",
                 "name": "startQR",
-                "printedName": "startQR(cameraParent:onSuccess:onFailed:)",
+                "printedName": "startQR(cameraParent:onPreviewLayerAdded:onSuccess:onFailed:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14349,6 +14349,40 @@
                     "name": "UIView",
                     "printedName": "UIKit.UIView",
                     "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView, QuartzCore.CALayer) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIView, QuartzCore.CALayer)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIView",
+                            "printedName": "UIKit.UIView",
+                            "usr": "c:objc(cs)UIView"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CALayer",
+                            "printedName": "QuartzCore.CALayer",
+                            "usr": "c:objc(cs)CALayer"
+                          }
+                        ]
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -14404,8 +14438,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C8QRHelperC7startQR12cameraParent9onSuccess0H6FailedySo6UIViewC_yAC6QRDataVcSgyAC7QRErrorOcSgtF",
-                "mangledName": "$s7BSA_SDK0A0C8QRHelperC7startQR12cameraParent9onSuccess0H6FailedySo6UIViewC_yAC6QRDataVcSgyAC7QRErrorOcSgtF",
+                "usr": "s:7BSA_SDK0A0C8QRHelperC7startQR12cameraParent19onPreviewLayerAdded0H7Success0H6FailedySo6UIViewC_yAL_So7CALayerCtXEyAC6QRDataVcSgyAC7QRErrorOcSgtF",
+                "mangledName": "$s7BSA_SDK0A0C8QRHelperC7startQR12cameraParent19onPreviewLayerAdded0H7Success0H6FailedySo6UIViewC_yAL_So7CALayerCtXEyAC6QRDataVcSgyAC7QRErrorOcSgtF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [

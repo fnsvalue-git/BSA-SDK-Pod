@@ -373,7 +373,7 @@ extension BSA_SDK.BSA {
     public typealias Finished = (BSA_SDK.BSA.QRData) -> ()
     public typealias Failed = (BSA_SDK.BSA.QRError) -> ()
     public func checkCameraPermission(onGranted: BSA_SDK.BSA.QRHelper.VoidCallback?, onDenied: BSA_SDK.BSA.QRHelper.VoidCallback?)
-    public func startQR(cameraParent: UIKit.UIView, onSuccess: BSA_SDK.BSA.QRHelper.Finished?, onFailed: BSA_SDK.BSA.QRHelper.Failed?)
+    public func startQR(cameraParent: UIKit.UIView, onPreviewLayerAdded: (UIKit.UIView, QuartzCore.CALayer) -> (), onSuccess: BSA_SDK.BSA.QRHelper.Finished?, onFailed: BSA_SDK.BSA.QRHelper.Failed?)
     public func deinitialize()
     @objc override dynamic public init()
     @objc deinit

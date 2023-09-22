@@ -12971,7 +12971,6 @@
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
-                    "hasDefaultArg": true,
                     "usr": "s:SS"
                   },
                   {
@@ -13075,7 +13074,6 @@
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
-                    "hasDefaultArg": true,
                     "usr": "s:SS"
                   },
                   {
@@ -56151,7 +56149,7 @@
               {
                 "kind": "Function",
                 "name": "startSimpleAuth",
-                "printedName": "startSimpleAuth(localAuthType:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
+                "printedName": "startSimpleAuth(localAuthType:reason:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56163,6 +56161,13 @@
                     "name": "LocalAuthType",
                     "printedName": "BSA_SDK.BSA.Enums.LocalAuthType",
                     "usr": "s:7BSA_SDK0A0C5EnumsO13LocalAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -56221,8 +56226,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO0cdH0O_S2byycyAC0cD6HelperC0S4CodeOSgctFZ",
-                "mangledName": "$s7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO0cdH0O_S2byycyAC0cD6HelperC0S4CodeOSgctFZ",
+                "usr": "s:7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO0cdH0O_SSS2byycyAC0cD6HelperC0T4CodeOSgctFZ",
+                "mangledName": "$s7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO0cdH0O_SSS2byycyAC0cD6HelperC0T4CodeOSgctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -59139,7 +59144,7 @@
           {
             "kind": "Function",
             "name": "startSimpleAuthInternal",
-            "printedName": "startSimpleAuthInternal(localAuthType:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
+            "printedName": "startSimpleAuthInternal(localAuthType:reason:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -59151,6 +59156,12 @@
                 "name": "LocalAuthType",
                 "printedName": "BSA_SDK.BSA.Enums.LocalAuthType",
                 "usr": "s:7BSA_SDK0A0C5EnumsO13LocalAuthTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -59209,8 +59220,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO05LocaleH0O_S2byycyAC0uE6HelperC0S4CodeOSgctFZ",
-            "mangledName": "$s7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0Q5ErroryAC5EnumsO05LocaleH0O_S2byycyAC0uE6HelperC0S4CodeOSgctFZ",
+            "usr": "s:7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO05LocaleH0O_SSS2byycyAC0vE6HelperC0T4CodeOSgctFZ",
+            "mangledName": "$s7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO05LocaleH0O_SSS2byycyAC0vE6HelperC0T4CodeOSgctFZ",
             "moduleName": "BSA_SDK",
             "static": true,
             "declAttributes": [
@@ -63181,20 +63192,6 @@
       "value": "\"Passcode\""
     },
     {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/LocalAuthHelper_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 2165,
-      "length": 51,
-      "value": "\"본인 확인을 위해 인증이 필요합니다\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/LocalAuthHelper_Internal.swift",
-      "kind": "StringLiteral",
-      "offset": 8014,
-      "length": 51,
-      "value": "\"본인 확인을 위해 인증이 필요합니다\""
-    },
-    {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
       "offset": 505,
@@ -64375,7 +64372,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 9,
-      "value": "\"0.10.12\""
+      "value": "\"0.10.13\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
@@ -64383,6 +64380,13 @@
       "offset": 2455,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
+      "kind": "StringLiteral",
+      "offset": 6798,
+      "length": 51,
+      "value": "\"본인 확인을 위해 인증이 필요합니다\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_Internal.swift",

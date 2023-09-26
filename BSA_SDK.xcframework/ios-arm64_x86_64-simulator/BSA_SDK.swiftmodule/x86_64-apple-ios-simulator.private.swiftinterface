@@ -356,7 +356,7 @@ extension BSA_SDK.BSA {
 }
 extension BSA_SDK.BSA.LocalAuthHelper {
   public func startBiometricID(checkDomainStateChanged: Swift.Bool, usePasscodeWhenFailed: Swift.Bool, reason: Swift.String = "본인 확인을 위해 인증이 필요합니다", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
-  public static func isBiometricAuthChanged() -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
+  public func isBiometricAuthChanged() -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
 }
 extension BSA_SDK.BSA.LocalAuthHelper {
   public func startPasscode(reason: Swift.String = "본인 확인을 위해 인증이 필요합니다", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
@@ -514,6 +514,9 @@ extension BSA_SDK.BSA {
       get
     }
   }
+}
+extension BSA_SDK.BSA.LocalAuthHelper {
+  public func isBiometricAuthChangedInternal(policy: LocalAuthentication.LAPolicy = .deviceOwnerAuthenticationWithBiometrics) -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
 }
 extension BSA_SDK.BSA {
   public enum JSONData {

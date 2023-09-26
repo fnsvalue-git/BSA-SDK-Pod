@@ -12589,13 +12589,12 @@
                 "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvp",
                 "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvp",
                 "moduleName": "BSA_SDK",
+                "isOpen": true,
                 "declAttributes": [
                   "HasInitialValue",
-                  "Final",
                   "HasStorage",
                   "RawDocComment"
                 ],
-                "isLet": true,
                 "hasStorage": true,
                 "accessors": [
                   {
@@ -12615,10 +12614,52 @@
                     "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvg",
                     "moduleName": "BSA_SDK",
                     "implicit": true,
-                    "declAttributes": [
-                      "Final"
-                    ],
+                    "isOpen": true,
                     "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LAPolicy",
+                        "printedName": "LocalAuthentication.LAPolicy",
+                        "usr": "c:@E@LAPolicy"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvs",
+                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvs",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvM",
+                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvM",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
                   }
                 ]
               },
@@ -12754,12 +12795,11 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD7ChangedAE9ErrorCodeOSgyFZ",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD7ChangedAE9ErrorCodeOSgyFZ",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD7ChangedAE9ErrorCodeOSgyF",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD7ChangedAE9ErrorCodeOSgyF",
                 "moduleName": "BSA_SDK",
-                "static": true,
+                "isOpen": true,
                 "declAttributes": [
-                  "Final",
                   "AccessControl",
                   "RawDocComment"
                 ],
@@ -13031,7 +13071,7 @@
               {
                 "kind": "Function",
                 "name": "isBiometricAuthChangedInternal",
-                "printedName": "isBiometricAuthChangedInternal()",
+                "printedName": "isBiometricAuthChangedInternal(policy:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13046,15 +13086,22 @@
                       }
                     ],
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LAPolicy",
+                    "printedName": "LocalAuthentication.LAPolicy",
+                    "hasDefaultArg": true,
+                    "usr": "c:@E@LAPolicy"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD15ChangedInternalAE9ErrorCodeOSgyFZ",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD15ChangedInternalAE9ErrorCodeOSgyFZ",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD15ChangedInternal6policyAE9ErrorCodeOSgSo8LAPolicyV_tF",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD15ChangedInternal6policyAE9ErrorCodeOSgSo8LAPolicyV_tF",
                 "moduleName": "BSA_SDK",
-                "static": true,
+                "isOpen": true,
                 "declAttributes": [
-                  "Final",
+                  "AccessControl",
                   "RawDocComment"
                 ],
                 "isFromExtension": true,
@@ -59230,6 +59277,38 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isBiometricAuthChangedInternal",
+            "printedName": "isBiometricAuthChangedInternal()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC9ErrorCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BSA_SDK0A0C30isBiometricAuthChangedInternalAC05LocalE6HelperC9ErrorCodeOSgyFZ",
+            "mangledName": "$s7BSA_SDK0A0C30isBiometricAuthChangedInternalAC05LocalE6HelperC9ErrorCodeOSgyFZ",
+            "moduleName": "BSA_SDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -62949,7 +63028,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/LocalAuthHelper.swift",
       "kind": "StringLiteral",
-      "offset": 5119,
+      "offset": 5220,
       "length": 51,
       "value": "\"본인 확인을 위해 인증이 필요합니다\""
     },
@@ -64372,7 +64451,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 9,
-      "value": "\"0.10.14\""
+      "value": "\"0.10.15\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

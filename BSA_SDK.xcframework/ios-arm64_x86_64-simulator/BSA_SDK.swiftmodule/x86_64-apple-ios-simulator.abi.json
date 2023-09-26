@@ -8617,46 +8617,6 @@
                   },
                   {
                     "kind": "Var",
-                    "name": "AuthSuccess",
-                    "printedName": "AuthSuccess",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProcessDescription",
-                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
-                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Metatype",
-                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProcessDescription",
-                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
-                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "EnumElement",
-                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthSuccessyA2GmF",
-                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthSuccessyA2GmF",
-                    "moduleName": "BSA_SDK",
-                    "declAttributes": [
-                      "RawDocComment"
-                    ]
-                  },
-                  {
-                    "kind": "Var",
                     "name": "RequestingIssuanceToken",
                     "printedName": "RequestingIssuanceToken",
                     "children": [
@@ -8690,6 +8650,46 @@
                     "declKind": "EnumElement",
                     "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO23RequestingIssuanceTokenyA2GmF",
                     "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO23RequestingIssuanceTokenyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "AuthSuccess",
+                    "printedName": "AuthSuccess",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.ProcessDescription.Type) -> BSA_SDK.BSA.Enums.ProcessDescription",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProcessDescription",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.ProcessDescription.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProcessDescription",
+                                "printedName": "BSA_SDK.BSA.Enums.ProcessDescription",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthSuccessyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO18ProcessDescriptionO11AuthSuccessyA2GmF",
                     "moduleName": "BSA_SDK",
                     "declAttributes": [
                       "RawDocComment"
@@ -18551,7 +18551,7 @@
               {
                 "kind": "Function",
                 "name": "setData",
-                "printedName": "setData(qrId:pushData:clientKey:userKey:deviceId:authPlatform:otpAuth:sendPushMessage:localAuthType:usePasscodeWhenFailed:)",
+                "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:authPlatform:otpAuth:sendPushMessage:localAuthType:usePasscodeWhenFailed:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -18562,13 +18562,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "BSA_SDK.BSA.QRData?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "QRData",
+                        "printedName": "BSA_SDK.BSA.QRData",
+                        "usr": "s:7BSA_SDK0A0C6QRDataV"
                       }
                     ],
                     "usr": "s:Sq"
@@ -18637,8 +18637,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData4qrId04pushF09clientKey04userK006deviceH012authPlatform7otpAuth15sendPushMessage05localQ4Type21usePasscodeWhenFailedAESSSg_AC3FCMO0sF0CSgS3SAC5EnumsO0qO0OS2bAX05LocalqV0OSbtF",
-                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData4qrId04pushF09clientKey04userK006deviceH012authPlatform7otpAuth15sendPushMessage05localQ4Type21usePasscodeWhenFailedAESSSg_AC3FCMO0sF0CSgS3SAC5EnumsO0qO0OS2bAX05LocalqV0OSbtF",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId12authPlatform7otpAuth15sendPushMessage05localQ4Type21usePasscodeWhenFailedAeC6QRDataVSg_AC3FCMO0sF0CSgS3SAC5EnumsO0qO0OS2bAZ05LocalqV0OSbtF",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId12authPlatform7otpAuth15sendPushMessage05localQ4Type21usePasscodeWhenFailedAeC6QRDataVSg_AC3FCMO0sF0CSgS3SAC5EnumsO0qO0OS2bAZ05LocalqV0OSbtF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -62627,294 +62627,294 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3510,
+      "offset": 3512,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3631,
+      "offset": 3635,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3739,
+      "offset": 3745,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3822,
-      "length": 13,
-      "value": "\"AuthSuccess\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
-      "kind": "StringLiteral",
-      "offset": 3920,
+      "offset": 3853,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 3942,
+      "length": 13,
+      "value": "\"AuthSuccess\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4130,
       "length": 17,
       "value": "\"FinishByRestart\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4210,
+      "offset": 4229,
       "length": 16,
       "value": "\"WaitForConnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4288,
+      "offset": 4311,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4396,
+      "offset": 4423,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4510,
+      "offset": 4540,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4604,
+      "offset": 4634,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4681,
+      "offset": 4711,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4764,
+      "offset": 4794,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4850,
+      "offset": 4880,
       "length": 15,
       "value": "\"InvalidStatus\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4940,
+      "offset": 4970,
       "length": 16,
       "value": "\"ConnectSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5033,
+      "offset": 5063,
       "length": 21,
       "value": "\"TimeOutByLocalTimer\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5125,
+      "offset": 5155,
       "length": 12,
       "value": "\"Disconnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5193,
+      "offset": 5223,
       "length": 10,
       "value": "\"APIError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5271,
+      "offset": 5301,
       "length": 26,
       "value": "\"BCNodeVerificationFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5363,
+      "offset": 5393,
       "length": 25,
       "value": "\"BCNodeVerificationError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3510,
+      "offset": 3512,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3631,
+      "offset": 3635,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3739,
+      "offset": 3745,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3822,
-      "length": 13,
-      "value": "\"AuthSuccess\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
-      "kind": "StringLiteral",
-      "offset": 3920,
+      "offset": 3853,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 3942,
+      "length": 13,
+      "value": "\"AuthSuccess\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 4130,
       "length": 17,
       "value": "\"FinishByRestart\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4210,
+      "offset": 4229,
       "length": 16,
       "value": "\"WaitForConnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4288,
+      "offset": 4311,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4396,
+      "offset": 4423,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4510,
+      "offset": 4540,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4604,
+      "offset": 4634,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4681,
+      "offset": 4711,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4764,
+      "offset": 4794,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4850,
+      "offset": 4880,
       "length": 15,
       "value": "\"InvalidStatus\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4940,
+      "offset": 4970,
       "length": 16,
       "value": "\"ConnectSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5033,
+      "offset": 5063,
       "length": 21,
       "value": "\"TimeOutByLocalTimer\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5125,
+      "offset": 5155,
       "length": 12,
       "value": "\"Disconnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5193,
+      "offset": 5223,
       "length": 10,
       "value": "\"APIError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5271,
+      "offset": 5301,
       "length": 26,
       "value": "\"BCNodeVerificationFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5363,
+      "offset": 5393,
       "length": 25,
       "value": "\"BCNodeVerificationError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5716,
+      "offset": 5746,
       "length": 433,
       "value": "\"        <head>\n         <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,user-scalable=0\">\n         <style>\n             p { font-size: 11px; color: #BBBBBB; word-break:break-all; font-weight: 400; font-family: 'SF Pro'; line-height : 18px;}\n         <\/style>\n        <\/head>\n        <body style=\"background-color:#141920;\">\n            %HTML_CONTENTS%\n        <\/body>\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6233,
+      "offset": 6263,
       "length": 9,
       "value": "\"BSA_SDK\""
     },
@@ -64372,7 +64372,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 9,
-      "value": "\"0.10.13\""
+      "value": "\"0.10.14\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

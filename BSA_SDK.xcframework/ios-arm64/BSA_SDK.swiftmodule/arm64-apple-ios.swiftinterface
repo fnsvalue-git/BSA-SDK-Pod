@@ -242,8 +242,8 @@ extension BSA_SDK.BSA {
       case BlockChainVerificationBegins
       case RequestingLocalAuthentication
       case ConfirmCompleteAuth
-      case AuthSuccess
       case RequestingIssuanceToken
+      case AuthSuccess
       case FinishByRestart
       case WaitForConnect
       case StartAuth
@@ -458,7 +458,7 @@ extension BSA_SDK.BSA.JSONData.CheckRequestedAuthExistsData {
 extension BSA_SDK.BSA {
   public class AutoAuthenticator {
     public init()
-    public func setData(qrId: Swift.String?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String, authPlatform: BSA_SDK.BSA.Enums.AuthPlatform, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, usePasscodeWhenFailed: Swift.Bool) -> BSA_SDK.BSA.AutoAuthenticator
+    public func setData(qrData: BSA_SDK.BSA.QRData?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String, authPlatform: BSA_SDK.BSA.Enums.AuthPlatform, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, usePasscodeWhenFailed: Swift.Bool) -> BSA_SDK.BSA.AutoAuthenticator
     public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.Enums.ProcessDescription) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
     public func start()
     public func stop()

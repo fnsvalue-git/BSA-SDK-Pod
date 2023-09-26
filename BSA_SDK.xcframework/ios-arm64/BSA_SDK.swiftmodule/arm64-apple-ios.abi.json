@@ -24990,7 +24990,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveAuthHistory",
-                "printedName": "retrieveAuthHistory(onSuccess:onFailed:onError:onTotalLog:)",
+                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onFailed:onError:onTotalLog:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25005,6 +25005,41 @@
                       }
                     ],
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeFunc",
@@ -25114,8 +25149,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9onSuccess0I6Failed0I5Error0I8TotalLog7RxSwift10Disposable_pSgySayAC8JSONDataO0gH4DataVG_AO0gH4PageVtc_yAC6RtCodeO_SStcys0L0_pcySSctFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9onSuccess0I6Failed0I5Error0I8TotalLog7RxSwift10Disposable_pSgySayAC8JSONDataO0gH4DataVG_AO0gH4PageVtc_yAC6RtCodeO_SStcys0L0_pcySSctFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M6Failed0M5Error0M8TotalLog7RxSwift10Disposable_pSgSiSg_AQSSySayAC8JSONDataO0gH4DataVG_AS0gH4PageVtcyAC6RtCodeO_SStcys0P0_pcySSctFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M6Failed0M5Error0M8TotalLog7RxSwift10Disposable_pSgSiSg_AQSSySayAC8JSONDataO0gH4DataVG_AS0gH4PageVtcyAC6RtCodeO_SStcys0P0_pcySSctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -42940,7 +42975,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveAuthHistory",
-                "printedName": "retrieveAuthHistory(accessToken:)",
+                "printedName": "retrieveAuthHistory(pageIndex:size:sort:accessToken:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -42958,14 +42993,49 @@
                   },
                   {
                     "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO19retrieveAuthHistory11accessToken7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_tFZ",
-                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO19retrieveAuthHistory11accessToken7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_tFZ",
+                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO19retrieveAuthHistory9pageIndex4size4sort11accessToken7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSiSg_ASS2StFZ",
+                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO19retrieveAuthHistory9pageIndex4size4sort11accessToken7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSiSg_ASS2StFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -52982,12 +53052,47 @@
               {
                 "kind": "Function",
                 "name": "retrieveAuthHistory",
-                "printedName": "retrieveAuthHistory(onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
+                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeFunc",
@@ -53103,8 +53208,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9onSuccess0G6Failed0G5Error0G8TotalLog10disposeBagyySayAC8JSONDataO0eF4DataVG_AM0eF4PageVtc_yAC6RtCodeO_SStcys0J0_pcySSc7RxSwift07DisposeN0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9onSuccess0G6Failed0G5Error0G8TotalLog10disposeBagyySayAC8JSONDataO0eF4DataVG_AM0eF4PageVtc_yAC6RtCodeO_SStcys0J0_pcySSc7RxSwift07DisposeN0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K6Failed0K5Error0K8TotalLog10disposeBagySiSg_AOSSySayAC8JSONDataO0eF4DataVG_AQ0eF4PageVtcyAC6RtCodeO_SStcys0N0_pcySSc7RxSwift07DisposeR0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K6Failed0K5Error0K8TotalLog10disposeBagySiSg_AOSSySayAC8JSONDataO0eF4DataVG_AQ0eF4PageVtcyAC6RtCodeO_SStcys0N0_pcySSc7RxSwift07DisposeR0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -63473,6 +63578,13 @@
       "value": "\"Passcode\""
     },
     {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 104978,
+      "length": 13,
+      "value": "\"REG_DT,DESC\""
+    },
+    {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
       "offset": 505,
@@ -64299,6 +64411,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PreProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 55491,
+      "length": 13,
+      "value": "\"REG_DT,DESC\""
+    },
+    {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/SignUpData.swift",
       "kind": "StringLiteral",
       "offset": 693,
@@ -64430,6 +64549,13 @@
       "offset": 5229,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_Caller.swift",
+      "kind": "StringLiteral",
+      "offset": 48492,
+      "length": 13,
+      "value": "\"REG_DT,DESC\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/SignUpDataInternal.swift",
@@ -64667,7 +64793,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 9,
-      "value": "\"0.10.16\""
+      "value": "\"0.10.17\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

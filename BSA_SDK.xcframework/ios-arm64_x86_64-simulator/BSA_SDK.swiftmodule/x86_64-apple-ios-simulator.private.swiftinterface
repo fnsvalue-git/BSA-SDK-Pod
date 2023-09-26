@@ -731,7 +731,10 @@ extension BSA_SDK.BSA.JSONData {
     public var content: Swift.String
     public var connectIp: Swift.String
     public var regDt: Swift.String
+    public var regDt_ko: Swift.String
+    public var regDt_en: Swift.String
     public init(json: SwiftyJSON.JSON)
+    public func getFormattedRegDt(lang: Swift.String) -> Swift.String
   }
   public struct LinkedSiteListJSON {
     public var rtCode: Swift.Int

@@ -18597,6 +18597,28 @@
               },
               {
                 "kind": "Function",
+                "name": "getClientKey",
+                "printedName": "getClientKey()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC12getClientKeySSyF",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC12getClientKeySSyF",
+                "moduleName": "BSA_SDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "setData",
                 "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:authPlatform:otpAuth:sendPushMessage:localAuthType:usePasscodeWhenFailed:)",
                 "children": [
@@ -49255,7 +49277,6 @@
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
-                    "hasDefaultArg": true,
                     "usr": "s:SS"
                   },
                   {
@@ -49298,7 +49319,6 @@
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
-                    "hasDefaultArg": true,
                     "usr": "s:SS"
                   },
                   {
@@ -49349,7 +49369,6 @@
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
-                    "hasDefaultArg": true,
                     "usr": "s:SS"
                   },
                   {
@@ -49394,7 +49413,6 @@
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
-                    "hasDefaultArg": true,
                     "usr": "s:SS"
                   },
                   {
@@ -49431,7 +49449,6 @@
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
-                    "hasDefaultArg": true,
                     "usr": "s:SS"
                   },
                   {
@@ -64793,7 +64810,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 9,
-      "value": "\"0.10.17\""
+      "value": "\"0.10.18\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
@@ -64861,42 +64878,42 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 6346,
+      "offset": 6423,
       "length": 13,
       "value": "\"bsadeviceid\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 7133,
+      "offset": 7288,
       "length": 16,
       "value": "\"bsaaccesstoken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 7899,
+      "offset": 8132,
       "length": 18,
       "value": "\"bsalocalauthtype\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 8953,
+      "offset": 9264,
       "length": 13,
       "value": "\"bsafcmtoken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 9675,
+      "offset": 10064,
       "length": 23,
       "value": "\"bsafcmtokenregistered\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_Internal.swift",
       "kind": "StringLiteral",
-      "offset": 10612,
+      "offset": 11079,
       "length": 15,
       "value": "\"bsabsauserkey\""
     }

@@ -458,6 +458,7 @@ extension BSA_SDK.BSA.JSONData.CheckRequestedAuthExistsData {
 extension BSA_SDK.BSA {
   public class AutoAuthenticator {
     public init()
+    public func getClientKey() -> Swift.String
     public func setData(qrData: BSA_SDK.BSA.QRData?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String, authPlatform: BSA_SDK.BSA.Enums.AuthPlatform, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, usePasscodeWhenFailed: Swift.Bool) -> BSA_SDK.BSA.AutoAuthenticator
     public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.Enums.ProcessDescription) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
     public func start()
@@ -826,11 +827,11 @@ extension BSA_SDK.BSA.SignUpData {
 }
 extension BSA_SDK.BSA {
   @_hasMissingDesignatedInitializers public class KeyChainHelper {
-    public static func saveToKeyChain(service: Swift.String = BSA.Constant.SERVICE_NAME, account: Swift.String, saveString: Swift.String) -> Swift.Bool
-    public static func saveToKeyChain(service: Swift.String = BSA.Constant.SERVICE_NAME, account: Swift.String, saveData: Foundation.Data) -> Swift.Bool
-    public static func loadFromKeychain(service: Swift.String = BSA.Constant.SERVICE_NAME, account: Swift.String) -> Foundation.Data?
-    public static func loadStringFromKeychain(service: Swift.String = BSA.Constant.SERVICE_NAME, account: Swift.String) -> Swift.String?
-    public static func removeFromKeyChain(service: Swift.String = BSA.Constant.SERVICE_NAME, account: Swift.String) -> Swift.Bool
+    public static func saveToKeyChain(service: Swift.String, account: Swift.String, saveString: Swift.String) -> Swift.Bool
+    public static func saveToKeyChain(service: Swift.String, account: Swift.String, saveData: Foundation.Data) -> Swift.Bool
+    public static func loadFromKeychain(service: Swift.String, account: Swift.String) -> Foundation.Data?
+    public static func loadStringFromKeychain(service: Swift.String, account: Swift.String) -> Swift.String?
+    public static func removeFromKeyChain(service: Swift.String, account: Swift.String) -> Swift.Bool
     @objc deinit
   }
 }

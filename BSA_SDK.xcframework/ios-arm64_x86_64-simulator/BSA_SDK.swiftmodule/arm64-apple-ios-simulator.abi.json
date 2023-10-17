@@ -4261,6 +4261,86 @@
               },
               {
                 "kind": "Var",
+                "name": "USER_VERIFY_CERTIFICATION_FAIL",
+                "printedName": "USER_VERIFY_CERTIFICATION_FAIL",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode.Type) -> BSA_SDK.BSA.RtCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RtCode",
+                        "printedName": "BSA_SDK.BSA.RtCode",
+                        "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BSA_SDK.BSA.RtCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BSA_SDK0A0C6RtCodeO30USER_VERIFY_CERTIFICATION_FAILyA2EmF",
+                "mangledName": "$s7BSA_SDK0A0C6RtCodeO30USER_VERIFY_CERTIFICATION_FAILyA2EmF",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "USER_VERIFY_SIGN_FAIL",
+                "printedName": "USER_VERIFY_SIGN_FAIL",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode.Type) -> BSA_SDK.BSA.RtCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RtCode",
+                        "printedName": "BSA_SDK.BSA.RtCode",
+                        "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BSA_SDK.BSA.RtCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BSA_SDK0A0C6RtCodeO21USER_VERIFY_SIGN_FAILyA2EmF",
+                "mangledName": "$s7BSA_SDK0A0C6RtCodeO21USER_VERIFY_SIGN_FAILyA2EmF",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "CLIENT_USER_REGISTER_FAIL",
                 "printedName": "CLIENT_USER_REGISTER_FAIL",
                 "children": [
@@ -22749,8 +22829,8 @@
               },
               {
                 "kind": "Function",
-                "name": "requestOTPNumberSend",
-                "printedName": "requestOTPNumberSend(ByEmail:clientKey:onSuccess:onFailed:onError:onTotalLog:)",
+                "name": "requestSendOTPNumber",
+                "printedName": "requestSendOTPNumber(ByEmail:clientKey:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -22765,6 +22845,12 @@
                       }
                     ],
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -22864,8 +22950,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO20requestOTPNumberSend7ByEmail9clientKey9onSuccess0M6Failed0M5Error0M8TotalLog7RxSwift10Disposable_pSgSS_SSyycyAC6RtCodeO_SStcys0P0_pcySSctFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO20requestOTPNumberSend7ByEmail9clientKey9onSuccess0M6Failed0M5Error0M8TotalLog7RxSwift10Disposable_pSgSS_SSyycyAC6RtCodeO_SStcys0P0_pcySSctFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO20requestSendOTPNumber7ByEmail9clientKey16bundleIdentifier9onSuccess0O6Failed0O5Error0O8TotalLog7RxSwift10Disposable_pSgSS_S2SyycyAC6RtCodeO_SStcys0R0_pcySSctFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO20requestSendOTPNumber7ByEmail9clientKey16bundleIdentifier9onSuccess0O6Failed0O5Error0O8TotalLog7RxSwift10Disposable_pSgSS_S2SyycyAC6RtCodeO_SStcys0R0_pcySSctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -22876,8 +22962,8 @@
               },
               {
                 "kind": "Function",
-                "name": "requestOTPNumberSend",
-                "printedName": "requestOTPNumberSend(BySMS:clientKey:onSuccess:onFailed:onError:onTotalLog:)",
+                "name": "requestSendOTPNumber",
+                "printedName": "requestSendOTPNumber(BySMS:clientKey:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -22892,6 +22978,12 @@
                       }
                     ],
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -22991,8 +23083,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO20requestOTPNumberSend5BySMS9clientKey9onSuccess0M6Failed0M5Error0M8TotalLog7RxSwift10Disposable_pSgSS_SSyycyAC6RtCodeO_SStcys0P0_pcySSctFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO20requestOTPNumberSend5BySMS9clientKey9onSuccess0M6Failed0M5Error0M8TotalLog7RxSwift10Disposable_pSgSS_SSyycyAC6RtCodeO_SStcys0P0_pcySSctFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO20requestSendOTPNumber5BySMS9clientKey16bundleIdentifier9onSuccess0O6Failed0O5Error0O8TotalLog7RxSwift10Disposable_pSgSS_S2SyycyAC6RtCodeO_SStcys0R0_pcySSctFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO20requestSendOTPNumber5BySMS9clientKey16bundleIdentifier9onSuccess0O6Failed0O5Error0O8TotalLog7RxSwift10Disposable_pSgSS_S2SyycyAC6RtCodeO_SStcys0R0_pcySSctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -23125,7 +23217,7 @@
               {
                 "kind": "Function",
                 "name": "requestSendOTPNumberForRegisterDevice",
-                "printedName": "requestSendOTPNumberForRegisterDevice(clientKey:userKey:name:verifyType:verifyData:onSuccess:onFailed:onError:onTotalLog:)",
+                "printedName": "requestSendOTPNumberForRegisterDevice(clientKey:userKey:name:verifyType:verifyData:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -23164,6 +23256,12 @@
                     "name": "VerifyType",
                     "printedName": "BSA_SDK.BSA.Enums.VerifyType",
                     "usr": "s:7BSA_SDK0A0C5EnumsO10VerifyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -23258,8 +23356,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data9onSuccess0S6Failed0S5Error0S8TotalLog7RxSwift10Disposable_pSgSS_S2SAC5EnumsO06VerifyQ0OSSyAT09LocalAuthQ0OcyAC6RtCodeO_SStcys0V0_pcySSctFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data9onSuccess0S6Failed0S5Error0S8TotalLog7RxSwift10Disposable_pSgSS_S2SAC5EnumsO06VerifyQ0OSSyAT09LocalAuthQ0OcyAC6RtCodeO_SStcys0V0_pcySSctFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data16bundleIdentifier9onSuccess0U6Failed0U5Error0U8TotalLog7RxSwift10Disposable_pSgSS_S2SAC5EnumsO06VerifyQ0OS2SyAU09LocalAuthQ0OcyAC6RtCodeO_SStcys0X0_pcySSctFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data16bundleIdentifier9onSuccess0U6Failed0U5Error0U8TotalLog7RxSwift10Disposable_pSgSS_S2SAC5EnumsO06VerifyQ0OS2SyAU09LocalAuthQ0OcyAC6RtCodeO_SStcys0X0_pcySSctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -25416,15 +25514,31 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeFunc",
@@ -25534,8 +25648,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog7RxSwift10Disposable_pSgSi_SiySayAC8JSONDataO0G4DataVG_AQ0G4PageVtcyAC6RtCodeO_SStcys0N0_pcySSctFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog7RxSwift10Disposable_pSgSi_SiySayAC8JSONDataO0G4DataVG_AQ0G4PageVtcyAC6RtCodeO_SStcys0N0_pcySSctFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog7RxSwift10Disposable_pSgSiSg_APySayAC8JSONDataO0G4DataVG_AR0G4PageVtcyAC6RtCodeO_SStcys0N0_pcySSctFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog7RxSwift10Disposable_pSgSiSg_APySayAC8JSONDataO0G4DataVG_AR0G4PageVtcyAC6RtCodeO_SStcys0N0_pcySSctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -42287,7 +42401,7 @@
               {
                 "kind": "Function",
                 "name": "requestSendOTPNumber",
-                "printedName": "requestSendOTPNumber(ByEmail:clientKey:)",
+                "printedName": "requestSendOTPNumber(ByEmail:clientKey:bundleIdentifier:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -42314,11 +42428,17 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber7ByEmail9clientKey7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_SStFZ",
-                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber7ByEmail9clientKey7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_SStFZ",
+                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber7ByEmail9clientKey16bundleIdentifier7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2StFZ",
+                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber7ByEmail9clientKey16bundleIdentifier7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2StFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -42329,7 +42449,7 @@
               {
                 "kind": "Function",
                 "name": "requestSendOTPNumber",
-                "printedName": "requestSendOTPNumber(BySMS:clientKey:)",
+                "printedName": "requestSendOTPNumber(BySMS:clientKey:bundleIdentifier:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -42356,11 +42476,17 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber5BySMS9clientKey7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_SStFZ",
-                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber5BySMS9clientKey7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_SStFZ",
+                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber5BySMS9clientKey16bundleIdentifier7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2StFZ",
+                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO20requestSendOTPNumber5BySMS9clientKey16bundleIdentifier7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2StFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -42413,7 +42539,7 @@
               {
                 "kind": "Function",
                 "name": "requestSendOTPNumberForRegisterDevice",
-                "printedName": "requestSendOTPNumberForRegisterDevice(clientKey:userKey:name:verifyType:verifyData:)",
+                "printedName": "requestSendOTPNumberForRegisterDevice(clientKey:userKey:name:verifyType:verifyData:bundleIdentifier:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -42458,11 +42584,17 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2SAC5EnumsO06VerifyQ0OSStFZ",
-                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2SAC5EnumsO06VerifyQ0OSStFZ",
+                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data16bundleIdentifier7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2SAC5EnumsO06VerifyQ0OS2StFZ",
+                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO37requestSendOTPNumberForRegisterDevice9clientKey04userM04name10verifyType0P4Data16bundleIdentifier7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S2SAC5EnumsO06VerifyQ0OS2StFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -50847,13 +50979,19 @@
               },
               {
                 "kind": "Function",
-                "name": "requestOTPNumberSend",
-                "printedName": "requestOTPNumberSend(ByEmail:clientKey:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
+                "name": "requestSendOTPNumber",
+                "printedName": "requestSendOTPNumber(ByEmail:clientKey:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -50959,8 +51097,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO20requestOTPNumberSend7ByEmail9clientKey9onSuccess0K6Failed0K5Error0K8TotalLog10disposeBagySS_SSyycyAC6RtCodeO_SStcys0N0_pcySSc7RxSwift07DisposeR0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO20requestOTPNumberSend7ByEmail9clientKey9onSuccess0K6Failed0K5Error0K8TotalLog10disposeBagySS_SSyycyAC6RtCodeO_SStcys0N0_pcySSc7RxSwift07DisposeR0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO20requestSendOTPNumber7ByEmail9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO20requestSendOTPNumber7ByEmail9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -50972,13 +51110,19 @@
               },
               {
                 "kind": "Function",
-                "name": "requestOTPNumberSend",
-                "printedName": "requestOTPNumberSend(BySMS:clientKey:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
+                "name": "requestSendOTPNumber",
+                "printedName": "requestSendOTPNumber(BySMS:clientKey:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -51084,8 +51228,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO20requestOTPNumberSend5BySMS9clientKey9onSuccess0K6Failed0K5Error0K8TotalLog10disposeBagySS_SSyycyAC6RtCodeO_SStcys0N0_pcySSc7RxSwift07DisposeR0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO20requestOTPNumberSend5BySMS9clientKey9onSuccess0K6Failed0K5Error0K8TotalLog10disposeBagySS_SSyycyAC6RtCodeO_SStcys0N0_pcySSc7RxSwift07DisposeR0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO20requestSendOTPNumber5BySMS9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO20requestSendOTPNumber5BySMS9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -51217,7 +51361,7 @@
               {
                 "kind": "Function",
                 "name": "requestSendOTPNumberForRegisterDevice",
-                "printedName": "requestSendOTPNumberForRegisterDevice(clientKey:userKey:name:verifyType:verifyData:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
+                "printedName": "requestSendOTPNumberForRegisterDevice(clientKey:userKey:name:verifyType:verifyData:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -51247,6 +51391,12 @@
                     "name": "VerifyType",
                     "printedName": "BSA_SDK.BSA.Enums.VerifyType",
                     "usr": "s:7BSA_SDK0A0C5EnumsO10VerifyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -51347,8 +51497,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO37requestSendOTPNumberForRegisterDevice9clientKey04userK04name10verifyType0N4Data9onSuccess0Q6Failed0Q5Error0Q8TotalLog10disposeBagySS_S2SAC5EnumsO06VerifyO0OSSyAR09LocalAuthO0OcyAC6RtCodeO_SStcys0T0_pcySSc7RxSwift07DisposeX0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO37requestSendOTPNumberForRegisterDevice9clientKey04userK04name10verifyType0N4Data9onSuccess0Q6Failed0Q5Error0Q8TotalLog10disposeBagySS_S2SAC5EnumsO06VerifyO0OSSyAR09LocalAuthO0OcyAC6RtCodeO_SStcys0T0_pcySSc7RxSwift07DisposeX0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO37requestSendOTPNumberForRegisterDevice9clientKey04userK04name10verifyType0N4Data16bundleIdentifier9onSuccess0S6Failed0S5Error0S8TotalLog10disposeBagySS_S2SAC5EnumsO06VerifyO0OS2SyAS09LocalAuthO0OcyAC6RtCodeO_SStcys0V0_pcySSc7RxSwift07DisposeZ0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO37requestSendOTPNumberForRegisterDevice9clientKey04userK04name10verifyType0N4Data16bundleIdentifier9onSuccess0S6Failed0S5Error0S8TotalLog10disposeBagySS_S2SAC5EnumsO06VerifyO0OS2SyAS09LocalAuthO0OcyAC6RtCodeO_SStcys0V0_pcySSc7RxSwift07DisposeZ0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -53462,15 +53612,31 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeFunc",
@@ -53586,8 +53752,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO14retrieveNotice9pageIndex0F4Size9onSuccess0I6Failed0I5Error0I8TotalLog10disposeBagySi_SiySayAC8JSONDataO0E4DataVG_AO0E4PageVtcyAC6RtCodeO_SStcys0L0_pcySSc7RxSwift07DisposeP0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO14retrieveNotice9pageIndex0F4Size9onSuccess0I6Failed0I5Error0I8TotalLog10disposeBagySi_SiySayAC8JSONDataO0E4DataVG_AO0E4PageVtcyAC6RtCodeO_SStcys0L0_pcySSc7RxSwift07DisposeP0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO14retrieveNotice9pageIndex0F4Size9onSuccess0I6Failed0I5Error0I8TotalLog10disposeBagySiSg_ANySayAC8JSONDataO0E4DataVG_AP0E4PageVtcyAC6RtCodeO_SStcys0L0_pcySSc7RxSwift07DisposeP0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO14retrieveNotice9pageIndex0F4Size9onSuccess0I6Failed0I5Error0I8TotalLog10disposeBagySiSg_ANySayAC8JSONDataO0E4DataVG_AP0E4PageVtcyAC6RtCodeO_SStcys0L0_pcySSc7RxSwift07DisposeP0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -61076,294 +61242,308 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6231,
+      "offset": 6224,
+      "length": 4,
+      "value": "3110"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6321,
+      "length": 4,
+      "value": "3115"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6503,
       "length": 4,
       "value": "3200"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6325,
+      "offset": 6597,
       "length": 4,
       "value": "3201"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6416,
+      "offset": 6688,
       "length": 4,
       "value": "3202"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6507,
+      "offset": 6779,
       "length": 4,
       "value": "3210"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6584,
+      "offset": 6856,
       "length": 4,
       "value": "3212"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6734,
+      "offset": 7006,
       "length": 4,
       "value": "3300"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6842,
+      "offset": 7114,
       "length": 4,
       "value": "3301"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7017,
+      "offset": 7289,
       "length": 4,
       "value": "4002"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7147,
+      "offset": 7419,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7226,
+      "offset": 7498,
       "length": 4,
       "value": "5001"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7316,
+      "offset": 7588,
       "length": 4,
       "value": "5002"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7384,
+      "offset": 7656,
       "length": 4,
       "value": "5003"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7466,
+      "offset": 7738,
       "length": 4,
       "value": "5004"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7546,
+      "offset": 7818,
       "length": 4,
       "value": "5005"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7623,
+      "offset": 7895,
       "length": 4,
       "value": "5006"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7700,
+      "offset": 7972,
       "length": 4,
       "value": "5007"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7775,
+      "offset": 8047,
       "length": 4,
       "value": "5008"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7830,
+      "offset": 8102,
       "length": 4,
       "value": "5010"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7888,
+      "offset": 8160,
       "length": 4,
       "value": "5011"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7965,
+      "offset": 8237,
       "length": 4,
       "value": "5012"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8043,
+      "offset": 8315,
       "length": 4,
       "value": "5013"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8118,
+      "offset": 8390,
       "length": 4,
       "value": "5015"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8193,
+      "offset": 8465,
       "length": 4,
       "value": "5016"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8276,
+      "offset": 8548,
       "length": 4,
       "value": "5017"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8347,
+      "offset": 8619,
       "length": 4,
       "value": "5018"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8422,
+      "offset": 8694,
       "length": 4,
       "value": "5019"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8504,
+      "offset": 8776,
       "length": 4,
       "value": "5020"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8594,
+      "offset": 8866,
       "length": 4,
       "value": "5021"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8670,
+      "offset": 8942,
       "length": 4,
       "value": "5022"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8729,
+      "offset": 9001,
       "length": 4,
       "value": "5023"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8800,
+      "offset": 9072,
       "length": 4,
       "value": "5024"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8883,
+      "offset": 9155,
       "length": 4,
       "value": "5025"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8957,
+      "offset": 9229,
       "length": 4,
       "value": "5026"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9032,
+      "offset": 9304,
       "length": 4,
       "value": "5027"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9108,
+      "offset": 9380,
       "length": 4,
       "value": "5555"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9254,
+      "offset": 9526,
       "length": 4,
       "value": "6000"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9347,
+      "offset": 9619,
       "length": 4,
       "value": "6001"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9493,
+      "offset": 9765,
       "length": 4,
       "value": "7100"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9568,
+      "offset": 9840,
       "length": 4,
       "value": "7101"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9645,
+      "offset": 9917,
       "length": 4,
       "value": "7102"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9779,
+      "offset": 10051,
       "length": 4,
       "value": "7500"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9934,
+      "offset": 10206,
       "length": 6,
       "value": "-10000"
     },
@@ -61825,294 +62005,308 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6231,
+      "offset": 6224,
+      "length": 4,
+      "value": "3110"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6321,
+      "length": 4,
+      "value": "3115"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6503,
       "length": 4,
       "value": "3200"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6325,
+      "offset": 6597,
       "length": 4,
       "value": "3201"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6416,
+      "offset": 6688,
       "length": 4,
       "value": "3202"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6507,
+      "offset": 6779,
       "length": 4,
       "value": "3210"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6584,
+      "offset": 6856,
       "length": 4,
       "value": "3212"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6734,
+      "offset": 7006,
       "length": 4,
       "value": "3300"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6842,
+      "offset": 7114,
       "length": 4,
       "value": "3301"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7017,
+      "offset": 7289,
       "length": 4,
       "value": "4002"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7147,
+      "offset": 7419,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7226,
+      "offset": 7498,
       "length": 4,
       "value": "5001"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7316,
+      "offset": 7588,
       "length": 4,
       "value": "5002"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7384,
+      "offset": 7656,
       "length": 4,
       "value": "5003"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7466,
+      "offset": 7738,
       "length": 4,
       "value": "5004"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7546,
+      "offset": 7818,
       "length": 4,
       "value": "5005"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7623,
+      "offset": 7895,
       "length": 4,
       "value": "5006"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7700,
+      "offset": 7972,
       "length": 4,
       "value": "5007"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7775,
+      "offset": 8047,
       "length": 4,
       "value": "5008"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7830,
+      "offset": 8102,
       "length": 4,
       "value": "5010"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7888,
+      "offset": 8160,
       "length": 4,
       "value": "5011"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7965,
+      "offset": 8237,
       "length": 4,
       "value": "5012"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8043,
+      "offset": 8315,
       "length": 4,
       "value": "5013"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8118,
+      "offset": 8390,
       "length": 4,
       "value": "5015"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8193,
+      "offset": 8465,
       "length": 4,
       "value": "5016"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8276,
+      "offset": 8548,
       "length": 4,
       "value": "5017"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8347,
+      "offset": 8619,
       "length": 4,
       "value": "5018"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8422,
+      "offset": 8694,
       "length": 4,
       "value": "5019"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8504,
+      "offset": 8776,
       "length": 4,
       "value": "5020"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8594,
+      "offset": 8866,
       "length": 4,
       "value": "5021"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8670,
+      "offset": 8942,
       "length": 4,
       "value": "5022"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8729,
+      "offset": 9001,
       "length": 4,
       "value": "5023"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8800,
+      "offset": 9072,
       "length": 4,
       "value": "5024"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8883,
+      "offset": 9155,
       "length": 4,
       "value": "5025"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8957,
+      "offset": 9229,
       "length": 4,
       "value": "5026"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9032,
+      "offset": 9304,
       "length": 4,
       "value": "5027"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9108,
+      "offset": 9380,
       "length": 4,
       "value": "5555"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9254,
+      "offset": 9526,
       "length": 4,
       "value": "6000"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9347,
+      "offset": 9619,
       "length": 4,
       "value": "6001"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9493,
+      "offset": 9765,
       "length": 4,
       "value": "7100"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9568,
+      "offset": 9840,
       "length": 4,
       "value": "7101"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9645,
+      "offset": 9917,
       "length": 4,
       "value": "7102"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9779,
+      "offset": 10051,
       "length": 4,
       "value": "7500"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9934,
+      "offset": 10206,
       "length": 1,
       "value": "-10000"
     },
@@ -62574,294 +62768,308 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6231,
+      "offset": 6224,
+      "length": 4,
+      "value": "3110"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6321,
+      "length": 4,
+      "value": "3115"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6503,
       "length": 4,
       "value": "3200"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6325,
+      "offset": 6597,
       "length": 4,
       "value": "3201"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6416,
+      "offset": 6688,
       "length": 4,
       "value": "3202"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6507,
+      "offset": 6779,
       "length": 4,
       "value": "3210"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6584,
+      "offset": 6856,
       "length": 4,
       "value": "3212"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6734,
+      "offset": 7006,
       "length": 4,
       "value": "3300"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 6842,
+      "offset": 7114,
       "length": 4,
       "value": "3301"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7017,
+      "offset": 7289,
       "length": 4,
       "value": "4002"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7147,
+      "offset": 7419,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7226,
+      "offset": 7498,
       "length": 4,
       "value": "5001"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7316,
+      "offset": 7588,
       "length": 4,
       "value": "5002"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7384,
+      "offset": 7656,
       "length": 4,
       "value": "5003"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7466,
+      "offset": 7738,
       "length": 4,
       "value": "5004"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7546,
+      "offset": 7818,
       "length": 4,
       "value": "5005"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7623,
+      "offset": 7895,
       "length": 4,
       "value": "5006"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7700,
+      "offset": 7972,
       "length": 4,
       "value": "5007"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7775,
+      "offset": 8047,
       "length": 4,
       "value": "5008"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7830,
+      "offset": 8102,
       "length": 4,
       "value": "5010"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7888,
+      "offset": 8160,
       "length": 4,
       "value": "5011"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 7965,
+      "offset": 8237,
       "length": 4,
       "value": "5012"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8043,
+      "offset": 8315,
       "length": 4,
       "value": "5013"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8118,
+      "offset": 8390,
       "length": 4,
       "value": "5015"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8193,
+      "offset": 8465,
       "length": 4,
       "value": "5016"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8276,
+      "offset": 8548,
       "length": 4,
       "value": "5017"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8347,
+      "offset": 8619,
       "length": 4,
       "value": "5018"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8422,
+      "offset": 8694,
       "length": 4,
       "value": "5019"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8504,
+      "offset": 8776,
       "length": 4,
       "value": "5020"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8594,
+      "offset": 8866,
       "length": 4,
       "value": "5021"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8670,
+      "offset": 8942,
       "length": 4,
       "value": "5022"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8729,
+      "offset": 9001,
       "length": 4,
       "value": "5023"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8800,
+      "offset": 9072,
       "length": 4,
       "value": "5024"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8883,
+      "offset": 9155,
       "length": 4,
       "value": "5025"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 8957,
+      "offset": 9229,
       "length": 4,
       "value": "5026"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9032,
+      "offset": 9304,
       "length": 4,
       "value": "5027"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9108,
+      "offset": 9380,
       "length": 4,
       "value": "5555"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9254,
+      "offset": 9526,
       "length": 4,
       "value": "6000"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9347,
+      "offset": 9619,
       "length": 4,
       "value": "6001"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9493,
+      "offset": 9765,
       "length": 4,
       "value": "7100"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9568,
+      "offset": 9840,
       "length": 4,
       "value": "7101"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9645,
+      "offset": 9917,
       "length": 4,
       "value": "7102"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9779,
+      "offset": 10051,
       "length": 4,
       "value": "7500"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 9934,
+      "offset": 10206,
       "length": 1,
       "value": "-10000"
     },
@@ -63869,7 +64077,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 104978,
+      "offset": 105674,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -64702,7 +64910,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PreProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 55491,
+      "offset": 55952,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -64842,7 +65050,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_Caller.swift",
       "kind": "StringLiteral",
-      "offset": 48492,
+      "offset": 49474,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -65082,7 +65290,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 8,
-      "value": "\"0.11.0\""
+      "value": "\"0.11.1\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

@@ -18885,7 +18885,7 @@
               {
                 "kind": "Function",
                 "name": "setData",
-                "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:authPlatform:otpAuth:sendPushMessage:localAuthType:usePasscodeWhenFailed:websocketHeaders:)",
+                "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:otpAuth:sendPushMessage:localAuthType:usePasscodeWhenFailed:websocketHeaders:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -18938,12 +18938,6 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AuthPlatform",
-                    "printedName": "BSA_SDK.BSA.Enums.AuthPlatform",
-                    "usr": "s:7BSA_SDK0A0C5EnumsO12AuthPlatformO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -19000,8 +18994,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId12authPlatform7otpAuth15sendPushMessage05localQ4Type21usePasscodeWhenFailed16websocketHeadersAeC6QRDataVSg_AC3FCMO0sF0CSgS3SAC5EnumsO0qO0OS2bA_05LocalqV0OSbSDyS2SGSgtF",
-                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId12authPlatform7otpAuth15sendPushMessage05localQ4Type21usePasscodeWhenFailed16websocketHeadersAeC6QRDataVSg_AC3FCMO0sF0CSgS3SAC5EnumsO0qO0OS2bA_05LocalqV0OSbSDyS2SGSgtF",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type21usePasscodeWhenFailed16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SS2bAC5EnumsO05LocaloT0OSbSDyS2SGSgtF",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type21usePasscodeWhenFailed16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SS2bAC5EnumsO05LocaloT0OSbSDyS2SGSgtF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -51110,6 +51104,139 @@
               },
               {
                 "kind": "Function",
+                "name": "requestOTPNumberSend",
+                "printedName": "requestOTPNumberSend(ByEmail:clientKey:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisposeBag",
+                    "printedName": "RxSwift.DisposeBag",
+                    "usr": "s:7RxSwift10DisposeBagC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C9APICallerO20requestOTPNumberSend7ByEmail9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO20requestOTPNumberSend7ByEmail9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "deprecated": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "Available",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "requestSendOTPNumber",
                 "printedName": "requestSendOTPNumber(BySMS:clientKey:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
                 "children": [
@@ -51234,6 +51361,139 @@
                 "static": true,
                 "declAttributes": [
                   "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "requestOTPNumberSend",
+                "printedName": "requestOTPNumberSend(BySMS:clientKey:bundleIdentifier:onSuccess:onFailed:onError:onTotalLog:disposeBag:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisposeBag",
+                    "printedName": "RxSwift.DisposeBag",
+                    "usr": "s:7RxSwift10DisposeBagC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C9APICallerO20requestOTPNumberSend5BySMS9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO20requestOTPNumberSend5BySMS9clientKey16bundleIdentifier9onSuccess0M6Failed0M5Error0M8TotalLog10disposeBagySS_S2SyycyAC6RtCodeO_SStcys0P0_pcySSc7RxSwift07DisposeT0CtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "deprecated": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "Available",
                   "RawDocComment"
                 ],
                 "isFromExtension": true,
@@ -54843,6 +55103,100 @@
                 "declKind": "Func",
                 "usr": "s:7BSA_SDK0A0C4HTTPO24requestWithResponseValue5event3tag8totalUrl6method6params8encoding7headers7RxSwift10Disposable_pAN11AnyObserverVyAE0fG0VG_S2S9Alamofire10HTTPMethodVSDySSypGAU17ParameterEncoding_pAU11HTTPHeadersVSgtFZ",
                 "mangledName": "$s7BSA_SDK0A0C4HTTPO24requestWithResponseValue5event3tag8totalUrl6method6params8encoding7headers7RxSwift10Disposable_pAN11AnyObserverVyAE0fG0VG_S2S9Alamofire10HTTPMethodVSDySSypGAU17ParameterEncoding_pAU11HTTPHeadersVSgtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "requestWithResponseValueBySelfDispose",
+                "printedName": "requestWithResponseValueBySelfDispose(event:tag:totalUrl:method:params:encoding:headers:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyObserver",
+                    "printedName": "RxSwift.AnyObserver<BSA_SDK.BSA.HTTP.ResponseValue>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseValue",
+                        "printedName": "BSA_SDK.BSA.HTTP.ResponseValue",
+                        "usr": "s:7BSA_SDK0A0C4HTTPO13ResponseValueV"
+                      }
+                    ],
+                    "usr": "s:7RxSwift11AnyObserverV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "Alamofire.HTTPMethod",
+                    "usr": "s:9Alamofire10HTTPMethodV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ParameterEncoding",
+                    "printedName": "Alamofire.ParameterEncoding",
+                    "hasDefaultArg": true,
+                    "usr": "s:9Alamofire17ParameterEncodingP"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Alamofire.HTTPHeaders?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeaders",
+                        "printedName": "Alamofire.HTTPHeaders",
+                        "usr": "s:9Alamofire11HTTPHeadersV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C4HTTPO37requestWithResponseValueBySelfDispose5event3tag8totalUrl6method6params8encoding7headersy7RxSwift11AnyObserverVyAE0fG0VG_S2S9Alamofire10HTTPMethodVSDySSypGAT17ParameterEncoding_pAT11HTTPHeadersVSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C4HTTPO37requestWithResponseValueBySelfDispose5event3tag8totalUrl6method6params8encoding7headersy7RxSwift11AnyObserverVyAE0fG0VG_S2S9Alamofire10HTTPMethodVSDySSypGAT17ParameterEncoding_pAT11HTTPHeadersVSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -64910,7 +65264,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PreProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 55952,
+      "offset": 56328,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -65050,7 +65404,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_Caller.swift",
       "kind": "StringLiteral",
-      "offset": 49474,
+      "offset": 51365,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -65290,7 +65644,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 8,
-      "value": "\"0.11.1\""
+      "value": "\"0.11.3\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

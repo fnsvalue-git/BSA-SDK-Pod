@@ -17032,6 +17032,29 @@
               },
               {
                 "kind": "Function",
+                "name": "isLoadedPushData",
+                "printedName": "isLoadedPushData()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C3FCMO16isLoadedPushDataSbyFZ",
+                "mangledName": "$s7BSA_SDK0A0C3FCMO16isLoadedPushDataSbyFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "registerPushNotificationProcessor",
                 "printedName": "registerPushNotificationProcessor(_:)",
                 "children": [
@@ -17206,6 +17229,29 @@
                 "declKind": "Func",
                 "usr": "s:7BSA_SDK0A0C3FCMO15popDataInternalAE04PushE0CSgyFZ",
                 "mangledName": "$s7BSA_SDK0A0C3FCMO15popDataInternalAE04PushE0CSgyFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "isLoadedPushDataInternal",
+                "printedName": "isLoadedPushDataInternal()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C3FCMO24isLoadedPushDataInternalSbyFZ",
+                "mangledName": "$s7BSA_SDK0A0C3FCMO24isLoadedPushDataInternalSbyFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [

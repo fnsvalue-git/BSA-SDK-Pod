@@ -17048,7 +17048,8 @@
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "isFromExtension": true,
                 "funcSelfKind": "NonMutating"

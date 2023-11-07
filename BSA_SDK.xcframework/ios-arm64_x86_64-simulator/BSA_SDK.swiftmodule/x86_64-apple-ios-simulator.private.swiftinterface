@@ -7,6 +7,7 @@ import Alamofire
 import CoreMotion
 import CryptoSwift
 import DeviceKit
+import Dispatch
 import Foundation
 import LocalAuthentication
 import RxSwift
@@ -401,6 +402,13 @@ extension BSA_SDK.BSA.QRError : Foundation.LocalizedError {
     get
   }
 }
+public struct AtomicBoolean {
+  public init()
+  public var val: Swift.Bool {
+    get
+    set
+  }
+}
 extension BSA_SDK.BSA {
   public enum FCM {
     public typealias Callback = (BSA_SDK.BSA.FCM.PushData) -> ()
@@ -442,7 +450,6 @@ extension BSA_SDK.BSA.FCM {
 extension BSA_SDK.BSA.FCM {
   public static func load(notification: UserNotifications.UNNotification) -> Swift.Bool
   public static func popData() -> BSA_SDK.BSA.FCM.PushData?
-  public static func isLoadedPushData() -> Swift.Bool
 }
 extension BSA_SDK.BSA.FCM {
   public static func registerPushNotificationProcessor(_ callback: @escaping BSA_SDK.BSA.FCM.Callback)

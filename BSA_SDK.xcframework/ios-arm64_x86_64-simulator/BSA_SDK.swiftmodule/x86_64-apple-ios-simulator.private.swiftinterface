@@ -143,6 +143,11 @@ extension BSA_SDK.BSA.RtCode {
     get
   }
 }
+extension BSA_SDK.BSA.FCM {
+  public static var isAuthenticating: BSA_SDK.AtomicBoolean {
+    get
+  }
+}
 extension BSA_SDK.BSA {
   public enum Enums {
     public enum NoticePatchType : Swift.String {
@@ -450,6 +455,7 @@ extension BSA_SDK.BSA.FCM {
 extension BSA_SDK.BSA.FCM {
   public static func load(notification: UserNotifications.UNNotification) -> Swift.Bool
   public static func popData() -> BSA_SDK.BSA.FCM.PushData?
+  public static func isLoadedPushData() -> Swift.Bool
 }
 extension BSA_SDK.BSA.FCM {
   public static func registerPushNotificationProcessor(_ callback: @escaping BSA_SDK.BSA.FCM.Callback)

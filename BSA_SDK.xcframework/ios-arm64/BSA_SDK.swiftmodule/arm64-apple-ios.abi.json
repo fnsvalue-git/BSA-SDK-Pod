@@ -17155,6 +17155,30 @@
               },
               {
                 "kind": "Function",
+                "name": "isLoadedPushData",
+                "printedName": "isLoadedPushData()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C3FCMO16isLoadedPushDataSbyFZ",
+                "mangledName": "$s7BSA_SDK0A0C3FCMO16isLoadedPushDataSbyFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "registerPushNotificationProcessor",
                 "printedName": "registerPushNotificationProcessor(_:)",
                 "children": [
@@ -17279,27 +17303,29 @@
               },
               {
                 "kind": "Var",
-                "name": "WAIT_AUTH",
-                "printedName": "WAIT_AUTH",
+                "name": "isAuthenticating",
+                "printedName": "isAuthenticating",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "AtomicBoolean",
+                    "printedName": "BSA_SDK.AtomicBoolean",
+                    "usr": "s:7BSA_SDK13AtomicBooleanV"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C3FCMO9WAIT_AUTHSivpZ",
-                "mangledName": "$s7BSA_SDK0A0C3FCMO9WAIT_AUTHSivpZ",
+                "usr": "s:7BSA_SDK0A0C3FCMO16isAuthenticatingAA13AtomicBooleanVvpZ",
+                "mangledName": "$s7BSA_SDK0A0C3FCMO16isAuthenticatingAA13AtomicBooleanVvpZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
                   "HasInitialValue",
-                  "HasStorage"
+                  "HasStorage",
+                  "SetterAccess",
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "isFromExtension": true,
-                "isLet": true,
                 "hasStorage": true,
                 "accessors": [
                   {
@@ -17309,71 +17335,17 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "AtomicBoolean",
+                        "printedName": "BSA_SDK.AtomicBoolean",
+                        "usr": "s:7BSA_SDK13AtomicBooleanV"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C3FCMO9WAIT_AUTHSivgZ",
-                    "mangledName": "$s7BSA_SDK0A0C3FCMO9WAIT_AUTHSivgZ",
+                    "usr": "s:7BSA_SDK0A0C3FCMO16isAuthenticatingAA13AtomicBooleanVvgZ",
+                    "mangledName": "$s7BSA_SDK0A0C3FCMO16isAuthenticatingAA13AtomicBooleanVvgZ",
                     "moduleName": "BSA_SDK",
                     "static": true,
                     "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "isFromExtension": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "AUTHENTICATING",
-                "printedName": "AUTHENTICATING",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C3FCMO14AUTHENTICATINGSivpZ",
-                "mangledName": "$s7BSA_SDK0A0C3FCMO14AUTHENTICATINGSivpZ",
-                "moduleName": "BSA_SDK",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage"
-                ],
-                "isFromExtension": true,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C3FCMO14AUTHENTICATINGSivgZ",
-                    "mangledName": "$s7BSA_SDK0A0C3FCMO14AUTHENTICATINGSivgZ",
-                    "moduleName": "BSA_SDK",
-                    "static": true,
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
                     "isFromExtension": true,
                     "accessorKind": "get"
                   }
@@ -17431,6 +17403,29 @@
                 "declKind": "Func",
                 "usr": "s:7BSA_SDK0A0C3FCMO15popDataInternalAE04PushE0CSgyFZ",
                 "mangledName": "$s7BSA_SDK0A0C3FCMO15popDataInternalAE04PushE0CSgyFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "isLoadedPushDataInternal",
+                "printedName": "isLoadedPushDataInternal()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C3FCMO24isLoadedPushDataInternalSbyFZ",
+                "mangledName": "$s7BSA_SDK0A0C3FCMO24isLoadedPushDataInternalSbyFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -65857,20 +65852,6 @@
       "offset": 10206,
       "length": 1,
       "value": "-10000"
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM_Internal.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_FCM_Internal.swift",
-      "kind": "IntegerLiteral",
-      "offset": 397,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",

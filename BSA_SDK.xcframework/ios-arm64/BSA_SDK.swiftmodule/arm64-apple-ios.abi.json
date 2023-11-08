@@ -24100,7 +24100,7 @@
               {
                 "kind": "Function",
                 "name": "requestUnregisterDevice",
-                "printedName": "requestUnregisterDevice(userKey:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "requestUnregisterDevice(userKey:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24173,6 +24173,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -24241,8 +24272,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO23requestUnregisterDevice7userKey9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO23requestUnregisterDevice7userKey9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO23requestUnregisterDevice7userKey9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcyAR_SStcys0P0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO23requestUnregisterDevice7userKey9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcyAR_SStcys0P0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -24254,7 +24285,7 @@
               {
                 "kind": "Function",
                 "name": "requestUnregisterAccount",
-                "printedName": "requestUnregisterAccount(onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "requestUnregisterAccount(onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24284,6 +24315,37 @@
                         "kind": "TypeNominal",
                         "name": "Void",
                         "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -24389,8 +24451,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO24requestUnregisterAccount9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed7RxSwift10Disposable_pSgyyc_yAC6RtCodeO_SStcys0L0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO24requestUnregisterAccount9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed7RxSwift10Disposable_pSgyyc_yAC6RtCodeO_SStcys0L0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO24requestUnregisterAccount9onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed7RxSwift10Disposable_pSgyyc_yAC6RtCodeO_SStcyAQ_SStcys0N0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO24requestUnregisterAccount9onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed7RxSwift10Disposable_pSgyyc_yAC6RtCodeO_SStcyAQ_SStcys0N0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -25354,7 +25416,7 @@
               {
                 "kind": "Function",
                 "name": "issuanceOTPNumber",
-                "printedName": "issuanceOTPNumber(onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "issuanceOTPNumber(onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25385,6 +25447,37 @@
                         "name": "String",
                         "printedName": "Swift.String",
                         "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -25490,8 +25583,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO17issuanceOTPNumber9onSuccess0H6Failed0H5Error0H8TotalLog0H9Completed7RxSwift10Disposable_pSgySSc_yAC6RtCodeO_SStcys0K0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO17issuanceOTPNumber9onSuccess0H6Failed0H5Error0H8TotalLog0H9Completed7RxSwift10Disposable_pSgySSc_yAC6RtCodeO_SStcys0K0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO17issuanceOTPNumber9onSuccess0H12TokenExpired0H6Failed0H5Error0H8TotalLog0H9Completed7RxSwift10Disposable_pSgySSc_yAC6RtCodeO_SStcyAQ_SStcys0M0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO17issuanceOTPNumber9onSuccess0H12TokenExpired0H6Failed0H5Error0H8TotalLog0H9Completed7RxSwift10Disposable_pSgySSc_yAC6RtCodeO_SStcyAQ_SStcys0M0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -25503,7 +25596,7 @@
               {
                 "kind": "Function",
                 "name": "IssuanceCancelForOTPNumber",
-                "printedName": "IssuanceCancelForOTPNumber(otpNumber:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "IssuanceCancelForOTPNumber(otpNumber:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25576,6 +25669,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -25644,8 +25768,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcys0O0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcys0O0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0L12TokenExpired0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcyAR_SStcys0Q0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0L12TokenExpired0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcyAR_SStcys0Q0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -26025,7 +26149,7 @@
               {
                 "kind": "Function",
                 "name": "changeLocalAuthType",
-                "printedName": "changeLocalAuthType(authType:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "changeLocalAuthType(authType:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26061,6 +26185,37 @@
                         "kind": "TypeNominal",
                         "name": "Void",
                         "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -26166,8 +26321,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19changeLocalAuthType04authI09onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgAC5EnumsO0ghI0O_yycyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19changeLocalAuthType04authI09onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgAC5EnumsO0ghI0O_yycyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19changeLocalAuthType04authI09onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgAC5EnumsO0ghI0O_yycyAC6RtCodeO_SStcyAV_SStcys0P0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19changeLocalAuthType04authI09onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgAC5EnumsO0ghI0O_yycyAC6RtCodeO_SStcyAV_SStcys0P0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -26339,7 +26494,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveAuthHistory",
-                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26463,6 +26618,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -26531,8 +26717,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSiSg_ARSSySayAC8JSONDataO0gH4DataVG_AT0gH4PageVtcyAC6RtCodeO_SStcys0P0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSiSg_ARSSySayAC8JSONDataO0gH4DataVG_AT0gH4PageVtcyAC6RtCodeO_SStcys0P0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSiSg_ASSSySayAC8JSONDataO0gH4DataVG_AU0gH4PageVtcyAC6RtCodeO_SStcyA0__SStcys0R0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSiSg_ASSSySayAC8JSONDataO0gH4DataVG_AU0gH4PageVtcyAC6RtCodeO_SStcyA0__SStcys0R0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -26742,7 +26928,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveLinkedSiteList",
-                "printedName": "retrieveLinkedSiteList(onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "retrieveLinkedSiteList(onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26781,6 +26967,37 @@
                           }
                         ],
                         "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -26886,8 +27103,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO22retrieveLinkedSiteList9onSuccess0J6Failed0J5Error0J8TotalLog0J9Completed7RxSwift10Disposable_pSgySayAC8JSONDataO0ghI4DataVGc_yAC6RtCodeO_SStcys0M0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO22retrieveLinkedSiteList9onSuccess0J6Failed0J5Error0J8TotalLog0J9Completed7RxSwift10Disposable_pSgySayAC8JSONDataO0ghI4DataVGc_yAC6RtCodeO_SStcys0M0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO22retrieveLinkedSiteList9onSuccess0J12TokenExpired0J6Failed0J5Error0J8TotalLog0J9Completed7RxSwift10Disposable_pSgySayAC8JSONDataO0ghI4DataVGc_yAC6RtCodeO_SStcyAV_SStcys0O0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO22retrieveLinkedSiteList9onSuccess0J12TokenExpired0J6Failed0J5Error0J8TotalLog0J9Completed7RxSwift10Disposable_pSgySayAC8JSONDataO0ghI4DataVGc_yAC6RtCodeO_SStcyAV_SStcys0O0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -26899,7 +27116,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveSiteList",
-                "printedName": "retrieveSiteList(clientName:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "retrieveSiteList(clientName:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26989,6 +27206,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -27057,8 +27305,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO16retrieveSiteList10clientName9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSSSg_ySayAC8JSONDataO0gH4DataVGcyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO16retrieveSiteList10clientName9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSSSg_ySayAC8JSONDataO0gH4DataVGcyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO16retrieveSiteList10clientName9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSSSg_ySayAC8JSONDataO0gH4DataVGcyAC6RtCodeO_SStcyAX_SStcys0P0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO16retrieveSiteList10clientName9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSSSg_ySayAC8JSONDataO0gH4DataVGcyAC6RtCodeO_SStcyAX_SStcys0P0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -27070,7 +27318,7 @@
               {
                 "kind": "Function",
                 "name": "requestVerifySiteAccount",
-                "printedName": "requestVerifySiteAccount(siteClientKey:siteID:sitePassword:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "requestVerifySiteAccount(siteClientKey:siteID:sitePassword:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -27119,6 +27367,37 @@
                         "name": "String",
                         "printedName": "Swift.String",
                         "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -27224,8 +27503,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO24requestVerifySiteAccount13siteClientKey0J2ID0J8Password9onSuccess0O6Failed0O5Error0O8TotalLog0O9Completed7RxSwift10Disposable_pSgSS_S2SySScyAC6RtCodeO_SStcys0R0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO24requestVerifySiteAccount13siteClientKey0J2ID0J8Password9onSuccess0O6Failed0O5Error0O8TotalLog0O9Completed7RxSwift10Disposable_pSgSS_S2SySScyAC6RtCodeO_SStcys0R0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO24requestVerifySiteAccount13siteClientKey0J2ID0J8Password9onSuccess0O12TokenExpired0O6Failed0O5Error0O8TotalLog0O9Completed7RxSwift10Disposable_pSgSS_S2SySScyAC6RtCodeO_SStcyAT_SStcys0T0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO24requestVerifySiteAccount13siteClientKey0J2ID0J8Password9onSuccess0O12TokenExpired0O6Failed0O5Error0O8TotalLog0O9Completed7RxSwift10Disposable_pSgSS_S2SySScyAC6RtCodeO_SStcyAT_SStcys0T0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -27237,7 +27516,7 @@
               {
                 "kind": "Function",
                 "name": "requestLinkSite",
-                "printedName": "requestLinkSite(siteClientKey:siteToken:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "requestLinkSite(siteClientKey:siteToken:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -27324,6 +27603,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -27392,8 +27702,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO15requestLinkSite13siteClientKey0I5Token9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSS_SSSgyycyAC6RtCodeO_SStcys0P0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO15requestLinkSite13siteClientKey0I5Token9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSS_SSSgyycyAC6RtCodeO_SStcys0P0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO15requestLinkSite13siteClientKey0I5Token9onSuccess0mL7Expired0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSS_SSSgyycyAC6RtCodeO_SStcyAT_SStcys0Q0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO15requestLinkSite13siteClientKey0I5Token9onSuccess0mL7Expired0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSS_SSSgyycyAC6RtCodeO_SStcyAT_SStcys0Q0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -27405,7 +27715,7 @@
               {
                 "kind": "Function",
                 "name": "requestUnlinkSite",
-                "printedName": "requestUnlinkSite(siteClientKey:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "requestUnlinkSite(siteClientKey:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -27441,6 +27751,37 @@
                         "kind": "TypeNominal",
                         "name": "Void",
                         "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -27546,8 +27887,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO17requestUnlinkSite13siteClientKey9onSuccess0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcys0O0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO17requestUnlinkSite13siteClientKey9onSuccess0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcys0O0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO17requestUnlinkSite13siteClientKey9onSuccess0L12TokenExpired0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcyAR_SStcys0Q0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO17requestUnlinkSite13siteClientKey9onSuccess0L12TokenExpired0L6Failed0L5Error0L8TotalLog0L9Completed7RxSwift10Disposable_pSgSS_yycyAC6RtCodeO_SStcyAR_SStcys0Q0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -51270,6 +51611,206 @@
             "printedName": "APICaller",
             "children": [
               {
+                "kind": "TypeDecl",
+                "name": "VerifyType",
+                "printedName": "VerifyType",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "Email",
+                    "printedName": "Email",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.APICaller.VerifyType.Type) -> BSA_SDK.BSA.APICaller.VerifyType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VerifyType",
+                            "printedName": "BSA_SDK.BSA.APICaller.VerifyType",
+                            "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.APICaller.VerifyType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "VerifyType",
+                                "printedName": "BSA_SDK.BSA.APICaller.VerifyType",
+                                "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO5EmailyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C9APICallerO10VerifyTypeO5EmailyA2GmF",
+                    "moduleName": "BSA_SDK"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "SMS",
+                    "printedName": "SMS",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.APICaller.VerifyType.Type) -> BSA_SDK.BSA.APICaller.VerifyType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VerifyType",
+                            "printedName": "BSA_SDK.BSA.APICaller.VerifyType",
+                            "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.APICaller.VerifyType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "VerifyType",
+                                "printedName": "BSA_SDK.BSA.APICaller.VerifyType",
+                                "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO3SMSyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C9APICallerO10VerifyTypeO3SMSyA2GmF",
+                    "moduleName": "BSA_SDK"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifyType",
+                        "printedName": "BSA_SDK.BSA.APICaller.VerifyType",
+                        "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifyType",
+                        "printedName": "BSA_SDK.BSA.APICaller.VerifyType",
+                        "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s7BSA_SDK0A0C9APICallerO10VerifyTypeO2eeoiySbAG_AGtFZ",
+                    "moduleName": "BSA_SDK",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "hashValue",
+                    "printedName": "hashValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO9hashValueSivp",
+                    "mangledName": "$s7BSA_SDK0A0C9APICallerO10VerifyTypeO9hashValueSivp",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO9hashValueSivg",
+                        "mangledName": "$s7BSA_SDK0A0C9APICallerO10VerifyTypeO9hashValueSivg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "hash",
+                    "printedName": "hash(into:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Hasher",
+                        "printedName": "Swift.Hasher",
+                        "paramValueOwnership": "InOut",
+                        "usr": "s:s6HasherV"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO4hash4intoys6HasherVz_tF",
+                    "mangledName": "$s7BSA_SDK0A0C9APICallerO10VerifyTypeO4hash4intoys6HasherVz_tF",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO10VerifyTypeO",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  }
+                ]
+              },
+              {
                 "kind": "Function",
                 "name": "checkAppVersion",
                 "printedName": "checkAppVersion(bundleIdentifier:clientAppVersion:os:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
@@ -53632,7 +54173,7 @@
               {
                 "kind": "Function",
                 "name": "requestUnregisterDevice",
-                "printedName": "requestUnregisterDevice(userKey:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "requestUnregisterDevice(userKey:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -53696,6 +54237,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -53772,8 +54344,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO23requestUnregisterDevice7userKey9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySS_yycyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO23requestUnregisterDevice7userKey9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySS_yycyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO23requestUnregisterDevice7userKey9onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySS_yycyAC6RtCodeO_SStcyAP_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO23requestUnregisterDevice7userKey9onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySS_yycyAC6RtCodeO_SStcyAP_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -53786,7 +54358,7 @@
               {
                 "kind": "Function",
                 "name": "requestUnregisterAccount",
-                "printedName": "requestUnregisterAccount(onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "requestUnregisterAccount(onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -53807,6 +54379,37 @@
                         "kind": "TypeNominal",
                         "name": "Void",
                         "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -53920,8 +54523,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO24requestUnregisterAccount9onSuccess0G6Failed0G5Error0G8TotalLog0G9Completed10disposeBagyyyc_yAC6RtCodeO_SStcys0J0_pcySScSgyycSg7RxSwift07DisposeO0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO24requestUnregisterAccount9onSuccess0G6Failed0G5Error0G8TotalLog0G9Completed10disposeBagyyyc_yAC6RtCodeO_SStcys0J0_pcySScSgyycSg7RxSwift07DisposeO0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO24requestUnregisterAccount9onSuccess0G12TokenExpired0G6Failed0G5Error0G8TotalLog0G9Completed10disposeBagyyyc_yAC6RtCodeO_SStcyAO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO24requestUnregisterAccount9onSuccess0G12TokenExpired0G6Failed0G5Error0G8TotalLog0G9Completed10disposeBagyyyc_yAC6RtCodeO_SStcyAO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -54886,7 +55489,7 @@
               {
                 "kind": "Function",
                 "name": "issuanceOTPNumber",
-                "printedName": "issuanceOTPNumber(onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "issuanceOTPNumber(onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -54908,6 +55511,37 @@
                         "name": "String",
                         "printedName": "Swift.String",
                         "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -55021,8 +55655,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO17issuanceOTPNumber9onSuccess0F6Failed0F5Error0F8TotalLog0F9Completed10disposeBagyySSc_yAC6RtCodeO_SStcys0I0_pcySScSgyycSg7RxSwift07DisposeN0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO17issuanceOTPNumber9onSuccess0F6Failed0F5Error0F8TotalLog0F9Completed10disposeBagyySSc_yAC6RtCodeO_SStcys0I0_pcySScSgyycSg7RxSwift07DisposeN0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO17issuanceOTPNumber9onSuccess0F12TokenExpired0F6Failed0F5Error0F8TotalLog0F9Completed10disposeBagyySSc_yAC6RtCodeO_SStcyAO_SStcys0K0_pcySScSgyycSg7RxSwift07DisposeP0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO17issuanceOTPNumber9onSuccess0F12TokenExpired0F6Failed0F5Error0F8TotalLog0F9Completed10disposeBagyySSc_yAC6RtCodeO_SStcyAO_SStcys0K0_pcySScSgyycSg7RxSwift07DisposeP0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -55035,7 +55669,7 @@
               {
                 "kind": "Function",
                 "name": "IssuanceCancelForOTPNumber",
-                "printedName": "IssuanceCancelForOTPNumber(otpNumber:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "IssuanceCancelForOTPNumber(otpNumber:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -55099,6 +55733,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -55175,8 +55840,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcys0M0_pcySScSgyycSg7RxSwift07DisposeR0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcys0M0_pcySScSgyycSg7RxSwift07DisposeR0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0J12TokenExpired0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcyAP_SStcys0O0_pcySScSgyycSg7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO26IssuanceCancelForOTPNumber9otpNumber9onSuccess0J12TokenExpired0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcyAP_SStcys0O0_pcySScSgyycSg7RxSwift07DisposeT0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -55556,8 +56221,8 @@
               },
               {
                 "kind": "Function",
-                "name": "changeLocalAuthType",
-                "printedName": "changeLocalAuthType(authType:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "name": "verifyOTPNumber",
+                "printedName": "verifyOTPNumber(verifyType:verifyData:otpNumber:clientKey:onValidOTPNumber:onInvalidOTPNumber:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -55566,9 +56231,45 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "LocalAuthType",
-                    "printedName": "BSA_SDK.BSA.Enums.LocalAuthType",
-                    "usr": "s:7BSA_SDK0A0C5EnumsO13LocalAuthTypeO"
+                    "name": "VerifyType",
+                    "printedName": "BSA_SDK.BSA.APICaller.VerifyType",
+                    "usr": "s:7BSA_SDK0A0C9APICallerO10VerifyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeFunc",
@@ -55697,8 +56398,193 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO19changeLocalAuthType04authG09onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagyAC5EnumsO0efG0O_yycyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO19changeLocalAuthType04authG09onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagyAC5EnumsO0efG0O_yycyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO15verifyOTPNumber0D4Type0D4Data9otpNumber9clientKey07onValidE00l7InvalidE00L6Failed0L5Error0L8TotalLog0L9Completed10disposeBagyAE06VerifyF0O_S3SySScyycyAC6RtCodeO_SStcys0P0_pcySScSgyycSg7RxSwift07DisposeU0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO15verifyOTPNumber0D4Type0D4Data9otpNumber9clientKey07onValidE00l7InvalidE00L6Failed0L5Error0L8TotalLog0L9Completed10disposeBagyAE06VerifyF0O_S3SySScyycyAC6RtCodeO_SStcys0P0_pcySScSgyycSg7RxSwift07DisposeU0CtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "changeLocalAuthType",
+                "printedName": "changeLocalAuthType(authType:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalAuthType",
+                    "printedName": "BSA_SDK.BSA.Enums.LocalAuthType",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO13LocalAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisposeBag",
+                    "printedName": "RxSwift.DisposeBag",
+                    "usr": "s:7RxSwift10DisposeBagC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C9APICallerO19changeLocalAuthType04authG09onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagyAC5EnumsO0efG0O_yycyAC6RtCodeO_SStcyAT_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO19changeLocalAuthType04authG09onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagyAC5EnumsO0efG0O_yycyAC6RtCodeO_SStcyAT_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -55874,7 +56760,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveAuthHistory",
-                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -55950,6 +56836,37 @@
                             "name": "AuthHistoryPage",
                             "printedName": "BSA_SDK.BSA.JSONData.AuthHistoryPage",
                             "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryPageV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           }
                         ]
                       }
@@ -56065,8 +56982,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySiSg_APSSySayAC8JSONDataO0eF4DataVG_AR0eF4PageVtcyAC6RtCodeO_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySiSg_APSSySayAC8JSONDataO0eF4DataVG_AR0eF4PageVtcyAC6RtCodeO_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySiSg_AQSSySayAC8JSONDataO0eF4DataVG_AS0eF4PageVtcyAC6RtCodeO_SStcyAZ_SStcys0P0_pcySScSgyycSg7RxSwift07DisposeU0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySiSg_AQSSySayAC8JSONDataO0eF4DataVG_AS0eF4PageVtcyAC6RtCodeO_SStcyAZ_SStcys0P0_pcySScSgyycSg7RxSwift07DisposeU0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -56277,7 +57194,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveLinkedSiteList",
-                "printedName": "retrieveLinkedSiteList(onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "retrieveLinkedSiteList(onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56307,6 +57224,37 @@
                           }
                         ],
                         "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -56420,8 +57368,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO22retrieveLinkedSiteList9onSuccess0H6Failed0H5Error0H8TotalLog0H9Completed10disposeBagyySayAC8JSONDataO0efG4DataVGc_yAC6RtCodeO_SStcys0K0_pcySScSgyycSg7RxSwift07DisposeP0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO22retrieveLinkedSiteList9onSuccess0H6Failed0H5Error0H8TotalLog0H9Completed10disposeBagyySayAC8JSONDataO0efG4DataVGc_yAC6RtCodeO_SStcys0K0_pcySScSgyycSg7RxSwift07DisposeP0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO22retrieveLinkedSiteList9onSuccess0H12TokenExpired0H6Failed0H5Error0H8TotalLog0H9Completed10disposeBagyySayAC8JSONDataO0efG4DataVGc_yAC6RtCodeO_SStcyAT_SStcys0M0_pcySScSgyycSg7RxSwift07DisposeR0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO22retrieveLinkedSiteList9onSuccess0H12TokenExpired0H6Failed0H5Error0H8TotalLog0H9Completed10disposeBagyySayAC8JSONDataO0efG4DataVGc_yAC6RtCodeO_SStcyAT_SStcys0M0_pcySScSgyycSg7RxSwift07DisposeR0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -56434,7 +57382,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveSiteList",
-                "printedName": "retrieveSiteList(clientName:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "retrieveSiteList(clientName:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56515,6 +57463,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -56591,8 +57570,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO16retrieveSiteList10clientName9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySSSg_ySayAC8JSONDataO0eF4DataVGcyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO16retrieveSiteList10clientName9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySSSg_ySayAC8JSONDataO0eF4DataVGcyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO16retrieveSiteList10clientName9onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySSSg_ySayAC8JSONDataO0eF4DataVGcyAC6RtCodeO_SStcyAV_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO16retrieveSiteList10clientName9onSuccess0I12TokenExpired0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySSSg_ySayAC8JSONDataO0eF4DataVGcyAC6RtCodeO_SStcyAV_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -56605,7 +57584,7 @@
               {
                 "kind": "Function",
                 "name": "requestVerifySiteAccount",
-                "printedName": "requestVerifySiteAccount(siteClientKey:siteID:sitePassword:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "requestVerifySiteAccount(siteClientKey:siteID:sitePassword:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56645,6 +57624,37 @@
                         "name": "String",
                         "printedName": "Swift.String",
                         "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -56758,8 +57768,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO24requestVerifySiteAccount13siteClientKey0H2ID0H8Password9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed10disposeBagySS_S2SySScyAC6RtCodeO_SStcys0P0_pcySScSgyycSg7RxSwift07DisposeU0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO24requestVerifySiteAccount13siteClientKey0H2ID0H8Password9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed10disposeBagySS_S2SySScyAC6RtCodeO_SStcys0P0_pcySScSgyycSg7RxSwift07DisposeU0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO24requestVerifySiteAccount13siteClientKey0H2ID0H8Password9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed10disposeBagySS_S2SySScyAC6RtCodeO_SStcyAR_SStcys0R0_pcySScSgyycSg7RxSwift07DisposeW0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO24requestVerifySiteAccount13siteClientKey0H2ID0H8Password9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed10disposeBagySS_S2SySScyAC6RtCodeO_SStcyAR_SStcys0R0_pcySScSgyycSg7RxSwift07DisposeW0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -56772,7 +57782,7 @@
               {
                 "kind": "Function",
                 "name": "requestLinkSite",
-                "printedName": "requestLinkSite(siteClientKey:siteToken:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "requestLinkSite(siteClientKey:siteToken:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56850,6 +57860,37 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
                     "printedName": "(Swift.Error) -> ()",
                     "children": [
                       {
@@ -56926,8 +57967,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO15requestLinkSite13siteClientKey0G5Token9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySS_SSSgyycyAC6RtCodeO_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO15requestLinkSite13siteClientKey0G5Token9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySS_SSSgyycyAC6RtCodeO_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO15requestLinkSite13siteClientKey0G5Token9onSuccess0kJ7Expired0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySS_SSSgyycyAC6RtCodeO_SStcyAR_SStcys0O0_pcySScSgyycSg7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO15requestLinkSite13siteClientKey0G5Token9onSuccess0kJ7Expired0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySS_SSSgyycyAC6RtCodeO_SStcyAR_SStcys0O0_pcySScSgyycSg7RxSwift07DisposeT0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -56940,7 +57981,7 @@
               {
                 "kind": "Function",
                 "name": "requestUnlinkSite",
-                "printedName": "requestUnlinkSite(siteClientKey:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "requestUnlinkSite(siteClientKey:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56967,6 +58008,37 @@
                         "kind": "TypeNominal",
                         "name": "Void",
                         "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -57080,8 +58152,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO17requestUnlinkSite13siteClientKey9onSuccess0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcys0M0_pcySScSgyycSg7RxSwift07DisposeR0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO17requestUnlinkSite13siteClientKey9onSuccess0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcys0M0_pcySScSgyycSg7RxSwift07DisposeR0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO17requestUnlinkSite13siteClientKey9onSuccess0J12TokenExpired0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcyAP_SStcys0O0_pcySScSgyycSg7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO17requestUnlinkSite13siteClientKey9onSuccess0J12TokenExpired0J6Failed0J5Error0J8TotalLog0J9Completed10disposeBagySS_yycyAC6RtCodeO_SStcyAP_SStcys0O0_pcySScSgyycSg7RxSwift07DisposeT0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -66871,7 +67943,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 107847,
+      "offset": 110161,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -67844,7 +68916,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_Caller.swift",
       "kind": "StringLiteral",
-      "offset": 52915,
+      "offset": 56843,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -68084,7 +69156,7 @@
       "kind": "StringLiteral",
       "offset": 551,
       "length": 8,
-      "value": "\"0.11.5\""
+      "value": "\"0.11.6\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

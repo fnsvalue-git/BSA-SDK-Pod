@@ -26730,7 +26730,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveNotice",
-                "printedName": "retrieveNotice(pageIndex:pageSize:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "printedName": "retrieveNotice(clientKey:pageIndex:pageSize:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26745,6 +26745,12 @@
                       }
                     ],
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -26915,8 +26921,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSiSg_AQySayAC8JSONDataO0G4DataVG_AS0G4PageVtcyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed7RxSwift10Disposable_pSgSiSg_AQySayAC8JSONDataO0G4DataVG_AS0G4PageVtcyAC6RtCodeO_SStcys0N0_pcySScSgyycSgtFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9clientKey9pageIndex0J4Size9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSS_SiSgARySayAC8JSONDataO0G4DataVG_AT0G4PageVtcyAC6RtCodeO_SStcys0P0_pcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO14retrieveNotice9clientKey9pageIndex0J4Size9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed7RxSwift10Disposable_pSgSS_SiSgARySayAC8JSONDataO0G4DataVG_AT0G4PageVtcyAC6RtCodeO_SStcys0P0_pcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -45001,7 +45007,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveNotice",
-                "printedName": "retrieveNotice(pageIndex:size:patchType:)",
+                "printedName": "retrieveNotice(clientKey:pageIndex:size:patchType:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -45016,6 +45022,12 @@
                       }
                     ],
                     "usr": "s:7RxSwift10ObservableC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -45062,8 +45074,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO14retrieveNotice9pageIndex4size9patchType7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSiSg_ArC5EnumsO0g5PatchL0OSgtFZ",
-                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO14retrieveNotice9pageIndex4size9patchType7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSiSg_ArC5EnumsO0g5PatchL0OSgtFZ",
+                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO14retrieveNotice9clientKey9pageIndex4size9patchType7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_SiSgAsC5EnumsO0g5PatchN0OSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO14retrieveNotice9clientKey9pageIndex4size9patchType7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_SiSgAsC5EnumsO0g5PatchN0OSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -56996,12 +57008,18 @@
               {
                 "kind": "Function",
                 "name": "retrieveNotice",
-                "printedName": "retrieveNotice(pageIndex:pageSize:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "retrieveNotice(clientKey:pageIndex:pageSize:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -57180,8 +57198,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO14retrieveNotice9pageIndex0F4Size9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySiSg_AOySayAC8JSONDataO0E4DataVG_AQ0E4PageVtcyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO14retrieveNotice9pageIndex0F4Size9onSuccess0I6Failed0I5Error0I8TotalLog0I9Completed10disposeBagySiSg_AOySayAC8JSONDataO0E4DataVG_AQ0E4PageVtcyAC6RtCodeO_SStcys0L0_pcySScSgyycSg7RxSwift07DisposeQ0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO14retrieveNotice9clientKey9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySS_SiSgAPySayAC8JSONDataO0E4DataVG_AR0E4PageVtcyAC6RtCodeO_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO14retrieveNotice9clientKey9pageIndex0H4Size9onSuccess0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySS_SiSgAPySayAC8JSONDataO0E4DataVG_AR0E4PageVtcyAC6RtCodeO_SStcys0N0_pcySScSgyycSg7RxSwift07DisposeS0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -67943,7 +67961,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 110161,
+      "offset": 112502,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -68916,7 +68934,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_Caller.swift",
       "kind": "StringLiteral",
-      "offset": 56843,
+      "offset": 59276,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },

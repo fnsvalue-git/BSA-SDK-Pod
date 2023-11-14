@@ -7584,6 +7584,459 @@
               },
               {
                 "kind": "TypeDecl",
+                "name": "CountryCode",
+                "printedName": "CountryCode",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "Korean",
+                    "printedName": "Korean",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.CountryCode.Type) -> BSA_SDK.BSA.Enums.CountryCode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO6KoreanyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO6KoreanyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "Malaysia",
+                    "printedName": "Malaysia",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.CountryCode.Type) -> BSA_SDK.BSA.Enums.CountryCode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO8MalaysiayA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO8MalaysiayA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "Indonesia",
+                    "printedName": "Indonesia",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.CountryCode.Type) -> BSA_SDK.BSA.Enums.CountryCode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO9IndonesiayA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO9IndonesiayA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "Newzealand",
+                    "printedName": "Newzealand",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.CountryCode.Type) -> BSA_SDK.BSA.Enums.CountryCode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO10NewzealandyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO10NewzealandyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "Singapore",
+                    "printedName": "Singapore",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.CountryCode.Type) -> BSA_SDK.BSA.Enums.CountryCode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO9SingaporeyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO9SingaporeyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "USA",
+                    "printedName": "USA",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(BSA_SDK.BSA.Enums.CountryCode.Type) -> BSA_SDK.BSA.Enums.CountryCode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO3USAyA2GmF",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO3USAyA2GmF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(rawValue:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "BSA_SDK.BSA.Enums.CountryCode?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO8rawValueAGSgSS_tcfc",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO8rawValueAGSgSS_tcfc",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "rawValue",
+                    "printedName": "rawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO8rawValueSSvp",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO8rawValueSSvp",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO8rawValueSSvg",
+                        "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO8rawValueSSvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "allCases",
+                    "printedName": "allCases",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[BSA_SDK.BSA.Enums.CountryCode]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CountryCode",
+                            "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                            "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO8allCasesSayAGGvpZ",
+                    "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO8allCasesSayAGGvpZ",
+                    "moduleName": "BSA_SDK",
+                    "static": true,
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[BSA_SDK.BSA.Enums.CountryCode]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO8allCasesSayAGGvgZ",
+                        "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO8allCasesSayAGGvgZ",
+                        "moduleName": "BSA_SDK",
+                        "static": true,
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO",
+                "mangledName": "$s7BSA_SDK0A0C5EnumsO11CountryCodeO",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "enumRawTypeName": "String",
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "RawRepresentable",
+                    "printedName": "RawRepresentable",
+                    "children": [
+                      {
+                        "kind": "TypeWitness",
+                        "name": "RawValue",
+                        "printedName": "RawValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SY",
+                    "mangledName": "$sSY"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CaseIterable",
+                    "printedName": "CaseIterable",
+                    "children": [
+                      {
+                        "kind": "TypeWitness",
+                        "name": "AllCases",
+                        "printedName": "AllCases",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[BSA_SDK.BSA.Enums.CountryCode]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CountryCode",
+                                "printedName": "BSA_SDK.BSA.Enums.CountryCode",
+                                "usr": "s:7BSA_SDK0A0C5EnumsO11CountryCodeO"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:s12CaseIterableP",
+                    "mangledName": "$ss12CaseIterableP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
                 "name": "NationalCode",
                 "printedName": "NationalCode",
                 "children": [
@@ -7961,9 +8414,10 @@
                 "usr": "s:7BSA_SDK0A0C5EnumsO12NationalCodeO",
                 "mangledName": "$s7BSA_SDK0A0C5EnumsO12NationalCodeO",
                 "moduleName": "BSA_SDK",
+                "deprecated": true,
                 "declAttributes": [
                   "AccessControl",
-                  "RawDocComment"
+                  "Available"
                 ],
                 "enumRawTypeName": "String",
                 "conformances": [
@@ -67198,476 +67652,560 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2115,
+      "offset": 2114,
       "length": 5,
       "value": "\"+82\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2181,
+      "offset": 2180,
       "length": 5,
       "value": "\"+60\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2248,
+      "offset": 2247,
       "length": 5,
       "value": "\"+62\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2312,
       "length": 5,
       "value": "\"+64\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2374,
+      "offset": 2373,
       "length": 5,
       "value": "\"+65\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
+      "offset": 2425,
       "length": 4,
       "value": "\"+1\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2115,
+      "offset": 2114,
       "length": 5,
       "value": "\"+82\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2181,
+      "offset": 2180,
       "length": 5,
       "value": "\"+60\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2248,
+      "offset": 2247,
       "length": 5,
       "value": "\"+62\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2312,
       "length": 5,
       "value": "\"+64\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2374,
+      "offset": 2373,
       "length": 5,
       "value": "\"+65\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
+      "offset": 2425,
       "length": 4,
       "value": "\"+1\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 2681,
+      "length": 5,
+      "value": "\"+82\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2747,
+      "length": 5,
+      "value": "\"+60\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2814,
+      "length": 5,
+      "value": "\"+62\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 5,
+      "value": "\"+64\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2940,
+      "length": 5,
+      "value": "\"+65\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 4,
+      "value": "\"+1\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2681,
+      "length": 5,
+      "value": "\"+82\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2747,
+      "length": 5,
+      "value": "\"+60\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2814,
+      "length": 5,
+      "value": "\"+62\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 5,
+      "value": "\"+64\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2940,
+      "length": 5,
+      "value": "\"+65\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 4,
+      "value": "\"+1\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3138,
       "length": 11,
       "value": "\"CMMDOS002\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 3138,
       "length": 11,
       "value": "\"CMMDOS002\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 3328,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2819,
+      "offset": 3385,
       "length": 5,
       "value": "\"sms\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 3328,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2819,
+      "offset": 3385,
       "length": 5,
       "value": "\"sms\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 3575,
       "length": 11,
       "value": "\"CMMAPF000\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3077,
+      "offset": 3643,
       "length": 11,
       "value": "\"CMMAPF001\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3708,
       "length": 11,
       "value": "\"CMMAPF002\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3773,
       "length": 11,
       "value": "\"CMMAPF003\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 3575,
       "length": 11,
       "value": "\"CMMAPF000\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3077,
+      "offset": 3643,
       "length": 11,
       "value": "\"CMMAPF001\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3708,
       "length": 11,
       "value": "\"CMMAPF002\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3773,
       "length": 11,
       "value": "\"CMMAPF003\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 4078,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3635,
+      "offset": 4201,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3745,
+      "offset": 4311,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3853,
+      "offset": 4419,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3942,
+      "offset": 4508,
       "length": 13,
       "value": "\"AuthSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4130,
+      "offset": 4696,
       "length": 17,
       "value": "\"FinishByRestart\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4229,
+      "offset": 4795,
       "length": 16,
       "value": "\"WaitForConnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4311,
+      "offset": 4877,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4423,
+      "offset": 4989,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4540,
+      "offset": 5106,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4634,
+      "offset": 5200,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4711,
+      "offset": 5277,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4794,
+      "offset": 5360,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4880,
+      "offset": 5446,
       "length": 15,
       "value": "\"InvalidStatus\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4970,
+      "offset": 5536,
       "length": 16,
       "value": "\"ConnectSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5063,
+      "offset": 5629,
       "length": 21,
       "value": "\"TimeOutByLocalTimer\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5155,
+      "offset": 5721,
       "length": 12,
       "value": "\"Disconnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5223,
+      "offset": 5789,
       "length": 10,
       "value": "\"APIError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5301,
+      "offset": 5867,
       "length": 26,
       "value": "\"BCNodeVerificationFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5393,
+      "offset": 5959,
       "length": 25,
       "value": "\"BCNodeVerificationError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 4078,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3635,
+      "offset": 4201,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3745,
+      "offset": 4311,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3853,
+      "offset": 4419,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3942,
+      "offset": 4508,
       "length": 13,
       "value": "\"AuthSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4130,
+      "offset": 4696,
       "length": 17,
       "value": "\"FinishByRestart\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4229,
+      "offset": 4795,
       "length": 16,
       "value": "\"WaitForConnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4311,
+      "offset": 4877,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4423,
+      "offset": 4989,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4540,
+      "offset": 5106,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4634,
+      "offset": 5200,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4711,
+      "offset": 5277,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4794,
+      "offset": 5360,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4880,
+      "offset": 5446,
       "length": 15,
       "value": "\"InvalidStatus\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 4970,
+      "offset": 5536,
       "length": 16,
       "value": "\"ConnectSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5063,
+      "offset": 5629,
       "length": 21,
       "value": "\"TimeOutByLocalTimer\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5155,
+      "offset": 5721,
       "length": 12,
       "value": "\"Disconnect\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5223,
+      "offset": 5789,
       "length": 10,
       "value": "\"APIError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5301,
+      "offset": 5867,
       "length": 26,
       "value": "\"BCNodeVerificationFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5393,
+      "offset": 5959,
       "length": 25,
       "value": "\"BCNodeVerificationError\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5746,
+      "offset": 6312,
       "length": 433,
       "value": "\"        <head>\n         <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,user-scalable=0\">\n         <style>\n             p { font-size: 11px; color: #BBBBBB; word-break:break-all; font-weight: 400; font-family: 'SF Pro'; line-height : 18px;}\n         <\/style>\n        <\/head>\n        <body style=\"background-color:#141920;\">\n            %HTML_CONTENTS%\n        <\/body>\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6263,
+      "offset": 6829,
       "length": 9,
       "value": "\"BSA_SDK\""
     },

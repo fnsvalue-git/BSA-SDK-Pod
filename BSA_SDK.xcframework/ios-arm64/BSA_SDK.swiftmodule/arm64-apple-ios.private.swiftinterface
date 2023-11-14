@@ -201,6 +201,24 @@ extension BSA_SDK.BSA {
         get
       }
     }
+    public enum CountryCode : Swift.String, Swift.CaseIterable {
+      case Korean
+      case Malaysia
+      case Indonesia
+      case Newzealand
+      case Singapore
+      case USA
+      public init?(rawValue: Swift.String)
+      public typealias AllCases = [BSA_SDK.BSA.Enums.CountryCode]
+      public typealias RawValue = Swift.String
+      public static var allCases: [BSA_SDK.BSA.Enums.CountryCode] {
+        get
+      }
+      public var rawValue: Swift.String {
+        get
+      }
+    }
+    @available(*, deprecated, renamed: "CountryCode", message: "The Enum name has changed. Use the CountryCode instead")
     public enum NationalCode : Swift.String, Swift.CaseIterable {
       case Korean
       case Malaysia
@@ -1007,8 +1025,14 @@ extension BSA_SDK.BSA.Enums.VerifyType : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.Enums.LocalAuthType : Swift.Equatable {}
 extension BSA_SDK.BSA.Enums.LocalAuthType : Swift.Hashable {}
 extension BSA_SDK.BSA.Enums.LocalAuthType : Swift.RawRepresentable {}
+extension BSA_SDK.BSA.Enums.CountryCode : Swift.Equatable {}
+extension BSA_SDK.BSA.Enums.CountryCode : Swift.Hashable {}
+extension BSA_SDK.BSA.Enums.CountryCode : Swift.RawRepresentable {}
+@available(*, deprecated, renamed: "CountryCode", message: "The Enum name has changed. Use the CountryCode instead")
 extension BSA_SDK.BSA.Enums.NationalCode : Swift.Equatable {}
+@available(*, deprecated, renamed: "CountryCode", message: "The Enum name has changed. Use the CountryCode instead")
 extension BSA_SDK.BSA.Enums.NationalCode : Swift.Hashable {}
+@available(*, deprecated, renamed: "CountryCode", message: "The Enum name has changed. Use the CountryCode instead")
 extension BSA_SDK.BSA.Enums.NationalCode : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.Enums.OSType : Swift.Equatable {}
 extension BSA_SDK.BSA.Enums.OSType : Swift.Hashable {}

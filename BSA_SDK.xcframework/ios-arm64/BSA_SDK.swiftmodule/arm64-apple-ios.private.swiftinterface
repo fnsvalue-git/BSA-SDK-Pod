@@ -512,7 +512,7 @@ extension BSA_SDK.BSA {
   public class AutoAuthenticator {
     public init()
     public func getClientKey() -> Swift.String
-    public func setData(qrData: BSA_SDK.BSA.QRData?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, usePasscodeWhenFailed: Swift.Bool, websocketHeaders: [Swift.String : Swift.String]? = nil) -> BSA_SDK.BSA.AutoAuthenticator
+    public func setData(qrData: BSA_SDK.BSA.QRData?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String? = nil, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, usePasscodeWhenFailed: Swift.Bool, websocketHeaders: [Swift.String : Swift.String]? = nil) -> BSA_SDK.BSA.AutoAuthenticator
     public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.Enums.ProcessDescription) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
     public func start()
     public func forceStop()
@@ -934,7 +934,7 @@ extension BSA_SDK.BSA.APICaller {
   public static func checkDevice(bundleIdentifier: Swift.String, clientKey: Swift.String, onSuccessByRegistered: @escaping (BSA_SDK.BSA.JSONData.CheckDeviceData) -> (), onSuccessByNotRegistered: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func checkDuplicateUserData(verifyData: Swift.String, verifyType: BSA_SDK.BSA.Enums.VerifyType, onNotDulplicateUser: @escaping () -> (), onDulplicateUser: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func checkUserKeyAvailable(userKey: Swift.String, onUserKeyAvailable: @escaping () -> (), onUserKeyNotAvailable: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
-  public static func checkRequestedAuthExists(userKey: Swift.String, onExist: @escaping (BSA_SDK.BSA.JSONData.CheckRequestedAuthExistsData) -> (), onNotExist: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil) -> (any RxSwift.Disposable)?
+  public static func checkRequestedAuthExists(userKey: Swift.String, deviceId: Swift.String? = nil, onExist: @escaping (BSA_SDK.BSA.JSONData.CheckRequestedAuthExistsData) -> (), onNotExist: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil) -> (any RxSwift.Disposable)?
   public static func getAgreements(languageCode: BSA_SDK.BSA.Enums.AgreementsLanguageCode, clientKey: Swift.String, onSuccess: @escaping ([BSA_SDK.BSA.JSONData.AgreementData]) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func getAgreementDetail(seq: Swift.Int, clientKey: Swift.String, onSuccess: @escaping (BSA_SDK.BSA.JSONData.AgreementDetailData) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func requestSendOTPNumber(sendType: BSA_SDK.BSA.APICaller.OTPSendType, sendTarget: Swift.String, clientKey: Swift.String, bundleIdentifier: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
@@ -953,18 +953,18 @@ extension BSA_SDK.BSA.APICaller {
   public static func requestDeleteAccount(onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   @available(*, deprecated, renamed: "requestDeleteAccount", message: "The function name has changed. Use the requestDeleteAccount instead")
   public static func requestUnregisterAccount(onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
-  public static func requestStartAuth(qrId: Swift.String?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String?, authPlatform: BSA_SDK.BSA.Enums.AuthPlatform, otpAuth: Swift.Bool, onSuccess: @escaping (BSA_SDK.BSA.JSONData.RequestStartAuthData) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
-  public static func requestStartBlockChainNodesVerification(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String, channelKey: Swift.String, blockKey: Swift.String, onSuccess: @escaping (BSA_SDK.BSA.JSONData.RequestStartBCNodesVerificationData) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
-  public static func requestCancelAuth(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String, userKey: Swift.String, sendPushMessage: Swift.Bool, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
-  public static func confirmCompleteAuth(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String, isSecondaryCertification: Swift.Bool, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
-  public static func issuanceAccessToken(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String, userKey: Swift.String, targetUserKey: Swift.String, channelKey: Swift.String, sendPushMsg: Swift.Bool, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func requestStartAuth(qrId: Swift.String?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String? = nil, authPlatform: BSA_SDK.BSA.Enums.AuthPlatform, otpAuth: Swift.Bool, onSuccess: @escaping (BSA_SDK.BSA.JSONData.RequestStartAuthData) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func requestStartBlockChainNodesVerification(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String? = nil, channelKey: Swift.String, blockKey: Swift.String, onSuccess: @escaping (BSA_SDK.BSA.JSONData.RequestStartBCNodesVerificationData) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func requestCancelAuth(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String? = nil, userKey: Swift.String, sendPushMessage: Swift.Bool, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func confirmCompleteAuth(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String? = nil, isSecondaryCertification: Swift.Bool, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func issuanceAccessToken(qrId: Swift.String?, clientKey: Swift.String, deviceId: Swift.String? = nil, userKey: Swift.String, targetUserKey: Swift.String, channelKey: Swift.String, sendPushMsg: Swift.Bool, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func issuanceOTPNumber(onSuccess: @escaping (Swift.String) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func IssuanceCancelForOTPNumber(otpNumber: Swift.String, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func verifyOTPNumber(ForEmail email: Swift.String, otpNumber: Swift.String, clientKey: Swift.String, onValidOTPNumber: @escaping (Swift.String) -> (), onInvalidOTPNumber: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func verifyOTPNumber(ForSMS phoneNumber: Swift.String, otpNumber: Swift.String, clientKey: Swift.String, onValidOTPNumber: @escaping (Swift.String) -> (), onInvalidOTPNumber: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func verifyOTPNumber(sendType: BSA_SDK.BSA.APICaller.OTPSendType, sendTarget: Swift.String, otpNumber: Swift.String, clientKey: Swift.String, onValidOTPNumber: @escaping (Swift.String) -> (), onInvalidOTPNumber: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func changeLocalAuthType(authType: BSA_SDK.BSA.Enums.LocalAuthType, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
-  public static func changeFCMToken(deviceId: Swift.String, fcmToken: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil) -> (any RxSwift.Disposable)?
+  public static func changeFCMToken(deviceId: Swift.String? = nil, fcmToken: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil) -> (any RxSwift.Disposable)?
   public static func retrieveAuthHistory(pageIndex: Swift.Int?, size: Swift.Int?, sort: Swift.String = "REG_DT,DESC", onSuccess: @escaping ([BSA_SDK.BSA.JSONData.AuthHistoryData], BSA_SDK.BSA.JSONData.AuthHistoryPage) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func retrieveNotice(clientKey: Swift.String, pageIndex: Swift.Int?, pageSize: Swift.Int?, onSuccess: @escaping ([BSA_SDK.BSA.JSONData.NoticeData], BSA_SDK.BSA.JSONData.NoticePage) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func retrieveLinkedSiteList(onSuccess: @escaping ([BSA_SDK.BSA.JSONData.LinkedSiteListData]) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
@@ -974,15 +974,15 @@ extension BSA_SDK.BSA.APICaller {
   public static func requestUnlinkSite(siteClientKey: Swift.String, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
 }
 @_hasMissingDesignatedInitializers public class PCGPrint {
-  public static func d<T>(_ object: T?, fileName: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
-  public static func v<T>(_ object: T?, fileName: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
-  public static func s<T>(_ object: T?, fileName: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
-  public static func p<T>(_ object: T?)
+  public static func d<T>(_ object: T?, printOption: Swift.Bool = true, fileName: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
+  public static func v<T>(_ object: T?, printOption: Swift.Bool = true, fileName: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
+  public static func s<T>(_ object: T?, printOption: Swift.Bool = true, fileName: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
+  public static func p<T>(_ object: T?, printOption: Swift.Bool = true)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 14, *)
 public class BSA {
-  public static let VERSION: Swift.String
+  public static let VERSION: BSA_SDK.VersionFormat
   public static var checkInitialized: Swift.Bool {
     get
   }
@@ -994,7 +994,7 @@ public class BSA {
   }
   public static func getTotalApiUrl(apiName: BSA_SDK.BSA.APIName) -> Swift.String
   public static func getTotalWebsocketUrl(apiName: BSA_SDK.BSA.APIName) -> Swift.String
-  public static func initialize(serverUrl: Swift.String, websocketUrl: Swift.String, securityKey: Swift.String, removeToken: Swift.Bool = true)
+  public static func initialize(serverUrl: Swift.String, websocketUrl: Swift.String, securityKey: Swift.String, removeToken: Swift.Bool = true, detailLog: Swift.Bool = false, option: Swift.String = "")
   public static func setServerUrl(serverUrl: Swift.String, websocketUrl: Swift.String)
   public static func getPreferredLanguagesCode() -> Swift.String
   @objc deinit
@@ -1057,6 +1057,27 @@ extension BSA_SDK.BSA.Error : Foundation.LocalizedError {
     get
   }
 }
+public struct VersionFormat {
+  public enum Compare {
+    case GreaterThan, LessThan, Equal
+    public static func == (a: BSA_SDK.VersionFormat.Compare, b: BSA_SDK.VersionFormat.Compare) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static func parseString(_ version: Swift.String) -> BSA_SDK.VersionFormat?
+  public func compare(major: Swift.Int, minor: Swift.Int, patch: Swift.Int, build: Swift.Int) -> BSA_SDK.VersionFormat.Compare
+  public func compare(_ versionFormat: BSA_SDK.VersionFormat) -> BSA_SDK.VersionFormat.Compare
+  public func greaterThan(major: Swift.Int, minor: Swift.Int, patch: Swift.Int, build: Swift.Int) -> Swift.Bool
+  public func lessThan(major: Swift.Int, minor: Swift.Int, patch: Swift.Int, build: Swift.Int) -> Swift.Bool
+  public func toString() -> Swift.String
+}
+extension BSA_SDK.VersionFormat : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
 extension BSA_SDK.BSA.RtCode : Swift.Equatable {}
 extension BSA_SDK.BSA.RtCode : Swift.Hashable {}
 extension BSA_SDK.BSA.RtCode : Swift.RawRepresentable {}
@@ -1108,3 +1129,5 @@ extension BSA_SDK.BSA.APIName : Swift.Equatable {}
 extension BSA_SDK.BSA.APIName : Swift.Hashable {}
 extension BSA_SDK.BSA.APICaller.OTPSendType : Swift.Equatable {}
 extension BSA_SDK.BSA.APICaller.OTPSendType : Swift.Hashable {}
+extension BSA_SDK.VersionFormat.Compare : Swift.Equatable {}
+extension BSA_SDK.VersionFormat.Compare : Swift.Hashable {}

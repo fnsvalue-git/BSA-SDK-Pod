@@ -28155,7 +28155,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveAuthHistory",
-                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:onRenewalToken:)",
+                "printedName": "retrieveAuthHistory(pageIndex:size:sort:timeZone:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:onRenewalToken:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -28205,6 +28205,12 @@
                     "printedName": "Swift.String",
                     "hasDefaultArg": true,
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeZone",
+                    "printedName": "Foundation.TimeZone",
+                    "usr": "s:10Foundation8TimeZoneV"
                   },
                   {
                     "kind": "TypeFunc",
@@ -28403,8 +28409,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed0m7RenewalO07RxSwift10Disposable_pSgSiSg_ATSSySayAC8JSONDataO0gH4DataVG_AV0gH4PageVtcyAC6RtCodeO_SStcyA1__SStcyAC0R0OcySScSgyycSgA5_tFZ",
-                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed0m7RenewalO07RxSwift10Disposable_pSgSiSg_ATSSySayAC8JSONDataO0gH4DataVG_AV0gH4PageVtcyAC6RtCodeO_SStcyA1__SStcyAC0R0OcySScSgyycSgA5_tFZ",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort8timeZone9onSuccess0O12TokenExpired0O6Failed0O5Error0O8TotalLog0O9Completed0o7RenewalQ07RxSwift10Disposable_pSgSiSg_AUSS10Foundation04TimeN0VySayAC8JSONDataO0gH4DataVG_AZ0gH4PageVtcyAC6RtCodeO_SStcyA5__SStcyAC0T0OcySScSgyycSgA9_tFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO19retrieveAuthHistory9pageIndex4size4sort8timeZone9onSuccess0O12TokenExpired0O6Failed0O5Error0O8TotalLog0O9Completed0o7RenewalQ07RxSwift10Disposable_pSgSiSg_AUSS10Foundation04TimeN0VySayAC8JSONDataO0gH4DataVG_AZ0gH4PageVtcyAC6RtCodeO_SStcyA5__SStcyAC0T0OcySScSgyycSgA9_tFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -42789,7 +42795,7 @@
                   {
                     "kind": "Constructor",
                     "name": "init",
-                    "printedName": "init(json:)",
+                    "printedName": "init(json:timeZone:)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -42802,11 +42808,17 @@
                         "name": "JSON",
                         "printedName": "SwiftyJSON.JSON",
                         "usr": "s:10SwiftyJSON0B0V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeZone",
+                        "printedName": "Foundation.TimeZone",
+                        "usr": "s:10Foundation8TimeZoneV"
                       }
                     ],
                     "declKind": "Constructor",
-                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV4jsonAG06SwiftyF00F0V_tcfc",
-                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV4jsonAG06SwiftyF00F0V_tcfc",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV4json8timeZoneAG06SwiftyF00F0V_10Foundation04TimeI0Vtcfc",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV4json8timeZoneAG06SwiftyF00F0V_10Foundation04TimeI0Vtcfc",
                     "moduleName": "BSA_SDK",
                     "declAttributes": [
                       "AccessControl",
@@ -42817,7 +42829,7 @@
                   {
                     "kind": "Function",
                     "name": "initialize",
-                    "printedName": "initialize(_:)",
+                    "printedName": "initialize(_:timeZone:)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -42829,11 +42841,17 @@
                         "name": "JSON",
                         "printedName": "SwiftyJSON.JSON",
                         "usr": "s:10SwiftyJSON0B0V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeZone",
+                        "printedName": "Foundation.TimeZone",
+                        "usr": "s:10Foundation8TimeZoneV"
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV10initializeyy06SwiftyF00F0VF",
-                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV10initializeyy06SwiftyF00F0VF",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV10initialize_8timeZoney06SwiftyF00F0V_10Foundation04TimeI0VtF",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryJSONV10initialize_8timeZoney06SwiftyF00F0V_10Foundation04TimeI0VtF",
                     "moduleName": "BSA_SDK",
                     "declAttributes": [
                       "Mutating",
@@ -44480,7 +44498,7 @@
                   {
                     "kind": "Constructor",
                     "name": "init",
-                    "printedName": "init(json:)",
+                    "printedName": "init(json:timeZone:)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -44493,11 +44511,17 @@
                         "name": "JSON",
                         "printedName": "SwiftyJSON.JSON",
                         "usr": "s:10SwiftyJSON0B0V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeZone",
+                        "printedName": "Foundation.TimeZone",
+                        "usr": "s:10Foundation8TimeZoneV"
                       }
                     ],
                     "declKind": "Constructor",
-                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV4jsonAG10SwiftyJSON0I0V_tcfc",
-                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV4jsonAG10SwiftyJSON0I0V_tcfc",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV4json8timeZoneAG10SwiftyJSON0K0V_10Foundation04TimeI0Vtcfc",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV4json8timeZoneAG10SwiftyJSON0K0V_10Foundation04TimeI0Vtcfc",
                     "moduleName": "BSA_SDK",
                     "declAttributes": [
                       "AccessControl",
@@ -44508,7 +44532,7 @@
                   {
                     "kind": "Function",
                     "name": "getFormattedRegDt",
-                    "printedName": "getFormattedRegDt(lang:)",
+                    "printedName": "getFormattedRegDt(lang:timeZone:)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -44521,11 +44545,17 @@
                         "name": "String",
                         "printedName": "Swift.String",
                         "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeZone",
+                        "printedName": "Foundation.TimeZone",
+                        "usr": "s:10Foundation8TimeZoneV"
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV17getFormattedRegDt4langS2S_tF",
-                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV17getFormattedRegDt4langS2S_tF",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV17getFormattedRegDt4lang8timeZoneS2S_10Foundation04TimeM0VtF",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV17getFormattedRegDt4lang8timeZoneS2S_10Foundation04TimeM0VtF",
                     "moduleName": "BSA_SDK",
                     "declAttributes": [
                       "AccessControl",
@@ -44536,7 +44566,7 @@
                   {
                     "kind": "Function",
                     "name": "initialize",
-                    "printedName": "initialize(_:)",
+                    "printedName": "initialize(_:timeZone:)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -44548,11 +44578,17 @@
                         "name": "JSON",
                         "printedName": "SwiftyJSON.JSON",
                         "usr": "s:10SwiftyJSON0B0V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeZone",
+                        "printedName": "Foundation.TimeZone",
+                        "usr": "s:10Foundation8TimeZoneV"
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV10initializeyy10SwiftyJSON0I0VF",
-                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV10initializeyy10SwiftyJSON0I0VF",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV10initialize_8timeZoney10SwiftyJSON0K0V_10Foundation04TimeI0VtF",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15AuthHistoryDataV10initialize_8timeZoney10SwiftyJSON0K0V_10Foundation04TimeI0VtF",
                     "moduleName": "BSA_SDK",
                     "declAttributes": [
                       "Mutating",
@@ -61711,7 +61747,7 @@
               {
                 "kind": "Function",
                 "name": "retrieveAuthHistory",
-                "printedName": "retrieveAuthHistory(pageIndex:size:sort:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "printedName": "retrieveAuthHistory(pageIndex:size:sort:timeZone:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -61752,6 +61788,13 @@
                     "printedName": "Swift.String",
                     "hasDefaultArg": true,
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeZone",
+                    "printedName": "Foundation.TimeZone",
+                    "hasDefaultArg": true,
+                    "usr": "s:10Foundation8TimeZoneV"
                   },
                   {
                     "kind": "TypeFunc",
@@ -61933,8 +61976,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySiSg_AQSSySayAC8JSONDataO0eF4DataVG_AS0eF4PageVtcyAC6RtCodeO_SStcyAZ_SStcyAC0P0OcySScSgyycSg7RxSwift07DisposeU0CtFZ",
-                "mangledName": "$s7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort9onSuccess0K12TokenExpired0K6Failed0K5Error0K8TotalLog0K9Completed10disposeBagySiSg_AQSSySayAC8JSONDataO0eF4DataVG_AS0eF4PageVtcyAC6RtCodeO_SStcyAZ_SStcyAC0P0OcySScSgyycSg7RxSwift07DisposeU0CtFZ",
+                "usr": "s:7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort8timeZone9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed10disposeBagySiSg_ARSS10Foundation04TimeL0VySayAC8JSONDataO0eF4DataVG_AW0eF4PageVtcyAC6RtCodeO_SStcyA2__SStcyAC0R0OcySScSgyycSg7RxSwift07DisposeW0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO19retrieveAuthHistory9pageIndex4size4sort8timeZone9onSuccess0M12TokenExpired0M6Failed0M5Error0M8TotalLog0M9Completed10disposeBagySiSg_ARSS10Foundation04TimeL0VySayAC8JSONDataO0eF4DataVG_AW0eF4PageVtcyAC6RtCodeO_SStcyA2__SStcyAC0R0OcySScSgyycSg7RxSwift07DisposeW0CtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -75052,700 +75095,700 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 130467,
+      "offset": 130487,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 130714,
+      "offset": 130734,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 130767,
+      "offset": 130787,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 131052,
+      "offset": 131072,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 131785,
+      "offset": 131825,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 131822,
+      "offset": 131862,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 132184,
+      "offset": 132224,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 132221,
+      "offset": 132261,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 132358,
-      "length": 76,
+      "offset": 132398,
+      "length": 81,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 132390,
+      "offset": 132435,
       "length": 13,
       "value": "\" totalElements : \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 132432,
+      "offset": 132477,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 132800,
+      "offset": 132845,
       "length": 13,
       "value": "\"ACCESSTOKEN\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 133053,
+      "offset": 133098,
       "length": 50,
       "value": "\"accessToken Expired. start Token renewal process\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 133150,
+      "offset": 133195,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 133353,
+      "offset": 133398,
       "length": 59,
       "value": "\"not founc callback onRenewalToken. instead call onError()\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 133466,
+      "offset": 133511,
       "length": 22,
       "value": "\"Token renewal failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 133695,
+      "offset": 133740,
       "length": 79,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 133719,
+      "offset": 133764,
       "length": 1,
       "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 134123,
+      "offset": 134168,
       "length": 149,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 134147,
+      "offset": 134192,
       "length": 1,
       "value": "\"(COMM_REQUEST_PARAM_ERROR) = (요청시의 파라미터값이 유효하지 않거나 일치하는 데이터가 없습니다)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 134408,
+      "offset": 134453,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 134435,
+      "offset": 134480,
       "length": 1,
       "value": "\" ( rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 134461,
+      "offset": 134506,
       "length": 1,
       "value": "\" )\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 142239,
+      "offset": 142284,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 142486,
+      "offset": 142531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 142539,
+      "offset": 142584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 142781,
+      "offset": 142826,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 143517,
+      "offset": 143562,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 143557,
+      "offset": 143602,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 143678,
+      "offset": 143723,
       "length": 77,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 143718,
+      "offset": 143763,
       "length": 13,
       "value": "\" totalElements : \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 143753,
+      "offset": 143798,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 144121,
+      "offset": 144166,
       "length": 13,
       "value": "\"ACCESSTOKEN\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 144364,
+      "offset": 144409,
       "length": 50,
       "value": "\"accessToken Expired. start Token renewal process\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 144461,
+      "offset": 144506,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 144664,
+      "offset": 144709,
       "length": 59,
       "value": "\"not founc callback onRenewalToken. instead call onError()\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 144777,
+      "offset": 144822,
       "length": 22,
       "value": "\"Token renewal failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 145006,
+      "offset": 145051,
       "length": 79,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 145030,
+      "offset": 145075,
       "length": 1,
       "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 145434,
+      "offset": 145479,
       "length": 149,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 145458,
+      "offset": 145503,
       "length": 1,
       "value": "\"(COMM_REQUEST_PARAM_ERROR) = (요청시의 파라미터값이 유효하지 않거나 일치하는 데이터가 없습니다)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 145719,
+      "offset": 145764,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 145746,
+      "offset": 145791,
       "length": 1,
       "value": "\" ( rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 145772,
+      "offset": 145817,
       "length": 1,
       "value": "\" )\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 149052,
+      "offset": 149097,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 149299,
+      "offset": 149344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 149352,
+      "offset": 149397,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 149612,
+      "offset": 149657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 150342,
+      "offset": 150387,
       "length": 35,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 150376,
+      "offset": 150421,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 150497,
+      "offset": 150542,
       "length": 71,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 150531,
+      "offset": 150576,
       "length": 13,
       "value": "\" totalElements : \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 150566,
+      "offset": 150611,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 150934,
+      "offset": 150979,
       "length": 13,
       "value": "\"ACCESSTOKEN\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 151177,
+      "offset": 151222,
       "length": 50,
       "value": "\"accessToken Expired. start Token renewal process\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 151274,
+      "offset": 151319,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 151477,
+      "offset": 151522,
       "length": 59,
       "value": "\"not founc callback onRenewalToken. instead call onError()\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 151590,
+      "offset": 151635,
       "length": 22,
       "value": "\"Token renewal failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 151819,
+      "offset": 151864,
       "length": 79,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 151843,
+      "offset": 151888,
       "length": 1,
       "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 152247,
+      "offset": 152292,
       "length": 149,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 152271,
+      "offset": 152316,
       "length": 1,
       "value": "\"(COMM_REQUEST_PARAM_ERROR) = (요청시의 파라미터값이 유효하지 않거나 일치하는 데이터가 없습니다)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 152532,
+      "offset": 152577,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 152559,
+      "offset": 152604,
       "length": 1,
       "value": "\" ( rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 152585,
+      "offset": 152630,
       "length": 1,
       "value": "\" )\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 160483,
+      "offset": 160528,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 160730,
+      "offset": 160775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 160783,
+      "offset": 160828,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 161070,
+      "offset": 161115,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 162092,
+      "offset": 162137,
       "length": 25,
       "value": "\"사이트 연동 성공\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 162511,
+      "offset": 162556,
       "length": 13,
       "value": "\"ACCESSTOKEN\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 162769,
+      "offset": 162814,
       "length": 25,
       "value": "\"사이트 연동 실패\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 163009,
+      "offset": 163054,
       "length": 50,
       "value": "\"accessToken Expired. start Token renewal process\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 163106,
+      "offset": 163151,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 163309,
+      "offset": 163354,
       "length": 59,
       "value": "\"not founc callback onRenewalToken. instead call onError()\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 163422,
+      "offset": 163467,
       "length": 22,
       "value": "\"Token renewal failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 163651,
+      "offset": 163696,
       "length": 79,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 163675,
+      "offset": 163720,
       "length": 1,
       "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 164079,
+      "offset": 164124,
       "length": 149,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 164103,
+      "offset": 164148,
       "length": 1,
       "value": "\"(COMM_REQUEST_PARAM_ERROR) = (요청시의 파라미터값이 유효하지 않거나 일치하는 데이터가 없습니다)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 164364,
+      "offset": 164409,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 164391,
+      "offset": 164436,
       "length": 1,
       "value": "\" ( rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 164417,
+      "offset": 164462,
       "length": 1,
       "value": "\" )\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 167515,
+      "offset": 167560,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 167762,
+      "offset": 167807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 167815,
+      "offset": 167860,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 168082,
+      "offset": 168127,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 169078,
+      "offset": 169123,
       "length": 32,
       "value": "\"사이트 연동 해제 성공\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 169476,
+      "offset": 169521,
       "length": 13,
       "value": "\"ACCESSTOKEN\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 169710,
+      "offset": 169755,
       "length": 50,
       "value": "\"accessToken Expired. start Token renewal process\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 169807,
+      "offset": 169852,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 170010,
+      "offset": 170055,
       "length": 59,
       "value": "\"not founc callback onRenewalToken. instead call onError()\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 170123,
+      "offset": 170168,
       "length": 22,
       "value": "\"Token renewal failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 170352,
+      "offset": 170397,
       "length": 79,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 170376,
+      "offset": 170421,
       "length": 1,
       "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 170780,
+      "offset": 170825,
       "length": 149,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 170804,
+      "offset": 170849,
       "length": 1,
       "value": "\"(COMM_REQUEST_PARAM_ERROR) = (요청시의 파라미터값이 유효하지 않거나 일치하는 데이터가 없습니다)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 171065,
+      "offset": 171110,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 171092,
+      "offset": 171137,
       "length": 1,
       "value": "\" ( rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 171118,
+      "offset": 171163,
       "length": 1,
       "value": "\" )\""
     },
@@ -76326,252 +76369,252 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "BooleanLiteral",
-      "offset": 19788,
+      "offset": 19828,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "BooleanLiteral",
-      "offset": 19885,
+      "offset": 19925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 19965,
+      "offset": 20005,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 20044,
+      "offset": 20084,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 20125,
+      "offset": 20165,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 20237,
+      "offset": 20277,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 20553,
+      "offset": 20593,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 20632,
+      "offset": 20672,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 20700,
+      "offset": 20740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 20772,
+      "offset": 20812,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 21186,
+      "offset": 21226,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 21257,
+      "offset": 21297,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 21325,
+      "offset": 21365,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 21406,
+      "offset": 21446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 21487,
+      "offset": 21527,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 22951,
+      "offset": 23287,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 23434,
+      "offset": 23770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 23501,
+      "offset": 23837,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 23573,
+      "offset": 23909,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 23777,
+      "offset": 24113,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 23851,
+      "offset": 24187,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 23924,
+      "offset": 24260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "BooleanLiteral",
-      "offset": 23990,
+      "offset": 24326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 24098,
+      "offset": 24434,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 24543,
+      "offset": 24879,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 25014,
+      "offset": 25350,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 25081,
+      "offset": 25417,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 25153,
+      "offset": 25489,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 25226,
+      "offset": 25562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "BooleanLiteral",
-      "offset": 25292,
+      "offset": 25628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 25400,
+      "offset": 25736,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 26202,
+      "offset": 26538,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 26295,
+      "offset": 26631,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 26678,
+      "offset": 27014,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "BooleanLiteral",
-      "offset": 26732,
+      "offset": 27068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 27181,
+      "offset": 27517,
       "length": 2,
       "value": "-1"
     },
@@ -77000,7 +77043,7 @@
       "kind": "IntegerLiteral",
       "offset": 638,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

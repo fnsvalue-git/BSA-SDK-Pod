@@ -779,7 +779,7 @@ extension BSA_SDK.BSA.JSONData {
     public var arrayData: [BSA_SDK.BSA.JSONData.AuthHistoryData]?
     public var page: BSA_SDK.BSA.JSONData.AuthHistoryPage?
     public var token: Swift.String?
-    public init(json: SwiftyJSON.JSON)
+    public init(json: SwiftyJSON.JSON, timeZone: Foundation.TimeZone)
   }
   public struct AuthHistoryPage {
     public var first: Swift.Bool
@@ -802,8 +802,8 @@ extension BSA_SDK.BSA.JSONData {
     public var regDt: Swift.String
     public var regDt_ko: Swift.String
     public var regDt_en: Swift.String
-    public init(json: SwiftyJSON.JSON)
-    public func getFormattedRegDt(lang: Swift.String) -> Swift.String
+    public init(json: SwiftyJSON.JSON, timeZone: Foundation.TimeZone)
+    public func getFormattedRegDt(lang: Swift.String, timeZone: Foundation.TimeZone) -> Swift.String
   }
   public struct LinkedSiteListJSON {
     public var rtCode: Swift.Int
@@ -965,7 +965,7 @@ extension BSA_SDK.BSA.APICaller {
   public static func verifyOTPNumber(sendType: BSA_SDK.BSA.APICaller.OTPSendType, sendTarget: Swift.String, otpNumber: Swift.String, clientKey: Swift.String, onValidOTPNumber: @escaping (Swift.String) -> (), onInvalidOTPNumber: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func changeLocalAuthType(authType: BSA_SDK.BSA.Enums.LocalAuthType, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func changeFCMToken(deviceId: Swift.String? = nil, fcmToken: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil) -> (any RxSwift.Disposable)?
-  public static func retrieveAuthHistory(pageIndex: Swift.Int?, size: Swift.Int?, sort: Swift.String = "REG_DT,DESC", onSuccess: @escaping ([BSA_SDK.BSA.JSONData.AuthHistoryData], BSA_SDK.BSA.JSONData.AuthHistoryPage) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func retrieveAuthHistory(pageIndex: Swift.Int?, size: Swift.Int?, sort: Swift.String = "REG_DT,DESC", timeZone: Foundation.TimeZone = .autoupdatingCurrent, onSuccess: @escaping ([BSA_SDK.BSA.JSONData.AuthHistoryData], BSA_SDK.BSA.JSONData.AuthHistoryPage) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func retrieveNotice(clientKey: Swift.String, pageIndex: Swift.Int?, pageSize: Swift.Int?, onSuccess: @escaping ([BSA_SDK.BSA.JSONData.NoticeData], BSA_SDK.BSA.JSONData.NoticePage) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func retrieveLinkedSiteList(onSuccess: @escaping ([BSA_SDK.BSA.JSONData.LinkedSiteListData]) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func retrieveSiteList(clientName: Swift.String?, onSuccess: @escaping ([BSA_SDK.BSA.JSONData.SiteListData]) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)

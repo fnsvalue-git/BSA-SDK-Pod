@@ -147,11 +147,6 @@ extension BSA_SDK.BSA.RtCode {
     get
   }
 }
-extension BSA_SDK.BSA.FCM {
-  public static var isAuthenticating: BSA_SDK.AtomicBoolean {
-    get
-  }
-}
 extension BSA_SDK.BSA {
   public enum Enums {
     public enum NoticePatchType : Swift.String {
@@ -269,33 +264,6 @@ extension BSA_SDK.BSA {
         get
       }
     }
-    public enum ProcessDescription : Swift.String {
-      case BlockChainVerificationBegins
-      case RequestingLocalAuthentication
-      case ConfirmCompleteAuth
-      case RequestingIssuanceToken
-      case AuthSuccess
-      case FinishByRestart
-      case WaitForConnect
-      case StartAuth
-      case StartVerificationOfNodes
-      case CompleteVerificationOfNodes
-      case AuthCanceled
-      case AuthFailed
-      case AuthTimeout
-      case InvalidStatus
-      case ConnectSuccess
-      case TimeOutByLocalTimer
-      case Disconnect
-      case APIError
-      case BCNodeVerificationFailed
-      case BCNodeVerificationError
-      public init?(rawValue: Swift.String)
-      public typealias RawValue = Swift.String
-      public var rawValue: Swift.String {
-        get
-      }
-    }
     public enum AuthHistoryStatus : Swift.String {
       case success
       case failed
@@ -311,7 +279,6 @@ extension BSA_SDK.BSA {
   }
   public enum Constant {
     public static let BASE_HTML: Swift.String
-    public static let SERVICE_NAME: Swift.String
   }
 }
 extension BSA_SDK.BSA {
@@ -326,45 +293,68 @@ extension BSA_SDK.BSA.CountdownTimer {
   public func stopCountDown()
 }
 extension BSA_SDK.BSA {
-  public enum HTTPLog {
-    public static func createRequestLogBy(totalUrl: Swift.String, method: Alamofire.HTTPMethod, headers: Alamofire.HTTPHeaders?, params: Swift.Dictionary<Swift.String, Any>) -> Swift.String
-    public static func createResponseLogBy(response: Swift.String) -> Swift.String
-    public static func createResultLogBy(result: Swift.String) -> Swift.String
-    public static func createErrorLogBy(errorMessage: Swift.String) -> Swift.String
-    public static func createTotalLog(requestUrl: Swift.String, requestMethod: Alamofire.HTTPMethod, headers: Alamofire.HTTPHeaders?, requestParams: Swift.Dictionary<Swift.String, Any>, response: Swift.String, result: Swift.String) -> Swift.String
-    public static func createTotalLog(requestUrl: Swift.String, requestMethod: Alamofire.HTTPMethod, headers: Alamofire.HTTPHeaders?, requestParams: Swift.Dictionary<Swift.String, Any>, response: Swift.String) -> Swift.String
-    public static func createTotalLog(errorMessage: Swift.String, requestUrl: Swift.String, requestMethod: Alamofire.HTTPMethod, headers: Alamofire.HTTPHeaders?, requestParams: Swift.Dictionary<Swift.String, Any>) -> Swift.String
-    public static func createTotalLog(errorMessage: Swift.String, requestUrl: Swift.String, requestMethod: Alamofire.HTTPMethod, headers: Alamofire.HTTPHeaders?, requestParams: Swift.Dictionary<Swift.String, Any>, response: Swift.String) -> Swift.String
-  }
-}
-extension BSA_SDK.BSA {
-  public class BlockChainNodesVerificater {
-    public typealias WebSocketProcessing = (BSA_SDK.BSA.Enums.ProcessDescription) -> ()
-    public typealias WebSocketFinish = () -> ()
-    public typealias WebSocketCancel = () -> ()
-    public typealias WebSocketError = (BSA_SDK.BSA.Error) -> ()
+  public class WebsocketSupporter {
+    public typealias CallbackDidConnection = () -> ()
+    public typealias CallbackProcessing = (BSA_SDK.BSA.WebsocketSupporter.Status) -> ()
+    public typealias CallbackReceiveAuthData = (BSA_SDK.BSA.WebsocketSupporter.AuthData) -> ()
+    public typealias CallbackFinish = () -> ()
+    public typealias CallbackCancel = () -> ()
+    public typealias CallbackError = (BSA_SDK.BSA.Error) -> ()
     public init()
-    public func startVerification(qrId: Swift.String?, blockKey: Swift.String, websocketHeaders: [Swift.String : Swift.String]? = nil, websocketData: BSA_SDK.BSA.BlockChainNodesVerificater.WebsocketData, webSocketProcessing: BSA_SDK.BSA.BlockChainNodesVerificater.WebSocketProcessing?, webSocketFinish: BSA_SDK.BSA.BlockChainNodesVerificater.WebSocketFinish?, webSocketCancel: BSA_SDK.BSA.BlockChainNodesVerificater.WebSocketCancel?, webSocketError: BSA_SDK.BSA.BlockChainNodesVerificater.WebSocketError?)
-    public func forceEndTheVerification()
+    public func startConnection(url: Swift.String, timeOutToSeconds: Swift.Double, finishStatus: BSA_SDK.BSA.WebsocketSupporter.Status, tag: Swift.String = "", websocketHeaders: [Swift.String : Swift.String]? = nil, callbackDidConnection: BSA_SDK.BSA.WebsocketSupporter.CallbackDidConnection?, callbackProcessing: BSA_SDK.BSA.WebsocketSupporter.CallbackProcessing?, callbackReceiveAuthData: BSA_SDK.BSA.WebsocketSupporter.CallbackReceiveAuthData?, callbackFinish: BSA_SDK.BSA.WebsocketSupporter.CallbackFinish?, callbackCancel: BSA_SDK.BSA.WebsocketSupporter.CallbackCancel?, callbackError: BSA_SDK.BSA.WebsocketSupporter.CallbackError?)
+    public func forceClose()
+    public func isConnected() -> Swift.Bool
+    public func errorWithClose(error: BSA_SDK.BSA.Error, status: BSA_SDK.BSA.WebsocketSupporter.Status)
     @objc deinit
   }
 }
-extension BSA_SDK.BSA.BlockChainNodesVerificater {
-  public struct WebsocketData {
-    public var apiName: BSA_SDK.BSA.APIName
-    public var clientKey: Swift.String
-    public var deviceId: Swift.String
-    public var channelKey: Swift.String
-    public var userKey: Swift.String?
-    public var timeOutSeconds: Swift.Double
-    public init(apiName: BSA_SDK.BSA.APIName, clientKey: Swift.String, deviceId: Swift.String, channelKey: Swift.String, userKey: Swift.String? = nil, timeOutSeconds: Swift.Double)
-    public func makeConnectUrl() -> Swift.String
+extension BSA_SDK.BSA.WebsocketSupporter {
+  public struct WebsocketConnectionData {
+    public var url: Swift.String
+    public var timeOutToSeconds: Swift.Double
+    public var finishStatus: BSA_SDK.BSA.WebsocketSupporter.Status
+    public init(url: Swift.String, timeOutToSeconds: Swift.Double, finishStatus: BSA_SDK.BSA.WebsocketSupporter.Status)
+    public mutating func setData(url: Swift.String, timeOutToSeconds: Swift.Double, finishStatus: BSA_SDK.BSA.WebsocketSupporter.Status)
   }
-  public struct VerificationData {
-    public var qrId: Swift.String?
-    public var blockKey: Swift.String
-    public var websocketData: BSA_SDK.BSA.BlockChainNodesVerificater.WebsocketData
-    public init(qrId: Swift.String?, blockKey: Swift.String, websocketData: BSA_SDK.BSA.BlockChainNodesVerificater.WebsocketData)
+  public struct AuthData {
+    public var userKey: Swift.String
+    public var clientKey: Swift.String
+    public var channelKey: Swift.String
+    public init(userKey: Swift.String, clientKey: Swift.String, channelKey: Swift.String)
+  }
+  public enum Status : Swift.String {
+    case StartAuth
+    case StartVerificationOfNodes
+    case CompleteVerificationOfNodes
+    case AuthCanceled
+    case AuthFailed
+    case AuthTimeout
+    case REQUEST_AUTH
+    case CreateChannelKey
+    case CreateBlockKey
+    case SelectNodes
+    case CreateChannel
+    case AddChannel
+    case AuthData
+    case AuthCompleted
+    case RequestCancel
+    case FinishByRestart
+    case WaitForConnect
+    case InvalidStatus
+    case InvalidMessage
+    case ConnectSuccess
+    case TimeOutByLocalTimer
+    case Disconnect
+    case APIError
+    case WebsocketConnectFailed
+    case WebsocketFailed
+    case WebsocketError
+    case Unknown
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
   }
 }
 extension Foundation.Date {
@@ -399,11 +389,11 @@ extension BSA_SDK.BSA {
   }
 }
 extension BSA_SDK.BSA.LocalAuthHelper {
-  public func startBiometricID(checkDomainStateChanged: Swift.Bool, usePasscodeWhenFailed: Swift.Bool, reason: Swift.String = "본인 확인을 위해 인증이 필요합니다", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
+  public func startBiometricID(checkDomainStateChanged: Swift.Bool, usePasscodeWhenFailed: Swift.Bool, reason: Swift.String = "본인 확인을 위해 인증이 필요합니다. Authentication is required to verify your identity", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
   public func isBiometricAuthChanged() -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
 }
 extension BSA_SDK.BSA.LocalAuthHelper {
-  public func startPasscode(reason: Swift.String = "본인 확인을 위해 인증이 필요합니다", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
+  public func startPasscode(reason: Swift.String = "본인 확인을 위해 인증이 필요합니다. Authentication is required to verify your identity", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
 }
 extension BSA_SDK.BSA {
   public struct QRData {
@@ -418,11 +408,16 @@ extension BSA_SDK.BSA {
     public typealias Failed = (BSA_SDK.BSA.QRError) -> ()
     public func checkCameraPermission(onGranted: BSA_SDK.BSA.QRHelper.VoidCallback?, onDenied: BSA_SDK.BSA.QRHelper.VoidCallback?)
     public func startQR(cameraParent: UIKit.UIView, onPreviewLayerAdded: (UIKit.UIView, QuartzCore.CALayer) -> (), onSuccess: BSA_SDK.BSA.QRHelper.Finished?, onFailed: BSA_SDK.BSA.QRHelper.Failed?)
-    public func deinitialize()
+    public func restartQR()
+    public func pauseQR()
+    public func stopQR()
     public func parseData(code: Swift.String) -> BSA_SDK.BSA.QRData
     @objc override dynamic public init()
     @objc deinit
   }
+}
+extension BSA_SDK.BSA.QRHelper {
+  public static func createQRImage(from string: Swift.String, scale: CoreFoundation.CGFloat = UIScreen.main.scale) -> UIKit.UIImage?
 }
 extension BSA_SDK.BSA.QRHelper : AVFoundation.AVCaptureMetadataOutputObjectsDelegate {
   @objc dynamic public func metadataOutput(_ output: AVFoundation.AVCaptureMetadataOutput, didOutput metadataObjects: [AVFoundation.AVMetadataObject], from connection: AVFoundation.AVCaptureConnection)
@@ -500,23 +495,44 @@ extension BSA_SDK.BSA.FCM {
 }
 extension BSA_SDK.BSA.FCM {
   public static func tokenUpdate(fcmToken: Swift.String?)
-  public static func runReservedTokenUpdate()
-}
-extension BSA_SDK.BSA.JSONData.CheckDeviceData {
-  public func toString() -> Swift.String
-}
-extension BSA_SDK.BSA.JSONData.CheckRequestedAuthExistsData {
-  public func toString() -> Swift.String
 }
 extension BSA_SDK.BSA {
   public class AutoAuthenticator {
     public init()
     public func getClientKey() -> Swift.String
     public func setData(qrData: BSA_SDK.BSA.QRData?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String? = nil, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, usePasscodeWhenFailed: Swift.Bool, websocketHeaders: [Swift.String : Swift.String]? = nil) -> BSA_SDK.BSA.AutoAuthenticator
-    public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.Enums.ProcessDescription) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
+    public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.AutoAuthenticator.ProcessName) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
     public func start()
     public func forceStop()
     @objc deinit
+  }
+}
+extension BSA_SDK.BSA.AutoAuthenticator {
+  public enum ProcessName : Swift.String {
+    case BlockChainVerificationBegins
+    case StartAuth
+    case StartVerificationOfNodes
+    case CompleteVerificationOfNodes
+    case RequestingLocalAuthentication
+    case ConfirmCompleteAuth
+    case RequestingIssuanceToken
+    case AuthSuccess
+    case AuthCanceled
+    case REQUEST_AUTH
+    case CreateChannelKey
+    case CreateBlockKey
+    case SelectNodes
+    case CreateChannel
+    case AddChannel
+    case AuthData
+    case AuthCompleted
+    case AuthFailed
+    case AuthTimeout
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
   }
 }
 extension BSA_SDK.BSA {
@@ -563,15 +579,21 @@ extension BSA_SDK.BSA {
     case RequestUnlinkSite
     case WebsocketUrl
     case RenewalToken
+    case GetVerifyOTP
+    case PostVerifyOTP
+    case PostVerifyTOTP
+    case GetGenerateQR
+    case QRWebsocketUrl
+    case GetMe
+    public var url: Swift.String {
+      get
+    }
     public static func == (a: BSA_SDK.BSA.APIName, b: BSA_SDK.BSA.APIName) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
   }
-}
-extension BSA_SDK.BSA.LocalAuthHelper {
-  public func isBiometricAuthChangedInternal(policy: LocalAuthentication.LAPolicy = .deviceOwnerAuthenticationWithBiometrics) -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
 }
 extension BSA_SDK.BSA {
   public enum JSONData {
@@ -617,6 +639,7 @@ extension BSA_SDK.BSA.JSONData {
     public var uptDt: Swift.String
     public init(json: SwiftyJSON.JSON)
     public init(userKey: Swift.String, name: Swift.String, phoneNum: Swift.String, email: Swift.String, authType: Swift.Int, uptDt: Swift.String)
+    public func toString() -> Swift.String
   }
   public struct CheckRequestedAuthExistsJSON {
     public var rtCode: Swift.Int
@@ -631,6 +654,7 @@ extension BSA_SDK.BSA.JSONData {
     public var timeout: Swift.String
     public init(json: SwiftyJSON.JSON)
     public init(isExist: Swift.Bool, clientKey: Swift.String, clientName: Swift.String, siteURL: Swift.String, timeout: Swift.String)
+    public func toString() -> Swift.String
   }
   public struct NoticeJSON {
     public var rtCode: Swift.Int
@@ -750,10 +774,10 @@ extension BSA_SDK.BSA.JSONData {
   public struct IssuanceAccessTokenJSON {
     public var rtCode: Swift.Int
     public var deprecateAccessToken: Swift.String?
-    public var data: BSA_SDK.BSA.JSONData.IssuanceAccessTokenData?
+    public var data: BSA_SDK.BSA.JSONData.RefreshAndAccessTokenData?
     public init(json: SwiftyJSON.JSON)
   }
-  public struct IssuanceAccessTokenData {
+  public struct RefreshAndAccessTokenData {
     public var accessToken: Swift.String?
     public var refreshToken: Swift.String?
     public init(json: SwiftyJSON.JSON)
@@ -854,6 +878,80 @@ extension BSA_SDK.BSA.JSONData {
     public var data: Swift.String?
     public init(json: SwiftyJSON.JSON)
   }
+  public struct VerifyPortalOTPByGetUserKeyJSON {
+    public var rtCode: Swift.Int
+    public var userKey: Swift.String?
+    public init(json: SwiftyJSON.JSON)
+  }
+  public struct VerifyPortalOTPJSON {
+    public var rtCode: Swift.Int
+    public var deprecateAccessToken: Swift.String?
+    public var data: BSA_SDK.BSA.JSONData.RefreshAndAccessTokenData?
+    public init(json: SwiftyJSON.JSON)
+  }
+  public struct VerifyPortalTOTPJSON {
+    public var rtCode: Swift.Int
+    public var deprecateAccessToken: Swift.String?
+    public var data: BSA_SDK.BSA.JSONData.RefreshAndAccessTokenData?
+    public init(json: SwiftyJSON.JSON)
+  }
+  public struct GeneratePortalQRJSON {
+    public var rtCode: Swift.Int
+    public var portalQRData: BSA_SDK.BSA.JSONData.PortalQRData?
+    public init(json: SwiftyJSON.JSON)
+  }
+  public struct PortalQRData {
+    public var qrId: Swift.String
+    public var qrUrl: Swift.String
+    public init(qrId: Swift.String, qrUrl: Swift.String)
+  }
+  public struct GetMeJSON {
+    public var rtCode: Swift.Int
+    public var data: BSA_SDK.BSA.JSONData.GetMeData?
+    public var token: Swift.String?
+    public init(json: SwiftyJSON.JSON, timeZone: Foundation.TimeZone)
+  }
+  public struct GetMeData {
+    public var userKey: Swift.String
+    public var clientKey: Swift.String
+    public var clientName: Swift.String
+    public var userType: Swift.String
+    public var userStatus: Swift.String
+    public var phoneNum: Swift.String
+    public var name: Swift.String
+    public var email: Swift.String
+    public var authType: Swift.Int
+    public var regDt: Swift.String
+    public var regDt_ko: Swift.String
+    public var regDt_en: Swift.String
+    public var accessibleClient: [Swift.String : BSA_SDK.BSA.JSONData.AccessibleClientInfo]?
+    public init(json: SwiftyJSON.JSON, timeZone: Foundation.TimeZone)
+    public func getFormattedRegDt(lang: Swift.String, timeZone: Foundation.TimeZone) -> Swift.String
+  }
+  public struct AccessibleClientInfo {
+    public var clientKey: Swift.String
+    public var clientName: Swift.String
+    public var userType: Swift.String
+    public init(clientKey: Swift.String, clientName: Swift.String, userType: Swift.String)
+  }
+}
+extension BSA_SDK.BSA {
+  public class BlockChainNodesVerificater {
+    public struct VerificationData {
+      public var qrId: Swift.String?
+      public var blockKey: Swift.String
+      public var clientKey: Swift.String
+      public var deviceId: Swift.String
+      public var channelKey: Swift.String
+      public var userKey: Swift.String?
+      public var timeOutSeconds: Swift.Double
+      public init(qrId: Swift.String? = nil, blockKey: Swift.String, clientKey: Swift.String, deviceId: Swift.String, channelKey: Swift.String, userKey: Swift.String? = nil, timeOutSeconds: Swift.Double)
+    }
+    public init()
+    public func startVerification(url: Swift.String, data: BSA_SDK.BSA.BlockChainNodesVerificater.VerificationData, websocketHeaders: [Swift.String : Swift.String]? = nil, callbackProcessing: BSA_SDK.BSA.WebsocketSupporter.CallbackProcessing?, callbackFinish: BSA_SDK.BSA.WebsocketSupporter.CallbackFinish?, callbackCancel: BSA_SDK.BSA.WebsocketSupporter.CallbackCancel?, callbackError: BSA_SDK.BSA.WebsocketSupporter.CallbackError?)
+    public func forceEndTheVerification()
+    @objc deinit
+  }
 }
 extension BSA_SDK.BSA {
   public enum SignUpData {
@@ -912,10 +1010,49 @@ extension BSA_SDK.BSA {
   }
 }
 extension BSA_SDK.BSA {
+  @_hasMissingDesignatedInitializers public class PortalAuthenticator {
+    public static func createInstance(onProcessing: @escaping (BSA_SDK.BSA.PortalAuthenticator.ProcessName) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog?) -> BSA_SDK.BSA.PortalAuthenticator
+    public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.PortalAuthenticator.ProcessName) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog?) -> BSA_SDK.BSA.PortalAuthenticator
+    public func requestByDefault(userKey: Swift.String, clientKey: Swift.String)
+    public typealias VerifyingOTP = (Swift.String) -> ()
+    public func requestByOTP(userKey: Swift.String, clientKey: Swift.String, waitInputOTP: @escaping (@escaping BSA_SDK.BSA.PortalAuthenticator.VerifyingOTP) -> ())
+    public func requestByOTPCodeFirst(otpCode: Swift.String, clientKey: Swift.String)
+    public func requestByTOTPCode(totpCode: Swift.String, userKey: Swift.String, clientKey: Swift.String)
+    public func requestByQR(clientKey: Swift.String, callbackGeneratedQR: @escaping (BSA_SDK.BSA.JSONData.PortalQRData) -> ())
+    public func requestCancelAuth()
+    @objc deinit
+  }
+}
+extension BSA_SDK.BSA.PortalAuthenticator {
+  public enum ProcessName : Swift.String {
+    case StartAuth
+    case StartVerificationOfNodes
+    case CompleteVerificationOfNodes
+    case AuthSuccess
+    case AuthCanceled
+    case REQUEST_AUTH
+    case CreateChannelKey
+    case CreateBlockKey
+    case SelectNodes
+    case CreateChannel
+    case AddChannel
+    case AuthData
+    case AuthCompleted
+    case AuthFailed
+    case AuthTimeout
+    case TimeOutByLocalTimer
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension BSA_SDK.BSA {
   public enum APICaller {
-    public typealias OnError = (BSA_SDK.BSA.Error) -> ()
-    public typealias OnFailed = (BSA_SDK.BSA.RtCode, Swift.String) -> ()
     public typealias OnTokenExpired = (BSA_SDK.BSA.RtCode, Swift.String) -> ()
+    public typealias OnFailed = (BSA_SDK.BSA.RtCode, Swift.String) -> ()
+    public typealias OnError = (BSA_SDK.BSA.Error) -> ()
     public typealias OnTotalLog = (Swift.String) -> ()
     public typealias OnCompleted = () -> ()
     public typealias OnRenewalToken = () -> ()
@@ -972,6 +1109,11 @@ extension BSA_SDK.BSA.APICaller {
   public static func requestVerifySiteAccount(siteClientKey: Swift.String, siteID: Swift.String, sitePassword: Swift.String, onSuccess: @escaping (Swift.String) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func requestLinkSite(siteClientKey: Swift.String, siteToken: Swift.String?, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func requestUnlinkSite(siteClientKey: Swift.String, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func verifyPortalOTPForGetUserKey(otpCode: Swift.String, clientKey: Swift.String, onSuccess: @escaping (Swift.String) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func verifyPortalOTP(otpCode: Swift.String, userKey: Swift.String, clientKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func verifyPortalTOTP(totpCode: Swift.String, userKey: Swift.String, clientKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func generatePortalQR(clientKey: Swift.String, onSuccess: @escaping (BSA_SDK.BSA.JSONData.PortalQRData) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func getMe(timeZone: Foundation.TimeZone = .autoupdatingCurrent, onSuccess: @escaping (BSA_SDK.BSA.JSONData.GetMeData) -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
 }
 @_hasMissingDesignatedInitializers public class PCGPrint {
   public static func d<T>(_ object: T?, printOption: Swift.Bool = true, fileName: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
@@ -1005,6 +1147,9 @@ extension BSA_SDK.BSA {
   public static func loadAccessToken() -> Swift.String?
   public static func removeAccessToken() -> Swift.Bool
   public static func removeAccessAndRefreshToken()
+  public static func loadPortalAccessToken() -> Swift.String?
+  public static func removePortalAccessToken() -> Swift.Bool
+  public static func removePortalAccessAndRefreshToken()
   public static func loadLocalAuthType() -> BSA_SDK.BSA.Enums.LocalAuthType?
   public static func loadFCMToken() -> Swift.String?
   public static func loadUserKey() -> Swift.String?
@@ -1012,7 +1157,7 @@ extension BSA_SDK.BSA {
 }
 extension BSA_SDK.BSA {
   public enum LocalAuth {
-    public static func startSimpleAuth(localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, reason: Swift.String = "본인 확인을 위해 인증이 필요합니다", checkDomainStateChanged: Swift.Bool, usePasscodeWhenFailed: Swift.Bool, onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
+    public static func startSimpleAuth(localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, reason: Swift.String = "본인 확인을 위해 인증이 필요합니다.\nAuthentication is required to verify your identity", checkDomainStateChanged: Swift.Bool, usePasscodeWhenFailed: Swift.Bool, onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
     public static func isBiometricAuthChanged() -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
   }
 }
@@ -1046,6 +1191,7 @@ extension BSA_SDK.BSA {
     case WEBSOCKET_URL_InvalidString(_: Swift.String)
     case WEBSOCKET_BSA_APICallFailed(_: Swift.String, _: Swift.String)
     case WEBSOCKET_InvalidStatus(_: Swift.String)
+    case WEBSOCKET_InvalidMessage(_: Swift.String)
     case WEBSOCKET_ConnectFailed(_: Swift.String)
     case WEBSOCKET_TIMEOUT
     public static func parseDescription(_ error: any Swift.Error) -> Swift.String
@@ -1114,19 +1260,25 @@ extension BSA_SDK.BSA.Enums.OTPType : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.Enums.AuthPlatform : Swift.Equatable {}
 extension BSA_SDK.BSA.Enums.AuthPlatform : Swift.Hashable {}
 extension BSA_SDK.BSA.Enums.AuthPlatform : Swift.RawRepresentable {}
-extension BSA_SDK.BSA.Enums.ProcessDescription : Swift.Equatable {}
-extension BSA_SDK.BSA.Enums.ProcessDescription : Swift.Hashable {}
-extension BSA_SDK.BSA.Enums.ProcessDescription : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.Enums.AuthHistoryStatus : Swift.Equatable {}
 extension BSA_SDK.BSA.Enums.AuthHistoryStatus : Swift.Hashable {}
 extension BSA_SDK.BSA.Enums.AuthHistoryStatus : Swift.RawRepresentable {}
+extension BSA_SDK.BSA.WebsocketSupporter.Status : Swift.Equatable {}
+extension BSA_SDK.BSA.WebsocketSupporter.Status : Swift.Hashable {}
+extension BSA_SDK.BSA.WebsocketSupporter.Status : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.LocalAuthHelper.ErrorCode : Swift.Equatable {}
 extension BSA_SDK.BSA.LocalAuthHelper.ErrorCode : Swift.Hashable {}
 extension BSA_SDK.BSA.FCM.PushType : Swift.Equatable {}
 extension BSA_SDK.BSA.FCM.PushType : Swift.Hashable {}
 extension BSA_SDK.BSA.FCM.PushType : Swift.RawRepresentable {}
+extension BSA_SDK.BSA.AutoAuthenticator.ProcessName : Swift.Equatable {}
+extension BSA_SDK.BSA.AutoAuthenticator.ProcessName : Swift.Hashable {}
+extension BSA_SDK.BSA.AutoAuthenticator.ProcessName : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.APIName : Swift.Equatable {}
 extension BSA_SDK.BSA.APIName : Swift.Hashable {}
+extension BSA_SDK.BSA.PortalAuthenticator.ProcessName : Swift.Equatable {}
+extension BSA_SDK.BSA.PortalAuthenticator.ProcessName : Swift.Hashable {}
+extension BSA_SDK.BSA.PortalAuthenticator.ProcessName : Swift.RawRepresentable {}
 extension BSA_SDK.BSA.APICaller.OTPSendType : Swift.Equatable {}
 extension BSA_SDK.BSA.APICaller.OTPSendType : Swift.Hashable {}
 extension BSA_SDK.VersionFormat.Compare : Swift.Equatable {}

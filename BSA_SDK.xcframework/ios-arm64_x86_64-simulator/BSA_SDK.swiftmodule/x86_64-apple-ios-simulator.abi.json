@@ -13856,33 +13856,13 @@
               },
               {
                 "kind": "Var",
-                "name": "context",
-                "printedName": "context",
+                "name": "successContext",
+                "printedName": "successContext",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LAContext",
-                    "printedName": "LocalAuthentication.LAContext",
-                    "usr": "c:objc(cs)LAContext"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC7contextSo9LAContextCvp",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC7contextSo9LAContextCvp",
-                "moduleName": "BSA_SDK",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "Final",
-                  "HasStorage",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
+                    "name": "Optional",
+                    "printedName": "LocalAuthentication.LAContext?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13891,33 +13871,12 @@
                         "usr": "c:objc(cs)LAContext"
                       }
                     ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC7contextSo9LAContextCvg",
-                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC7contextSo9LAContextCvg",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Final"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "policy",
-                "printedName": "policy",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LAPolicy",
-                    "printedName": "LocalAuthentication.LAPolicy",
-                    "usr": "c:@E@LAPolicy"
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvp",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvp",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvp",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvp",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -13934,14 +13893,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LAPolicy",
-                        "printedName": "LocalAuthentication.LAPolicy",
-                        "usr": "c:@E@LAPolicy"
+                        "name": "Optional",
+                        "printedName": "LocalAuthentication.LAContext?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LAContext",
+                            "printedName": "LocalAuthentication.LAContext",
+                            "usr": "c:objc(cs)LAContext"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvg",
-                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvg",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvg",
+                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvg",
                     "moduleName": "BSA_SDK",
                     "implicit": true,
                     "isOpen": true,
@@ -13959,14 +13926,22 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "LAPolicy",
-                        "printedName": "LocalAuthentication.LAPolicy",
-                        "usr": "c:@E@LAPolicy"
+                        "name": "Optional",
+                        "printedName": "LocalAuthentication.LAContext?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LAContext",
+                            "printedName": "LocalAuthentication.LAContext",
+                            "usr": "c:objc(cs)LAContext"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvs",
-                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvs",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvs",
+                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvs",
                     "moduleName": "BSA_SDK",
                     "implicit": true,
                     "isOpen": true,
@@ -13984,8 +13959,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvM",
-                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC6policySo8LAPolicyVvM",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvM",
+                    "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC14successContextSo9LAContextCSgvM",
                     "moduleName": "BSA_SDK",
                     "implicit": true,
                     "isOpen": true,
@@ -14026,7 +14001,7 @@
               {
                 "kind": "Function",
                 "name": "startBiometricID",
-                "printedName": "startBiometricID(checkDomainStateChanged:usePasscodeWhenFailed:reason:onSuccess:onError:)",
+                "printedName": "startBiometricID(checkDomainStateChanged:reason:allowSession:onSuccess:onError:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14041,16 +14016,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
                     "hasDefaultArg": true,
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   },
                   {
                     "kind": "TypeFunc",
@@ -14097,8 +14072,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC16startBiometricID23checkDomainStateChanged21usePasscodeWhenFailed6reason9onSuccess0R5ErrorySb_SbSSyycyAE0T4CodeOSgctF",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC16startBiometricID23checkDomainStateChanged21usePasscodeWhenFailed6reason9onSuccess0R5ErrorySb_SbSSyycyAE0T4CodeOSgctF",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC16startBiometricID23checkDomainStateChanged6reason12allowSession9onSuccess0P5ErrorySb_SSSbyycyAE0R4CodeOSgctF",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC16startBiometricID23checkDomainStateChanged6reason12allowSession9onSuccess0P5ErrorySb_SSSbyycyAE0R4CodeOSgctF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -14131,6 +14106,38 @@
                 "declKind": "Func",
                 "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD7ChangedAE9ErrorCodeOSgyF",
                 "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC011isBiometricD7ChangedAE9ErrorCodeOSgyF",
+                "moduleName": "BSA_SDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "checkBiometricAuthAvailable",
+                "printedName": "checkBiometricAuthAvailable()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode",
+                        "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC9ErrorCodeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC014checkBiometricD9AvailableAE9ErrorCodeOSgyF",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC014checkBiometricD9AvailableAE9ErrorCodeOSgyF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -14321,8 +14328,46 @@
               },
               {
                 "kind": "Function",
+                "name": "errorToErrorCode",
+                "printedName": "errorToErrorCode(error:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC16errorToErrorCode0F0AE0hI0OSo7NSErrorCSg_tFZ",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC16errorToErrorCode0F0AE0hI0OSo7NSErrorCSg_tFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "startBiometricIDInternal",
-                "printedName": "startBiometricIDInternal(checkDomainStateChanged:usePasscodeWhenFailed:reason:onSuccess:onError:)",
+                "printedName": "startBiometricIDInternal(checkDomainStateChanged:reason:allowSession:onSuccess:onError:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14337,15 +14382,15 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   },
                   {
                     "kind": "TypeFunc",
@@ -14392,8 +14437,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC24startBiometricIDInternal23checkDomainStateChanged21usePasscodeWhenFailed6reason9onSuccess0R5ErrorySb_SbSSyycyAE0T4CodeOSgctF",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC24startBiometricIDInternal23checkDomainStateChanged21usePasscodeWhenFailed6reason9onSuccess0R5ErrorySb_SbSSyycyAE0T4CodeOSgctF",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC24startBiometricIDInternal23checkDomainStateChanged6reason12allowSession9onSuccess0P5ErrorySb_SSSbyycyAE0R4CodeOSgctF",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC24startBiometricIDInternal23checkDomainStateChanged6reason12allowSession9onSuccess0P5ErrorySb_SSSbyycyAE0R4CodeOSgctF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -20244,100 +20289,6 @@
               },
               {
                 "kind": "Var",
-                "name": "usePasscodeWhenFailed",
-                "printedName": "usePasscodeWhenFailed",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvp",
-                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvp",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvg",
-                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvg",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvs",
-                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvs",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvM",
-                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC21usePasscodeWhenFailedSbvM",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "intro_iOS": "14",
-                    "declAttributes": [
-                      "Available"
-                    ],
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "websocketHeaders",
                 "printedName": "websocketHeaders",
                 "children": [
@@ -20544,7 +20495,7 @@
               {
                 "kind": "Function",
                 "name": "setData",
-                "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:otpAuth:sendPushMessage:localAuthType:usePasscodeWhenFailed:websocketHeaders:)",
+                "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:otpAuth:sendPushMessage:localAuthType:websocketHeaders:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -20627,12 +20578,6 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
                     "name": "Optional",
                     "printedName": "[Swift.String : Swift.String]?",
                     "children": [
@@ -20662,8 +20607,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type21usePasscodeWhenFailed16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSbSDyS2SGSgtF",
-                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type21usePasscodeWhenFailed16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSbSDyS2SGSgtF",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSDyS2SGSgtF",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSDyS2SGSgtF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -60651,6 +60596,125 @@
                   },
                   {
                     "kind": "Var",
+                    "name": "macAddr",
+                    "printedName": "macAddr",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvp",
+                    "mangledName": "$s7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvp",
+                    "moduleName": "BSA_SDK",
+                    "isOpen": true,
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "RawDocComment"
+                    ],
+                    "fixedbinaryorder": 7,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvg",
+                        "mangledName": "$s7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvs",
+                        "mangledName": "$s7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvM",
+                        "mangledName": "$s7BSA_SDK0A0C10SignUpDataO06DeviceE0C7macAddrSSSgvM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "isOpen": true,
+                        "intro_iOS": "14",
+                        "declAttributes": [
+                          "Available"
+                        ],
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
                     "name": "bthAddr",
                     "printedName": "bthAddr",
                     "children": [
@@ -60679,7 +60743,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 7,
+                    "fixedbinaryorder": 8,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -60798,7 +60862,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 8,
+                    "fixedbinaryorder": 9,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -60917,7 +60981,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 9,
+                    "fixedbinaryorder": 10,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -61036,7 +61100,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 10,
+                    "fixedbinaryorder": 11,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -61155,7 +61219,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 11,
+                    "fixedbinaryorder": 12,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -61274,7 +61338,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 12,
+                    "fixedbinaryorder": 13,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -61393,7 +61457,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 13,
+                    "fixedbinaryorder": 14,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -61512,7 +61576,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 14,
+                    "fixedbinaryorder": 15,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -61631,7 +61695,7 @@
                       "HasStorage",
                       "RawDocComment"
                     ],
-                    "fixedbinaryorder": 15,
+                    "fixedbinaryorder": 16,
                     "hasStorage": true,
                     "accessors": [
                       {
@@ -61749,7 +61813,7 @@
                   {
                     "kind": "Constructor",
                     "name": "init",
-                    "printedName": "init(osVersion:deviceManufacturer:deviceId:deviceName:wifiInfo:audioInfo:audioMode:bthAddr:gpsLat:gpsLng:proximity:orientation:accelerometer:gyroscope:magnetic:light:)",
+                    "printedName": "init(osVersion:deviceManufacturer:deviceId:deviceName:wifiInfo:audioInfo:audioMode:macAddr:bthAddr:gpsLat:gpsLng:proximity:orientation:accelerometer:gyroscope:magnetic:light:)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -61980,11 +62044,25 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Constructor",
-                    "usr": "s:7BSA_SDK0A0C10SignUpDataO06DeviceE0C9osVersion18deviceManufacturer0I2Id0I4Name8wifiInfo05audioN00O4Mode7bthAddr6gpsLat0S3Lng9proximity11orientation13accelerometer9gyroscope8magnetic5lightAGSSSg_A15Xtcfc",
-                    "mangledName": "$s7BSA_SDK0A0C10SignUpDataO06DeviceE0C9osVersion18deviceManufacturer0I2Id0I4Name8wifiInfo05audioN00O4Mode7bthAddr6gpsLat0S3Lng9proximity11orientation13accelerometer9gyroscope8magnetic5lightAGSSSg_A15Xtcfc",
+                    "usr": "s:7BSA_SDK0A0C10SignUpDataO06DeviceE0C9osVersion18deviceManufacturer0I2Id0I4Name8wifiInfo05audioN00O4Mode7macAddr03bthR06gpsLat0T3Lng9proximity11orientation13accelerometer9gyroscope8magnetic5lightAGSSSg_A16Ytcfc",
+                    "mangledName": "$s7BSA_SDK0A0C10SignUpDataO06DeviceE0C9osVersion18deviceManufacturer0I2Id0I4Name8wifiInfo05audioN00O4Mode7macAddr03bthR06gpsLat0T3Lng9proximity11orientation13accelerometer9gyroscope8magnetic5lightAGSSSg_A16Ytcfc",
                     "moduleName": "BSA_SDK",
                     "declAttributes": [
                       "RawDocComment"
@@ -74983,7 +75061,7 @@
               {
                 "kind": "Function",
                 "name": "startSimpleAuth",
-                "printedName": "startSimpleAuth(localAuthType:reason:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
+                "printedName": "startSimpleAuth(localAuthType:reason:checkDomainStateChanged:allowSession:onSuccess:onError:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -75060,8 +75138,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO0cdH0O_SSS2byycyAC0cD6HelperC0T4CodeOSgctFZ",
-                "mangledName": "$s7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO0cdH0O_SSS2byycyAC0cD6HelperC0T4CodeOSgctFZ",
+                "usr": "s:7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type6reason23checkDomainStateChanged12allowSession9onSuccess0P5ErroryAC5EnumsO0cdH0O_SSS2byycyAC0cD6HelperC0R4CodeOSgctFZ",
+                "mangledName": "$s7BSA_SDK0A0C9LocalAuthO011startSimpleD005localD4Type6reason23checkDomainStateChanged12allowSession9onSuccess0P5ErroryAC5EnumsO0cdH0O_SSS2byycyAC0cD6HelperC0R4CodeOSgctFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -75093,6 +75171,37 @@
                 "declKind": "Func",
                 "usr": "s:7BSA_SDK0A0C9LocalAuthO011isBiometricD7ChangedAC0cD6HelperC9ErrorCodeOSgyFZ",
                 "mangledName": "$s7BSA_SDK0A0C9LocalAuthO011isBiometricD7ChangedAC0cD6HelperC9ErrorCodeOSgyFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "checkBiometricAuthAvailable",
+                "printedName": "checkBiometricAuthAvailable()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode",
+                        "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC9ErrorCodeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C9LocalAuthO014checkBiometricD9AvailableAC0cD6HelperC9ErrorCodeOSgyFZ",
+                "mangledName": "$s7BSA_SDK0A0C9LocalAuthO014checkBiometricD9AvailableAC0cD6HelperC9ErrorCodeOSgyFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -78750,7 +78859,7 @@
           {
             "kind": "Function",
             "name": "startSimpleAuthInternal",
-            "printedName": "startSimpleAuthInternal(localAuthType:reason:checkDomainStateChanged:usePasscodeWhenFailed:onSuccess:onError:)",
+            "printedName": "startSimpleAuthInternal(localAuthType:reason:checkDomainStateChanged:allowSession:onSuccess:onError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -78826,8 +78935,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO05LocaleH0O_SSS2byycyAC0vE6HelperC0T4CodeOSgctFZ",
-            "mangledName": "$s7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type6reason23checkDomainStateChanged21usePasscodeWhenFailed9onSuccess0R5ErroryAC5EnumsO05LocaleH0O_SSS2byycyAC0vE6HelperC0T4CodeOSgctFZ",
+            "usr": "s:7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type6reason23checkDomainStateChanged12allowSession9onSuccess0P5ErroryAC5EnumsO05LocaleH0O_SSS2byycyAC0tE6HelperC0R4CodeOSgctFZ",
+            "mangledName": "$s7BSA_SDK0A0C23startSimpleAuthInternal05localE4Type6reason23checkDomainStateChanged12allowSession9onSuccess0P5ErroryAC5EnumsO05LocaleH0O_SSS2byycyAC0tE6HelperC0R4CodeOSgctFZ",
             "moduleName": "BSA_SDK",
             "static": true,
             "declAttributes": [
@@ -78860,6 +78969,38 @@
             "declKind": "Func",
             "usr": "s:7BSA_SDK0A0C30isBiometricAuthChangedInternalAC05LocalE6HelperC9ErrorCodeOSgyFZ",
             "mangledName": "$s7BSA_SDK0A0C30isBiometricAuthChangedInternalAC05LocalE6HelperC9ErrorCodeOSgyFZ",
+            "moduleName": "BSA_SDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkBiometricAuthAvailableInternal",
+            "printedName": "checkBiometricAuthAvailableInternal()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "BSA_SDK.BSA.LocalAuthHelper.ErrorCode",
+                    "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC9ErrorCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BSA_SDK0A0C35checkBiometricAuthAvailableInternalAC05LocalE6HelperC9ErrorCodeOSgyFZ",
+            "mangledName": "$s7BSA_SDK0A0C35checkBiometricAuthAvailableInternalAC05LocalE6HelperC9ErrorCodeOSgyFZ",
             "moduleName": "BSA_SDK",
             "static": true,
             "declAttributes": [
@@ -83884,14 +84025,14 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/LocalAuthHelper.swift",
       "kind": "StringLiteral",
-      "offset": 6056,
+      "offset": 6139,
       "length": 103,
       "value": "\"본인 확인을 위해 인증이 필요합니다. Authentication is required to verify your identity\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/LocalAuthHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7616,
+      "offset": 8889,
       "length": 103,
       "value": "\"본인 확인을 위해 인증이 필요합니다. Authentication is required to verify your identity\""
     },
@@ -84107,274 +84248,267 @@
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2188,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21428,
+      "offset": 20984,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21547,
+      "offset": 21103,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21695,
+      "offset": 21251,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21842,
+      "offset": 21398,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21993,
+      "offset": 21549,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22136,
+      "offset": 21692,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22269,
+      "offset": 21825,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22381,
+      "offset": 21937,
       "length": 13,
       "value": "\"AuthSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22481,
+      "offset": 22037,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22619,
+      "offset": 22175,
       "length": 13,
       "value": "\"RequestAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22779,
+      "offset": 22335,
       "length": 18,
       "value": "\"CreateChannelKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22940,
+      "offset": 22496,
       "length": 16,
       "value": "\"CreateBlockKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23073,
+      "offset": 22629,
       "length": 13,
       "value": "\"SelectNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23214,
+      "offset": 22770,
       "length": 15,
       "value": "\"CreateChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23354,
+      "offset": 22910,
       "length": 12,
       "value": "\"AddChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23585,
+      "offset": 23141,
       "length": 10,
       "value": "\"AuthData\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23773,
+      "offset": 23329,
       "length": 15,
       "value": "\"AuthCompleted\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23891,
+      "offset": 23447,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23998,
+      "offset": 23554,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21428,
+      "offset": 20984,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21547,
+      "offset": 21103,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21695,
+      "offset": 21251,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21842,
+      "offset": 21398,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21993,
+      "offset": 21549,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22136,
+      "offset": 21692,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22269,
+      "offset": 21825,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22381,
+      "offset": 21937,
       "length": 13,
       "value": "\"AuthSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22481,
+      "offset": 22037,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22619,
+      "offset": 22175,
       "length": 13,
       "value": "\"RequestAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22779,
+      "offset": 22335,
       "length": 18,
       "value": "\"CreateChannelKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22940,
+      "offset": 22496,
       "length": 16,
       "value": "\"CreateBlockKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23073,
+      "offset": 22629,
       "length": 13,
       "value": "\"SelectNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23214,
+      "offset": 22770,
       "length": 15,
       "value": "\"CreateChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23354,
+      "offset": 22910,
       "length": 12,
       "value": "\"AddChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23585,
+      "offset": 23141,
       "length": 10,
       "value": "\"AuthData\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23773,
+      "offset": 23329,
       "length": 15,
       "value": "\"AuthCompleted\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23891,
+      "offset": 23447,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23998,
+      "offset": 23554,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
@@ -86824,7 +86958,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PreProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 58610,
+      "offset": 60507,
       "length": 13,
       "value": "\"REG_DT,DESC\""
     },
@@ -87279,35 +87413,35 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/SignUpDataInternal.swift",
       "kind": "StringLiteral",
-      "offset": 9114,
+      "offset": 9393,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/SignUpDataInternal.swift",
       "kind": "StringLiteral",
-      "offset": 9144,
+      "offset": 9423,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/SignUpDataInternal.swift",
       "kind": "StringLiteral",
-      "offset": 9171,
+      "offset": 9450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/SignUpDataInternal.swift",
       "kind": "StringLiteral",
-      "offset": 9197,
+      "offset": 9476,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/SignUpDataInternal.swift",
       "kind": "StringLiteral",
-      "offset": 9220,
+      "offset": 9499,
       "length": 2,
       "value": "\"\""
     },
@@ -87393,7 +87527,7 @@
       "kind": "IntegerLiteral",
       "offset": 1028,
       "length": 1,
-      "value": "3"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
@@ -87426,7 +87560,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "StringLiteral",
-      "offset": 11235,
+      "offset": 11534,
       "length": 104,
       "value": "\"본인 확인을 위해 인증이 필요합니다.\nAuthentication is required to verify your identity\""
     },

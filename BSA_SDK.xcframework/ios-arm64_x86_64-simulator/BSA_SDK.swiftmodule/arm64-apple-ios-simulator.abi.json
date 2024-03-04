@@ -87513,54 +87513,54 @@
       "kind": "IntegerLiteral",
       "offset": 1007,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "IntegerLiteral",
       "offset": 1017,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1028,
       "length": 1,
-      "value": "5"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "IntegerLiteral",
-      "offset": 1038,
+      "offset": 1027,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1037,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "BooleanLiteral",
-      "offset": 4255,
+      "offset": 4254,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "BooleanLiteral",
-      "offset": 4280,
+      "offset": 4279,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "StringLiteral",
-      "offset": 4304,
+      "offset": 4303,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",
       "kind": "StringLiteral",
-      "offset": 11534,
+      "offset": 11533,
       "length": 104,
       "value": "\"본인 확인을 위해 인증이 필요합니다.\nAuthentication is required to verify your identity\""
     },

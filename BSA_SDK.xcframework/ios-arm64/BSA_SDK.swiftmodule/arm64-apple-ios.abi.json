@@ -70,16 +70,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BSA_SDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
@@ -9772,711 +9762,6 @@
           },
           {
             "kind": "TypeDecl",
-            "name": "CountdownTimer",
-            "printedName": "CountdownTimer",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "timer",
-                "printedName": "timer",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.Timer?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Timer",
-                        "printedName": "Foundation.Timer",
-                        "usr": "c:objc(cs)NSTimer"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvp",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvp",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Foundation.Timer?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Timer",
-                            "printedName": "Foundation.Timer",
-                            "usr": "c:objc(cs)NSTimer"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvg",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvg",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Foundation.Timer?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Timer",
-                            "printedName": "Foundation.Timer",
-                            "usr": "c:objc(cs)NSTimer"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvs",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvs",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvM",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC5timerSo7NSTimerCSgvM",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "intro_iOS": "14",
-                    "declAttributes": [
-                      "Available"
-                    ],
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "countdownSecond",
-                "printedName": "countdownSecond",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivp",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivp",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivg",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivg",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivs",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivs",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivM",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC15countdownSecondSivM",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "intro_iOS": "14",
-                    "declAttributes": [
-                      "Available"
-                    ],
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "countdownRemainSecond",
-                "printedName": "countdownRemainSecond",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivp",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivp",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivg",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivg",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivs",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivs",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivM",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC21countdownRemainSecondSivM",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "intro_iOS": "14",
-                    "declAttributes": [
-                      "Available"
-                    ],
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "tag",
-                "printedName": "tag",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC3tagSSvp",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC3tagSSvp",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "HasStorage",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC3tagSSvg",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC3tagSSvg",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC3tagSSvs",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC3tagSSvs",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC3tagSSvM",
-                    "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC3tagSSvM",
-                    "moduleName": "BSA_SDK",
-                    "implicit": true,
-                    "isOpen": true,
-                    "intro_iOS": "14",
-                    "declAttributes": [
-                      "Available"
-                    ],
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(tag:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CountdownTimer",
-                    "printedName": "BSA_SDK.BSA.CountdownTimer",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC3tagAESS_tcfc",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC3tagAESS_tcfc",
-                "moduleName": "BSA_SDK",
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CountdownTimer",
-                    "printedName": "BSA_SDK.BSA.CountdownTimer",
-                    "usr": "s:7BSA_SDK0A0C14CountdownTimerC"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerCAEycfc",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerCAEycfc",
-                "moduleName": "BSA_SDK",
-                "overriding": true,
-                "implicit": true,
-                "objc_name": "init",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
-                  "Override"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Function",
-                "name": "startByRemainTimeFrom60Second",
-                "printedName": "startByRemainTimeFrom60Second(repeatCountdown:onSecond:onFire:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC29startByRemainTimeFrom60Second06repeatC002onJ00L4FireySb_ySicyyctF",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC29startByRemainTimeFrom60Second06repeatC002onJ00L4FireySb_ySicyyctF",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isFromExtension": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "start",
-                "printedName": "start(countDownSecond:repeatCountdown:onSecond:onFire:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC5start15countDownSecond06repeatC002onH00J4FireySi_SbySicyyctF",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC5start15countDownSecond06repeatC002onH00J4FireySi_SbySicyyctF",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isFromExtension": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "stopCountDown",
-                "printedName": "stopCountDown()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C14CountdownTimerC13stopCountDownyyF",
-                "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC13stopCountDownyyF",
-                "moduleName": "BSA_SDK",
-                "isOpen": true,
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isFromExtension": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Class",
-            "usr": "s:7BSA_SDK0A0C14CountdownTimerC",
-            "mangledName": "$s7BSA_SDK0A0C14CountdownTimerC",
-            "moduleName": "BSA_SDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "superclassUsr": "c:objc(cs)NSObject",
-            "superclassNames": [
-              "ObjectiveC.NSObject"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "_KeyValueCodingAndObservingPublishing",
-                "printedName": "_KeyValueCodingAndObservingPublishing",
-                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CustomStringConvertible",
-                "printedName": "CustomStringConvertible",
-                "usr": "s:s23CustomStringConvertibleP",
-                "mangledName": "$ss23CustomStringConvertibleP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "ReactiveCompatible",
-                "printedName": "ReactiveCompatible",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "ReactiveBase",
-                    "printedName": "ReactiveBase",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NSObject",
-                        "printedName": "ObjectiveC.NSObject",
-                        "usr": "c:objc(cs)NSObject"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:7RxSwift18ReactiveCompatibleP",
-                "mangledName": "$s7RxSwift18ReactiveCompatibleP"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
             "name": "HTTPLog",
             "printedName": "HTTPLog",
             "children": [
@@ -14150,12 +13435,18 @@
               {
                 "kind": "Function",
                 "name": "startPasscode",
-                "printedName": "startPasscode(reason:onSuccess:onError:)",
+                "printedName": "startPasscode(allowSession:reason:onSuccess:onError:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   },
                   {
                     "kind": "TypeNominal",
@@ -14209,8 +13500,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC13startPasscode6reason9onSuccess0I5ErrorySS_yycyAE0K4CodeOSgctF",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC13startPasscode6reason9onSuccess0I5ErrorySS_yycyAE0K4CodeOSgctF",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC13startPasscode12allowSession6reason9onSuccess0K5ErrorySb_SSyycyAE0M4CodeOSgctF",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC13startPasscode12allowSession6reason9onSuccess0K5ErrorySb_SSyycyAE0M4CodeOSgctF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -14488,12 +13779,18 @@
               {
                 "kind": "Function",
                 "name": "startPasscodeInternal",
-                "printedName": "startPasscodeInternal(reason:onSuccess:onError:)",
+                "printedName": "startPasscodeInternal(allowSession:reason:onSuccess:onError:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   },
                   {
                     "kind": "TypeNominal",
@@ -14546,8 +13843,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC21startPasscodeInternal6reason9onSuccess0J5ErrorySS_yycyAE0L4CodeOSgctF",
-                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC21startPasscodeInternal6reason9onSuccess0J5ErrorySS_yycyAE0L4CodeOSgctF",
+                "usr": "s:7BSA_SDK0A0C15LocalAuthHelperC21startPasscodeInternal12allowSession6reason9onSuccess0L5ErrorySb_SSyycyAE0N4CodeOSgctF",
+                "mangledName": "$s7BSA_SDK0A0C15LocalAuthHelperC21startPasscodeInternal12allowSession6reason9onSuccess0L5ErrorySb_SSyycyAE0N4CodeOSgctF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -20448,6 +19745,100 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "localAuthReason",
+                "printedName": "localAuthReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvp",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvp",
+                "moduleName": "BSA_SDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvg",
+                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvg",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvs",
+                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvs",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvM",
+                    "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC15localAuthReasonSSvM",
+                    "moduleName": "BSA_SDK",
+                    "implicit": true,
+                    "isOpen": true,
+                    "intro_iOS": "14",
+                    "declAttributes": [
+                      "Available"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -20495,7 +19886,7 @@
               {
                 "kind": "Function",
                 "name": "setData",
-                "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:otpAuth:sendPushMessage:localAuthType:websocketHeaders:)",
+                "printedName": "setData(qrData:pushData:clientKey:userKey:deviceId:otpAuth:sendPushMessage:localAuthType:localAuthReason:websocketHeaders:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -20578,6 +19969,13 @@
                   },
                   {
                     "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
                     "name": "Optional",
                     "printedName": "[Swift.String : Swift.String]?",
                     "children": [
@@ -20607,8 +20005,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSDyS2SGSgtF",
-                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSDyS2SGSgtF",
+                "usr": "s:7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type0sO6Reason16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSSSDyS2SGSgtF",
+                "mangledName": "$s7BSA_SDK0A0C17AutoAuthenticatorC7setData02qrF004pushF09clientKey04userJ08deviceId7otpAuth15sendPushMessage05localO4Type0sO6Reason16websocketHeadersAeC6QRDataVSg_AC3FCMO0qF0CSgS3SSgS2bAC5EnumsO05LocaloT0OSSSDyS2SGSgtF",
                 "moduleName": "BSA_SDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -83617,27 +83015,6 @@
       "value": "\"        <head>\n         <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,user-scalable=0\">\n         <style>\n             p { font-size: 11px; color: #BBBBBB; word-break:break-all; font-weight: 400; font-family: 'SF Pro'; line-height : 18px;}\n         <\/style>\n        <\/head>\n        <body style=\"background-color:#141920;\">\n            %HTML_CONTENTS%\n        <\/body>\""
     },
     {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/CountdownTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 912,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/CountdownTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1047,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/CountdownTimer.swift",
-      "kind": "StringLiteral",
-      "offset": 698,
-      "length": 14,
-      "value": "\"BSA_SDK.CountdownTimer\""
-    },
-    {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_WebsocketSupporter.swift",
       "kind": "StringLiteral",
       "offset": 3610,
@@ -84032,7 +83409,7 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Utility\/LocalAuthHelper.swift",
       "kind": "StringLiteral",
-      "offset": 8889,
+      "offset": 9104,
       "length": 103,
       "value": "\"본인 확인을 위해 인증이 필요합니다. Authentication is required to verify your identity\""
     },
@@ -84249,266 +83626,280 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 20984,
+      "offset": 2331,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 4550,
+      "length": 52,
+      "value": "\"Authentication is required to verify your identity\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 21545,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21103,
+      "offset": 21664,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21251,
+      "offset": 21812,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21398,
+      "offset": 21959,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21549,
+      "offset": 22110,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21692,
+      "offset": 22253,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21825,
+      "offset": 22386,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21937,
+      "offset": 22498,
       "length": 13,
       "value": "\"AuthSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22037,
+      "offset": 22598,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22175,
+      "offset": 22736,
       "length": 13,
       "value": "\"RequestAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22335,
+      "offset": 22896,
       "length": 18,
       "value": "\"CreateChannelKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22496,
+      "offset": 23057,
       "length": 16,
       "value": "\"CreateBlockKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22629,
+      "offset": 23190,
       "length": 13,
       "value": "\"SelectNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22770,
+      "offset": 23331,
       "length": 15,
       "value": "\"CreateChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22910,
+      "offset": 23471,
       "length": 12,
       "value": "\"AddChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23141,
+      "offset": 23702,
       "length": 10,
       "value": "\"AuthData\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23329,
+      "offset": 23890,
       "length": 15,
       "value": "\"AuthCompleted\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23447,
+      "offset": 24008,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23554,
+      "offset": 24115,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 20984,
+      "offset": 21545,
       "length": 30,
       "value": "\"BlockChainVerificationBegins\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21103,
+      "offset": 21664,
       "length": 11,
       "value": "\"StartAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21251,
+      "offset": 21812,
       "length": 26,
       "value": "\"StartVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21398,
+      "offset": 21959,
       "length": 29,
       "value": "\"CompleteVerificationOfNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21549,
+      "offset": 22110,
       "length": 31,
       "value": "\"RequestingLocalAuthentication\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21692,
+      "offset": 22253,
       "length": 21,
       "value": "\"ConfirmCompleteAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21825,
+      "offset": 22386,
       "length": 25,
       "value": "\"RequestingIssuanceToken\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 21937,
+      "offset": 22498,
       "length": 13,
       "value": "\"AuthSuccess\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22037,
+      "offset": 22598,
       "length": 14,
       "value": "\"AuthCanceled\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22175,
+      "offset": 22736,
       "length": 13,
       "value": "\"RequestAuth\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22335,
+      "offset": 22896,
       "length": 18,
       "value": "\"CreateChannelKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22496,
+      "offset": 23057,
       "length": 16,
       "value": "\"CreateBlockKey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22629,
+      "offset": 23190,
       "length": 13,
       "value": "\"SelectNodes\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22770,
+      "offset": 23331,
       "length": 15,
       "value": "\"CreateChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 22910,
+      "offset": 23471,
       "length": 12,
       "value": "\"AddChannel\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23141,
+      "offset": 23702,
       "length": 10,
       "value": "\"AuthData\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23329,
+      "offset": 23890,
       "length": 15,
       "value": "\"AuthCompleted\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23447,
+      "offset": 24008,
       "length": 12,
       "value": "\"AuthFailed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_AutoAuthenticator.swift",
       "kind": "StringLiteral",
-      "offset": 23554,
+      "offset": 24115,
       "length": 13,
       "value": "\"AuthTimeout\""
     },
@@ -87527,7 +86918,7 @@
       "kind": "IntegerLiteral",
       "offset": 1027,
       "length": 1,
-      "value": "2"
+      "value": "3"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

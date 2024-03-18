@@ -282,17 +282,6 @@ extension BSA_SDK.BSA {
   }
 }
 extension BSA_SDK.BSA {
-  @objc public class CountdownTimer : ObjectiveC.NSObject {
-    public init(tag: Swift.String)
-    @objc deinit
-  }
-}
-extension BSA_SDK.BSA.CountdownTimer {
-  public func startByRemainTimeFrom60Second(repeatCountdown: Swift.Bool, onSecond: @escaping (Swift.Int) -> (), onFire: @escaping () -> ())
-  public func start(countDownSecond: Swift.Int, repeatCountdown: Swift.Bool, onSecond: @escaping (Swift.Int) -> (), onFire: @escaping () -> ())
-  public func stopCountDown()
-}
-extension BSA_SDK.BSA {
   public class WebsocketSupporter {
     public typealias CallbackDidConnection = () -> ()
     public typealias CallbackProcessing = (BSA_SDK.BSA.WebsocketSupporter.Status) -> ()
@@ -394,7 +383,7 @@ extension BSA_SDK.BSA.LocalAuthHelper {
   public func checkBiometricAuthAvailable() -> BSA_SDK.BSA.LocalAuthHelper.ErrorCode?
 }
 extension BSA_SDK.BSA.LocalAuthHelper {
-  public func startPasscode(reason: Swift.String = "본인 확인을 위해 인증이 필요합니다. Authentication is required to verify your identity", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
+  public func startPasscode(allowSession: Swift.Bool, reason: Swift.String = "본인 확인을 위해 인증이 필요합니다. Authentication is required to verify your identity", onSuccess: @escaping () -> (), onError: @escaping (BSA_SDK.BSA.LocalAuthHelper.ErrorCode?) -> ())
 }
 extension BSA_SDK.BSA {
   public struct QRData {
@@ -501,7 +490,7 @@ extension BSA_SDK.BSA {
   public class AutoAuthenticator {
     public init()
     public func getClientKey() -> Swift.String
-    public func setData(qrData: BSA_SDK.BSA.QRData?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String? = nil, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, websocketHeaders: [Swift.String : Swift.String]? = nil) -> BSA_SDK.BSA.AutoAuthenticator
+    public func setData(qrData: BSA_SDK.BSA.QRData?, pushData: BSA_SDK.BSA.FCM.PushData?, clientKey: Swift.String, userKey: Swift.String, deviceId: Swift.String? = nil, otpAuth: Swift.Bool, sendPushMessage: Swift.Bool, localAuthType: BSA_SDK.BSA.Enums.LocalAuthType, localAuthReason: Swift.String = "Authentication is required to verify your identity", websocketHeaders: [Swift.String : Swift.String]? = nil) -> BSA_SDK.BSA.AutoAuthenticator
     public func setEvent(onProcessing: @escaping (BSA_SDK.BSA.AutoAuthenticator.ProcessName) -> (), onSuccess: @escaping () -> (), onCancel: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: @escaping BSA_SDK.BSA.APICaller.OnTotalLog) -> BSA_SDK.BSA.AutoAuthenticator
     public func start()
     public func forceStop()

@@ -6291,6 +6291,86 @@
               },
               {
                 "kind": "Var",
+                "name": "DISPOSE_TOKEN_DATA_ERROR",
+                "printedName": "DISPOSE_TOKEN_DATA_ERROR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode.Type) -> BSA_SDK.BSA.RtCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RtCode",
+                        "printedName": "BSA_SDK.BSA.RtCode",
+                        "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BSA_SDK.BSA.RtCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BSA_SDK0A0C6RtCodeO24DISPOSE_TOKEN_DATA_ERRORyA2EmF",
+                "mangledName": "$s7BSA_SDK0A0C6RtCodeO24DISPOSE_TOKEN_DATA_ERRORyA2EmF",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "DISPOSE_TOKEN_EQUALS_ERROR",
+                "printedName": "DISPOSE_TOKEN_EQUALS_ERROR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode.Type) -> BSA_SDK.BSA.RtCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RtCode",
+                        "printedName": "BSA_SDK.BSA.RtCode",
+                        "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BSA_SDK.BSA.RtCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BSA_SDK0A0C6RtCodeO26DISPOSE_TOKEN_EQUALS_ERRORyA2EmF",
+                "mangledName": "$s7BSA_SDK0A0C6RtCodeO26DISPOSE_TOKEN_EQUALS_ERRORyA2EmF",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "NOT_DEFINED_RTCODE",
                 "printedName": "NOT_DEFINED_RTCODE",
                 "children": [
@@ -23486,6 +23566,46 @@
               },
               {
                 "kind": "Var",
+                "name": "RequestLinkSiteForWebviewMethod",
+                "printedName": "RequestLinkSiteForWebviewMethod",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.APIName.Type) -> BSA_SDK.BSA.APIName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIName",
+                        "printedName": "BSA_SDK.BSA.APIName",
+                        "usr": "s:7BSA_SDK0A0C7APINameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BSA_SDK.BSA.APIName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "APIName",
+                            "printedName": "BSA_SDK.BSA.APIName",
+                            "usr": "s:7BSA_SDK0A0C7APINameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BSA_SDK0A0C7APINameO31RequestLinkSiteForWebviewMethodyA2EmF",
+                "mangledName": "$s7BSA_SDK0A0C7APINameO31RequestLinkSiteForWebviewMethodyA2EmF",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "WebsocketUrl",
                 "printedName": "WebsocketUrl",
                 "children": [
@@ -23559,6 +23679,46 @@
                 "declKind": "EnumElement",
                 "usr": "s:7BSA_SDK0A0C7APINameO12RenewalTokenyA2EmF",
                 "mangledName": "$s7BSA_SDK0A0C7APINameO12RenewalTokenyA2EmF",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "FindUserKey",
+                "printedName": "FindUserKey",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.APIName.Type) -> BSA_SDK.BSA.APIName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIName",
+                        "printedName": "BSA_SDK.BSA.APIName",
+                        "usr": "s:7BSA_SDK0A0C7APINameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BSA_SDK.BSA.APIName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "APIName",
+                            "printedName": "BSA_SDK.BSA.APIName",
+                            "usr": "s:7BSA_SDK0A0C7APINameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BSA_SDK0A0C7APINameO11FindUserKeyyA2EmF",
+                "mangledName": "$s7BSA_SDK0A0C7APINameO11FindUserKeyyA2EmF",
                 "moduleName": "BSA_SDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -30385,6 +30545,234 @@
               },
               {
                 "kind": "Function",
+                "name": "requestLinkSiteForWebviewMethod",
+                "printedName": "requestLinkSiteForWebviewMethod(siteClientKey:userKey:userId:result:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:onRenewalToken:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RxSwift.Disposable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposable",
+                        "printedName": "RxSwift.Disposable",
+                        "usr": "s:7RxSwift10DisposableP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "BSA_SDK.BSA.Error",
+                        "usr": "s:7BSA_SDK0A0C5ErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO31requestLinkSiteForWebviewMethod13siteClientKey04userN00O2Id6result9onSuccess0R12TokenExpired0R6Failed0R5Error0R8TotalLog0R9Completed0r7RenewalT07RxSwift10Disposable_pSgSS_S2SSbyycyAC6RtCodeO_SStcyAV_SStcyAC0W0OcySScSgyycSgAZtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO31requestLinkSiteForWebviewMethod13siteClientKey04userN00O2Id6result9onSuccess0R12TokenExpired0R6Failed0R5Error0R8TotalLog0R9Completed0r7RenewalT07RxSwift10Disposable_pSgSS_S2SSbyycyAC6RtCodeO_SStcyAV_SStcyAC0W0OcySScSgyycSgAZtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "renewalToken",
                 "printedName": "renewalToken(onSuccess:onTokenExpired:onFailed:onError:onCompleted:)",
                 "children": [
@@ -30529,6 +30917,203 @@
                 "declKind": "Func",
                 "usr": "s:7BSA_SDK0A0C18API_PostProcessingO12renewalToken9onSuccess0hG7Expired0H6Failed0H5Error0H9Completed7RxSwift10Disposable_pSgyyc_yAC6RtCodeO_SStcyAP_SStcyAC0L0OcyycSgtFZ",
                 "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO12renewalToken9onSuccess0hG7Expired0H6Failed0H5Error0H9Completed7RxSwift10Disposable_pSgyyc_yAC6RtCodeO_SStcyAP_SStcyAC0L0OcyycSgtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "requestFindUserKey",
+                "printedName": "requestFindUserKey(disposeToken:verifyType:verifyData:onSuccess:onFailed:onError:onTotalLog:onCompleted:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RxSwift.Disposable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposable",
+                        "printedName": "RxSwift.Disposable",
+                        "usr": "s:7RxSwift10DisposableP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifyType",
+                    "printedName": "BSA_SDK.BSA.Enums.VerifyType",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO10VerifyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String?, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "BSA_SDK.BSA.Error",
+                        "usr": "s:7BSA_SDK0A0C5ErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C18API_PostProcessingO18requestFindUserKey12disposeToken10verifyType0L4Data9onSuccess0O6Failed0O5Error0O8TotalLog0O9Completed7RxSwift10Disposable_pSgSS_AC5EnumsO06VerifyM0OSSySSSg_AVtcyAC6RtCodeO_SStcyAC0R0OcySScSgyycSgtFZ",
+                "mangledName": "$s7BSA_SDK0A0C18API_PostProcessingO18requestFindUserKey12disposeToken10verifyType0L4Data9onSuccess0O6Failed0O5Error0O8TotalLog0O9Completed7RxSwift10Disposable_pSgSS_AC5EnumsO06VerifyM0OSSySSSg_AVtcyAC6RtCodeO_SStcyAC0R0OcySScSgyycSgtFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -49149,6 +49734,284 @@
               },
               {
                 "kind": "TypeDecl",
+                "name": "RequestLinkSiteForWebviewMethodJSON",
+                "printedName": "RequestLinkSiteForWebviewMethodJSON",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "rtCode",
+                    "printedName": "rtCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivp",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivp",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivg",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivs",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivM",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV6rtCodeSivM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "intro_iOS": "14",
+                        "declAttributes": [
+                          "Available"
+                        ],
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "token",
+                    "printedName": "token",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvp",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvp",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvg",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvs",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvM",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV5tokenSSSgvM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "intro_iOS": "14",
+                        "declAttributes": [
+                          "Available"
+                        ],
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(json:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestLinkSiteForWebviewMethodJSON",
+                        "printedName": "BSA_SDK.BSA.JSONData.RequestLinkSiteForWebviewMethodJSON",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSON",
+                        "printedName": "SwiftyJSON.JSON",
+                        "usr": "s:10SwiftyJSON0B0V"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV4jsonAG06SwiftyJ00J0V_tcfc",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV4jsonAG06SwiftyJ00J0V_tcfc",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "initialize",
+                    "printedName": "initialize(_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSON",
+                        "printedName": "SwiftyJSON.JSON",
+                        "usr": "s:10SwiftyJSON0B0V"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV10initializeyy06SwiftyJ00J0VF",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV10initializeyy06SwiftyJ00J0VF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "Mutating",
+                      "RawDocComment"
+                    ],
+                    "isFromExtension": true,
+                    "funcSelfKind": "Mutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV",
+                "mangledName": "$s7BSA_SDK0A0C8JSONDataO35RequestLinkSiteForWebviewMethodJSONV",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true
+              },
+              {
+                "kind": "TypeDecl",
                 "name": "RenewalTokenJSON",
                 "printedName": "RenewalTokenJSON",
                 "children": [
@@ -49418,6 +50281,399 @@
                 "declKind": "Struct",
                 "usr": "s:7BSA_SDK0A0C8JSONDataO16RenewalTokenJSONV",
                 "mangledName": "$s7BSA_SDK0A0C8JSONDataO16RenewalTokenJSONV",
+                "moduleName": "BSA_SDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "FindUserKeyJSON",
+                "printedName": "FindUserKeyJSON",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "rtCode",
+                    "printedName": "rtCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivp",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivp",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivg",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivs",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivM",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV6rtCodeSivM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "intro_iOS": "14",
+                        "declAttributes": [
+                          "Available"
+                        ],
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "userKey",
+                    "printedName": "userKey",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvp",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvp",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvg",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvs",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvM",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV04userF0SSSgvM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "intro_iOS": "14",
+                        "declAttributes": [
+                          "Available"
+                        ],
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "name",
+                    "printedName": "name",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvp",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvp",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvg",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvg",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvs",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvs",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvM",
+                        "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4nameSSSgvM",
+                        "moduleName": "BSA_SDK",
+                        "implicit": true,
+                        "intro_iOS": "14",
+                        "declAttributes": [
+                          "Available"
+                        ],
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(json:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FindUserKeyJSON",
+                        "printedName": "BSA_SDK.BSA.JSONData.FindUserKeyJSON",
+                        "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSON",
+                        "printedName": "SwiftyJSON.JSON",
+                        "usr": "s:10SwiftyJSON0B0V"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4jsonAG06SwiftyG00G0V_tcfc",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV4jsonAG06SwiftyG00G0V_tcfc",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "initialize",
+                    "printedName": "initialize(_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSON",
+                        "printedName": "SwiftyJSON.JSON",
+                        "usr": "s:10SwiftyJSON0B0V"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV10initializeyy06SwiftyG00G0VF",
+                    "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV10initializeyy06SwiftyG00G0VF",
+                    "moduleName": "BSA_SDK",
+                    "declAttributes": [
+                      "Mutating",
+                      "RawDocComment"
+                    ],
+                    "isFromExtension": true,
+                    "funcSelfKind": "Mutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV",
+                "mangledName": "$s7BSA_SDK0A0C8JSONDataO15FindUserKeyJSONV",
                 "moduleName": "BSA_SDK",
                 "declAttributes": [
                   "AccessControl",
@@ -55804,6 +57060,66 @@
               },
               {
                 "kind": "Function",
+                "name": "requestLinkSiteForWebviewMethod",
+                "printedName": "requestLinkSiteForWebviewMethod(accessToken:siteClientKey:userKey:userId:result:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Observable",
+                    "printedName": "RxSwift.Observable<BSA_SDK.BSA.HTTP.ResponseValue>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseValue",
+                        "printedName": "BSA_SDK.BSA.HTTP.ResponseValue",
+                        "usr": "s:7BSA_SDK0A0C4HTTPO13ResponseValueV"
+                      }
+                    ],
+                    "usr": "s:7RxSwift10ObservableC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO31requestLinkSiteForWebviewMethod11accessToken13siteClientKey04userP00Q2Id6result7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S3SSbtFZ",
+                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO31requestLinkSiteForWebviewMethod11accessToken13siteClientKey04userP00Q2Id6result7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_S3SSbtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "renewalToken",
                 "printedName": "renewalToken(refreshToken:)",
                 "children": [
@@ -55831,6 +57147,54 @@
                 "declKind": "Func",
                 "usr": "s:7BSA_SDK0A0C17API_PreProcessingO12renewalToken07refreshG07RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_tFZ",
                 "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO12renewalToken07refreshG07RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_tFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "requestFindUserKey",
+                "printedName": "requestFindUserKey(disposeToken:verifyType:verifyData:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Observable",
+                    "printedName": "RxSwift.Observable<BSA_SDK.BSA.HTTP.ResponseValue>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseValue",
+                        "printedName": "BSA_SDK.BSA.HTTP.ResponseValue",
+                        "usr": "s:7BSA_SDK0A0C4HTTPO13ResponseValueV"
+                      }
+                    ],
+                    "usr": "s:7RxSwift10ObservableC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifyType",
+                    "printedName": "BSA_SDK.BSA.Enums.VerifyType",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO10VerifyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C17API_PreProcessingO18requestFindUserKey12disposeToken10verifyType0L4Data7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_AC5EnumsO06VerifyM0OSStFZ",
+                "mangledName": "$s7BSA_SDK0A0C17API_PreProcessingO18requestFindUserKey12disposeToken10verifyType0L4Data7RxSwift10ObservableCyAC4HTTPO13ResponseValueVGSS_AC5EnumsO06VerifyM0OSStFZ",
                 "moduleName": "BSA_SDK",
                 "static": true,
                 "declAttributes": [
@@ -71328,6 +72692,404 @@
               },
               {
                 "kind": "Function",
+                "name": "requestLinkSiteForWebviewMethod",
+                "printedName": "requestLinkSiteForWebviewMethod(siteClientKey:userKey:userId:result:onSuccess:onTokenExpired:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "BSA_SDK.BSA.Error",
+                        "usr": "s:7BSA_SDK0A0C5ErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisposeBag",
+                    "printedName": "RxSwift.DisposeBag",
+                    "usr": "s:7RxSwift10DisposeBagC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C9APICallerO31requestLinkSiteForWebviewMethod13siteClientKey04userL00M2Id6result9onSuccess0P12TokenExpired0P6Failed0P5Error0P8TotalLog0P9Completed10disposeBagySS_S2SSbyycyAC6RtCodeO_SStcyAS_SStcyAC0U0OcySScSgyycSg7RxSwift07DisposeZ0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO31requestLinkSiteForWebviewMethod13siteClientKey04userL00M2Id6result9onSuccess0P12TokenExpired0P6Failed0P5Error0P8TotalLog0P9Completed10disposeBagySS_S2SSbyycyAC6RtCodeO_SStcyAS_SStcyAC0U0OcySScSgyycSg7RxSwift07DisposeZ0CtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "requestFindUserKey",
+                "printedName": "requestFindUserKey(disposeToken:verifyType:verifyData:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifyType",
+                    "printedName": "BSA_SDK.BSA.Enums.VerifyType",
+                    "usr": "s:7BSA_SDK0A0C5EnumsO10VerifyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String?, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.RtCode, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(BSA_SDK.BSA.RtCode, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RtCode",
+                            "printedName": "BSA_SDK.BSA.RtCode",
+                            "usr": "s:7BSA_SDK0A0C6RtCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BSA_SDK.BSA.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "BSA_SDK.BSA.Error",
+                        "usr": "s:7BSA_SDK0A0C5ErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisposeBag",
+                    "printedName": "RxSwift.DisposeBag",
+                    "usr": "s:7RxSwift10DisposeBagC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BSA_SDK0A0C9APICallerO18requestFindUserKey12disposeToken10verifyType0J4Data9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed0H3BagySS_AC5EnumsO06VerifyK0OSSySSSg_ATtcyAC6RtCodeO_SStcyAC0P0OcySScSgyycSg7RxSwift07DisposeT0CtFZ",
+                "mangledName": "$s7BSA_SDK0A0C9APICallerO18requestFindUserKey12disposeToken10verifyType0J4Data9onSuccess0M6Failed0M5Error0M8TotalLog0M9Completed0H3BagySS_AC5EnumsO06VerifyK0OSSySSSg_ATtcyAC6RtCodeO_SStcyAC0P0OcySScSgyycSg7RxSwift07DisposeT0CtFZ",
+                "moduleName": "BSA_SDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "verifyPortalOTPForGetUserKey",
                 "printedName": "verifyPortalOTPForGetUserKey(otpCode:clientKey:onSuccess:onFailed:onError:onTotalLog:onCompleted:disposeBag:)",
                 "children": [
@@ -80833,7 +82595,21 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 14326,
+      "offset": 14320,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14424,
+      "length": 4,
+      "value": "8001"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14555,
       "length": 6,
       "value": "-10000"
     },
@@ -81617,7 +83393,21 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 14326,
+      "offset": 14320,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14424,
+      "length": 4,
+      "value": "8001"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14555,
       "length": 1,
       "value": "-10000"
     },
@@ -82401,7 +84191,21 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 14326,
+      "offset": 14320,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14424,
+      "length": 4,
+      "value": "8001"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/RtCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14555,
       "length": 1,
       "value": "-10000"
     },
@@ -85257,126 +87061,245 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 217690,
+      "offset": 194024,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 217930,
+      "offset": 194264,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 217983,
+      "offset": 194317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 218217,
+      "offset": 194697,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 218954,
-      "length": 32,
-      "value": "\"\""
+      "offset": 195706,
+      "length": 51,
+      "value": "\"extraKey 수신 성공. Successfully get extrakey\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 218985,
-      "length": 4,
-      "value": "\"\""
+      "offset": 196123,
+      "length": 13,
+      "value": "\"ACCESSTOKEN\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 219402,
-      "length": 19,
-      "value": "\"PORTALACCESSTOKEN\""
-    },
-    {
-      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
-      "kind": "StringLiteral",
-      "offset": 219646,
+      "offset": 196357,
       "length": 50,
       "value": "\"accessToken Expired. start Token renewal process\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "BooleanLiteral",
-      "offset": 219743,
+      "offset": 196454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 219946,
+      "offset": 196657,
       "length": 59,
       "value": "\"not founc callback onRenewalToken. instead call onError()\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 220059,
+      "offset": 196770,
       "length": 22,
       "value": "\"Token renewal failed\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 220288,
-      "length": 133,
+      "offset": 196999,
+      "length": 106,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 220312,
+      "offset": 197023,
       "length": 1,
-      "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료. Refresh token expiration.. Refresh token expiration.)\""
+      "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료. Refresh token expiration.)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 220776,
+      "offset": 197454,
       "length": 234,
       "value": "\"rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 220800,
+      "offset": 197478,
       "length": 1,
       "value": "\"(COMM_REQUEST_PARAM_ERROR) = (요청시의 파라미터값이 유효하지 않거나 일치하는 데이터가 없습니다. The parameter value at the time of request is invalid or there is no matching data.)\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 221146,
+      "offset": 197824,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 221173,
+      "offset": 197851,
       "length": 1,
       "value": "\" ( rtCode: \""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
       "kind": "StringLiteral",
-      "offset": 221199,
+      "offset": 197877,
+      "length": 1,
+      "value": "\" )\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 230433,
+      "length": 8,
+      "value": "\"failed\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230726,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 230960,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 231697,
+      "length": 32,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 231728,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 232145,
+      "length": 19,
+      "value": "\"PORTALACCESSTOKEN\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 232389,
+      "length": 50,
+      "value": "\"accessToken Expired. start Token renewal process\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "BooleanLiteral",
+      "offset": 232486,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 232689,
+      "length": 59,
+      "value": "\"not founc callback onRenewalToken. instead call onError()\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 232802,
+      "length": 22,
+      "value": "\"Token renewal failed\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 233031,
+      "length": 133,
+      "value": "\"rtCode: \""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 233055,
+      "length": 1,
+      "value": "\"(REFRESH_TOKEN_EXPIRED) = (리프레시 토큰 만료. Refresh token expiration.. Refresh token expiration.)\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 233519,
+      "length": 234,
+      "value": "\"rtCode: \""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 233543,
+      "length": 1,
+      "value": "\"(COMM_REQUEST_PARAM_ERROR) = (요청시의 파라미터값이 유효하지 않거나 일치하는 데이터가 없습니다. The parameter value at the time of request is invalid or there is no matching data.)\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 233889,
+      "length": 56,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 233916,
+      "length": 1,
+      "value": "\" ( rtCode: \""
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA_API_PostProcessing.swift",
+      "kind": "StringLiteral",
+      "offset": 233942,
       "length": 1,
       "value": "\" )\""
     },
@@ -86202,147 +88125,161 @@
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 37056,
+      "offset": 37144,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 37720,
+      "offset": 37741,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 38316,
+      "offset": 38296,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 39016,
+      "offset": 39043,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 39836,
+      "offset": 39639,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 41185,
+      "offset": 40339,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41159,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 42508,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 41959,
+      "offset": 43282,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42061,
+      "offset": 43384,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42151,
+      "offset": 43474,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42233,
+      "offset": 43556,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42319,
+      "offset": 43642,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42398,
+      "offset": 43721,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42463,
+      "offset": 43786,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42533,
+      "offset": 43856,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "IntegerLiteral",
-      "offset": 42708,
+      "offset": 44031,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42804,
+      "offset": 44127,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 42920,
+      "offset": 44243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 43037,
+      "offset": 44360,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 45193,
+      "offset": 46516,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 45283,
+      "offset": 46606,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/Data\/JSON\/JSONData.swift",
       "kind": "StringLiteral",
-      "offset": 45365,
+      "offset": 46688,
       "length": 2,
       "value": "\"\""
     },
@@ -86918,7 +88855,7 @@
       "kind": "IntegerLiteral",
       "offset": 1027,
       "length": 1,
-      "value": "3"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/elite\/Desktop\/Company\/BSA-SDK\/BSA-SDK Workspace\/BSA-SDK\/BSA-SDK\/BSA.swift",

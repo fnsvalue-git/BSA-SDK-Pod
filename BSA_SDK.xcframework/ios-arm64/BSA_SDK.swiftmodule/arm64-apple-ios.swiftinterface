@@ -134,6 +134,8 @@ extension BSA_SDK.BSA {
     case AGREEMENT_NOT_ALLOWED
     case AGREEMENT_REGISTER_FAIL
     case CONFIG_NOT_FOUND
+    case DISPOSE_TOKEN_DATA_ERROR
+    case DISPOSE_TOKEN_EQUALS_ERROR
     case NOT_DEFINED_RTCODE
     public init?(rawValue: Swift.Int)
     public typealias RawValue = Swift.Int
@@ -567,8 +569,10 @@ extension BSA_SDK.BSA {
     case RequestVerifySiteAccount
     case RequestLinkSite
     case RequestUnlinkSite
+    case RequestLinkSiteForWebviewMethod
     case WebsocketUrl
     case RenewalToken
+    case FindUserKey
     case GetVerifyOTP
     case PostVerifyOTP
     case PostVerifyTOTP
@@ -863,9 +867,20 @@ extension BSA_SDK.BSA.JSONData {
     public var token: Swift.String?
     public init(json: SwiftyJSON.JSON)
   }
+  public struct RequestLinkSiteForWebviewMethodJSON {
+    public var rtCode: Swift.Int
+    public var token: Swift.String?
+    public init(json: SwiftyJSON.JSON)
+  }
   public struct RenewalTokenJSON {
     public var rtCode: Swift.Int
     public var data: Swift.String?
+    public init(json: SwiftyJSON.JSON)
+  }
+  public struct FindUserKeyJSON {
+    public var rtCode: Swift.Int
+    public var userKey: Swift.String?
+    public var name: Swift.String?
     public init(json: SwiftyJSON.JSON)
   }
   public struct VerifyPortalOTPByGetUserKeyJSON {
@@ -1099,6 +1114,8 @@ extension BSA_SDK.BSA.APICaller {
   public static func requestVerifySiteAccount(siteClientKey: Swift.String, siteID: Swift.String, sitePassword: Swift.String, onSuccess: @escaping (Swift.String) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func requestLinkSite(siteClientKey: Swift.String, siteToken: Swift.String?, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func requestUnlinkSite(siteClientKey: Swift.String, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func requestLinkSiteForWebviewMethod(siteClientKey: Swift.String, userKey: Swift.String, userId: Swift.String, result: Swift.Bool, onSuccess: @escaping () -> (), onTokenExpired: @escaping BSA_SDK.BSA.APICaller.OnTokenExpired, onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
+  public static func requestFindUserKey(disposeToken: Swift.String, verifyType: BSA_SDK.BSA.Enums.VerifyType, verifyData: Swift.String, onSuccess: @escaping (Swift.String?, Swift.String?) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog?, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func verifyPortalOTPForGetUserKey(otpCode: Swift.String, clientKey: Swift.String, onSuccess: @escaping (Swift.String) -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func verifyPortalOTP(otpCode: Swift.String, userKey: Swift.String, clientKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
   public static func verifyPortalTOTP(totpCode: Swift.String, userKey: Swift.String, clientKey: Swift.String, onSuccess: @escaping () -> (), onFailed: @escaping BSA_SDK.BSA.APICaller.OnFailed, onError: @escaping BSA_SDK.BSA.APICaller.OnError, onTotalLog: BSA_SDK.BSA.APICaller.OnTotalLog? = nil, onCompleted: BSA_SDK.BSA.APICaller.OnCompleted? = nil, disposeBag: RxSwift.DisposeBag)
